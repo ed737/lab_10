@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ed/lab_10/src
+CMAKE_SOURCE_DIR = /home/edward/lab_10/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ed/lab_10/build
+CMAKE_BINARY_DIR = /home/edward/lab_10/build
 
 # Include any dependencies generated for this target.
 include dobot/CMakeFiles/DobotServer.dir/depend.make
@@ -58,17 +58,17 @@ include dobot/CMakeFiles/DobotServer.dir/progress.make
 include dobot/CMakeFiles/DobotServer.dir/flags.make
 
 dobot/CMakeFiles/DobotServer.dir/src/DobotServer.cpp.o: dobot/CMakeFiles/DobotServer.dir/flags.make
-dobot/CMakeFiles/DobotServer.dir/src/DobotServer.cpp.o: /home/ed/lab_10/src/dobot/src/DobotServer.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ed/lab_10/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object dobot/CMakeFiles/DobotServer.dir/src/DobotServer.cpp.o"
-	cd /home/ed/lab_10/build/dobot && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/DobotServer.dir/src/DobotServer.cpp.o -c /home/ed/lab_10/src/dobot/src/DobotServer.cpp
+dobot/CMakeFiles/DobotServer.dir/src/DobotServer.cpp.o: /home/edward/lab_10/src/dobot/src/DobotServer.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/edward/lab_10/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object dobot/CMakeFiles/DobotServer.dir/src/DobotServer.cpp.o"
+	cd /home/edward/lab_10/build/dobot && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/DobotServer.dir/src/DobotServer.cpp.o -c /home/edward/lab_10/src/dobot/src/DobotServer.cpp
 
 dobot/CMakeFiles/DobotServer.dir/src/DobotServer.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/DobotServer.dir/src/DobotServer.cpp.i"
-	cd /home/ed/lab_10/build/dobot && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ed/lab_10/src/dobot/src/DobotServer.cpp > CMakeFiles/DobotServer.dir/src/DobotServer.cpp.i
+	cd /home/edward/lab_10/build/dobot && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/edward/lab_10/src/dobot/src/DobotServer.cpp > CMakeFiles/DobotServer.dir/src/DobotServer.cpp.i
 
 dobot/CMakeFiles/DobotServer.dir/src/DobotServer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/DobotServer.dir/src/DobotServer.cpp.s"
-	cd /home/ed/lab_10/build/dobot && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ed/lab_10/src/dobot/src/DobotServer.cpp -o CMakeFiles/DobotServer.dir/src/DobotServer.cpp.s
+	cd /home/edward/lab_10/build/dobot && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/edward/lab_10/src/dobot/src/DobotServer.cpp -o CMakeFiles/DobotServer.dir/src/DobotServer.cpp.s
 
 dobot/CMakeFiles/DobotServer.dir/src/DobotServer.cpp.o.requires:
 
@@ -88,32 +88,32 @@ DobotServer_OBJECTS = \
 # External object files for target DobotServer
 DobotServer_EXTERNAL_OBJECTS =
 
-/home/ed/lab_10/devel/lib/dobot/DobotServer: dobot/CMakeFiles/DobotServer.dir/src/DobotServer.cpp.o
-/home/ed/lab_10/devel/lib/dobot/DobotServer: dobot/CMakeFiles/DobotServer.dir/build.make
-/home/ed/lab_10/devel/lib/dobot/DobotServer: /opt/ros/melodic/lib/libroscpp.so
-/home/ed/lab_10/devel/lib/dobot/DobotServer: /usr/lib/x86_64-linux-gnu/libboost_filesystem.so
-/home/ed/lab_10/devel/lib/dobot/DobotServer: /opt/ros/melodic/lib/librosconsole.so
-/home/ed/lab_10/devel/lib/dobot/DobotServer: /opt/ros/melodic/lib/librosconsole_log4cxx.so
-/home/ed/lab_10/devel/lib/dobot/DobotServer: /opt/ros/melodic/lib/librosconsole_backend_interface.so
-/home/ed/lab_10/devel/lib/dobot/DobotServer: /usr/lib/x86_64-linux-gnu/liblog4cxx.so
-/home/ed/lab_10/devel/lib/dobot/DobotServer: /usr/lib/x86_64-linux-gnu/libboost_regex.so
-/home/ed/lab_10/devel/lib/dobot/DobotServer: /opt/ros/melodic/lib/libxmlrpcpp.so
-/home/ed/lab_10/devel/lib/dobot/DobotServer: /opt/ros/melodic/lib/libroscpp_serialization.so
-/home/ed/lab_10/devel/lib/dobot/DobotServer: /opt/ros/melodic/lib/librostime.so
-/home/ed/lab_10/devel/lib/dobot/DobotServer: /opt/ros/melodic/lib/libcpp_common.so
-/home/ed/lab_10/devel/lib/dobot/DobotServer: /usr/lib/x86_64-linux-gnu/libboost_system.so
-/home/ed/lab_10/devel/lib/dobot/DobotServer: /usr/lib/x86_64-linux-gnu/libboost_thread.so
-/home/ed/lab_10/devel/lib/dobot/DobotServer: /usr/lib/x86_64-linux-gnu/libboost_chrono.so
-/home/ed/lab_10/devel/lib/dobot/DobotServer: /usr/lib/x86_64-linux-gnu/libboost_date_time.so
-/home/ed/lab_10/devel/lib/dobot/DobotServer: /usr/lib/x86_64-linux-gnu/libboost_atomic.so
-/home/ed/lab_10/devel/lib/dobot/DobotServer: /usr/lib/x86_64-linux-gnu/libpthread.so
-/home/ed/lab_10/devel/lib/dobot/DobotServer: /usr/lib/x86_64-linux-gnu/libconsole_bridge.so.0.4
-/home/ed/lab_10/devel/lib/dobot/DobotServer: dobot/CMakeFiles/DobotServer.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/ed/lab_10/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable /home/ed/lab_10/devel/lib/dobot/DobotServer"
-	cd /home/ed/lab_10/build/dobot && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/DobotServer.dir/link.txt --verbose=$(VERBOSE)
+/home/edward/lab_10/devel/lib/dobot/DobotServer: dobot/CMakeFiles/DobotServer.dir/src/DobotServer.cpp.o
+/home/edward/lab_10/devel/lib/dobot/DobotServer: dobot/CMakeFiles/DobotServer.dir/build.make
+/home/edward/lab_10/devel/lib/dobot/DobotServer: /opt/ros/melodic/lib/libroscpp.so
+/home/edward/lab_10/devel/lib/dobot/DobotServer: /usr/lib/x86_64-linux-gnu/libboost_filesystem.so
+/home/edward/lab_10/devel/lib/dobot/DobotServer: /opt/ros/melodic/lib/librosconsole.so
+/home/edward/lab_10/devel/lib/dobot/DobotServer: /opt/ros/melodic/lib/librosconsole_log4cxx.so
+/home/edward/lab_10/devel/lib/dobot/DobotServer: /opt/ros/melodic/lib/librosconsole_backend_interface.so
+/home/edward/lab_10/devel/lib/dobot/DobotServer: /usr/lib/x86_64-linux-gnu/liblog4cxx.so
+/home/edward/lab_10/devel/lib/dobot/DobotServer: /usr/lib/x86_64-linux-gnu/libboost_regex.so
+/home/edward/lab_10/devel/lib/dobot/DobotServer: /opt/ros/melodic/lib/libxmlrpcpp.so
+/home/edward/lab_10/devel/lib/dobot/DobotServer: /opt/ros/melodic/lib/libroscpp_serialization.so
+/home/edward/lab_10/devel/lib/dobot/DobotServer: /opt/ros/melodic/lib/librostime.so
+/home/edward/lab_10/devel/lib/dobot/DobotServer: /opt/ros/melodic/lib/libcpp_common.so
+/home/edward/lab_10/devel/lib/dobot/DobotServer: /usr/lib/x86_64-linux-gnu/libboost_system.so
+/home/edward/lab_10/devel/lib/dobot/DobotServer: /usr/lib/x86_64-linux-gnu/libboost_thread.so
+/home/edward/lab_10/devel/lib/dobot/DobotServer: /usr/lib/x86_64-linux-gnu/libboost_chrono.so
+/home/edward/lab_10/devel/lib/dobot/DobotServer: /usr/lib/x86_64-linux-gnu/libboost_date_time.so
+/home/edward/lab_10/devel/lib/dobot/DobotServer: /usr/lib/x86_64-linux-gnu/libboost_atomic.so
+/home/edward/lab_10/devel/lib/dobot/DobotServer: /usr/lib/x86_64-linux-gnu/libpthread.so
+/home/edward/lab_10/devel/lib/dobot/DobotServer: /usr/lib/x86_64-linux-gnu/libconsole_bridge.so.0.4
+/home/edward/lab_10/devel/lib/dobot/DobotServer: dobot/CMakeFiles/DobotServer.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/edward/lab_10/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable /home/edward/lab_10/devel/lib/dobot/DobotServer"
+	cd /home/edward/lab_10/build/dobot && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/DobotServer.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-dobot/CMakeFiles/DobotServer.dir/build: /home/ed/lab_10/devel/lib/dobot/DobotServer
+dobot/CMakeFiles/DobotServer.dir/build: /home/edward/lab_10/devel/lib/dobot/DobotServer
 
 .PHONY : dobot/CMakeFiles/DobotServer.dir/build
 
@@ -122,10 +122,10 @@ dobot/CMakeFiles/DobotServer.dir/requires: dobot/CMakeFiles/DobotServer.dir/src/
 .PHONY : dobot/CMakeFiles/DobotServer.dir/requires
 
 dobot/CMakeFiles/DobotServer.dir/clean:
-	cd /home/ed/lab_10/build/dobot && $(CMAKE_COMMAND) -P CMakeFiles/DobotServer.dir/cmake_clean.cmake
+	cd /home/edward/lab_10/build/dobot && $(CMAKE_COMMAND) -P CMakeFiles/DobotServer.dir/cmake_clean.cmake
 .PHONY : dobot/CMakeFiles/DobotServer.dir/clean
 
 dobot/CMakeFiles/DobotServer.dir/depend:
-	cd /home/ed/lab_10/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ed/lab_10/src /home/ed/lab_10/src/dobot /home/ed/lab_10/build /home/ed/lab_10/build/dobot /home/ed/lab_10/build/dobot/CMakeFiles/DobotServer.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/edward/lab_10/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/edward/lab_10/src /home/edward/lab_10/src/dobot /home/edward/lab_10/build /home/edward/lab_10/build/dobot /home/edward/lab_10/build/dobot/CMakeFiles/DobotServer.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : dobot/CMakeFiles/DobotServer.dir/depend
 

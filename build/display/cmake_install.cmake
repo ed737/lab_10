@@ -1,8 +1,8 @@
-# Install script for directory: /home/ed/lab_10/src/display
+# Install script for directory: /home/edward/lab_10/src/display
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/ed/lab_10/install")
+  set(CMAKE_INSTALL_PREFIX "/home/edward/lab_10/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -38,17 +38,17 @@ if(NOT DEFINED CMAKE_CROSSCOMPILING)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/ed/lab_10/build/display/catkin_generated/installspace/display.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/edward/lab_10/build/display/catkin_generated/installspace/display.pc")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/display/cmake" TYPE FILE FILES
-    "/home/ed/lab_10/build/display/catkin_generated/installspace/displayConfig.cmake"
-    "/home/ed/lab_10/build/display/catkin_generated/installspace/displayConfig-version.cmake"
+    "/home/edward/lab_10/build/display/catkin_generated/installspace/displayConfig.cmake"
+    "/home/edward/lab_10/build/display/catkin_generated/installspace/displayConfig-version.cmake"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/display" TYPE FILE FILES "/home/ed/lab_10/src/display/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/display" TYPE FILE FILES "/home/edward/lab_10/src/display/package.xml")
 endif()
 

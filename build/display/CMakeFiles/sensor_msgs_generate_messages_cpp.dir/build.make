@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ed/lab_10/src
+CMAKE_SOURCE_DIR = /home/edward/lab_10/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ed/lab_10/build
+CMAKE_BINARY_DIR = /home/edward/lab_10/build
 
 # Utility rule file for sensor_msgs_generate_messages_cpp.
 
@@ -63,10 +63,10 @@ display/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/build: sensor_msgs_gene
 .PHONY : display/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/build
 
 display/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/clean:
-	cd /home/ed/lab_10/build/display && $(CMAKE_COMMAND) -P CMakeFiles/sensor_msgs_generate_messages_cpp.dir/cmake_clean.cmake
+	cd /home/edward/lab_10/build/display && $(CMAKE_COMMAND) -P CMakeFiles/sensor_msgs_generate_messages_cpp.dir/cmake_clean.cmake
 .PHONY : display/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/clean
 
 display/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/depend:
-	cd /home/ed/lab_10/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ed/lab_10/src /home/ed/lab_10/src/display /home/ed/lab_10/build /home/ed/lab_10/build/display /home/ed/lab_10/build/display/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/edward/lab_10/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/edward/lab_10/src /home/edward/lab_10/src/display /home/edward/lab_10/build /home/edward/lab_10/build/display /home/edward/lab_10/build/display/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : display/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/depend
 

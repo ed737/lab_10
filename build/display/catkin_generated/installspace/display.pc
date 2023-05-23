@@ -1,4 +1,4 @@
-prefix=/home/ed/lab_10/install
+prefix=/home/edward/lab_10/install
 
 Name: display
 Description: Description of display

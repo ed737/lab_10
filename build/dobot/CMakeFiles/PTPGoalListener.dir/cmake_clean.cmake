@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/PTPGoalListener.dir/src/ptp_goal_listener.cpp.o"
-  "/home/ed/lab_10/devel/lib/dobot/PTPGoalListener.pdb"
-  "/home/ed/lab_10/devel/lib/dobot/PTPGoalListener"
+  "/home/edward/lab_10/devel/lib/dobot/PTPGoalListener.pdb"
+  "/home/edward/lab_10/devel/lib/dobot/PTPGoalListener"
 )
 
 # Per-language clean rules from dependency scanning.

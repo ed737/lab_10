@@ -4,5 +4,5 @@ PROJECT_PKG_CONFIG_INCLUDE_DIRS = "".split(';') if "" != "" else []
 PROJECT_CATKIN_DEPENDS = "".replace(';', ' ')
 PKG_CONFIG_LIBRARIES_WITH_PREFIX = "".split(';') if "" != "" else []
 PROJECT_NAME = "display"
-PROJECT_SPACE_DIR = "/home/ed/lab_10/devel"
+PROJECT_SPACE_DIR = "/home/edward/lab_10/devel"
 PROJECT_VERSION = "0.0.0"

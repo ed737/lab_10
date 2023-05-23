@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/ed/lab_10/src/display/src/joint_visuals_converter.cpp" "/home/ed/lab_10/build/display/CMakeFiles/JointVisualsConverter.dir/src/joint_visuals_converter.cpp.o"
+  "/home/edward/lab_10/src/display/src/joint_visuals_converter.cpp" "/home/edward/lab_10/build/display/CMakeFiles/JointVisualsConverter.dir/src/joint_visuals_converter.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

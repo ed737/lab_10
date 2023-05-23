@@ -43,470 +43,470 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ed/lab_10/src
+CMAKE_SOURCE_DIR = /home/edward/lab_10/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ed/lab_10/build
+CMAKE_BINARY_DIR = /home/edward/lab_10/build
 
 # Utility rule file for dobot_generate_messages_lisp.
 
 # Include the progress variables for this target.
 include dobot/CMakeFiles/dobot_generate_messages_lisp.dir/progress.make
 
-dobot/CMakeFiles/dobot_generate_messages_lisp: /home/ed/lab_10/devel/share/common-lisp/ros/dobot/msg/CartesianQuat.lisp
-dobot/CMakeFiles/dobot_generate_messages_lisp: /home/ed/lab_10/devel/share/common-lisp/ros/dobot/msg/CartesianSimple.lisp
-dobot/CMakeFiles/dobot_generate_messages_lisp: /home/ed/lab_10/devel/share/common-lisp/ros/dobot/msg/PTPCommand.lisp
-dobot/CMakeFiles/dobot_generate_messages_lisp: /home/ed/lab_10/devel/share/common-lisp/ros/dobot/msg/Joint.lisp
-dobot/CMakeFiles/dobot_generate_messages_lisp: /home/ed/lab_10/devel/share/common-lisp/ros/dobot/srv/ClearAllAlarmsState.lisp
-dobot/CMakeFiles/dobot_generate_messages_lisp: /home/ed/lab_10/devel/share/common-lisp/ros/dobot/srv/SetPTPJointParams.lisp
-dobot/CMakeFiles/dobot_generate_messages_lisp: /home/ed/lab_10/devel/share/common-lisp/ros/dobot/srv/GetPTPCommonParams.lisp
-dobot/CMakeFiles/dobot_generate_messages_lisp: /home/ed/lab_10/devel/share/common-lisp/ros/dobot/srv/GetColorSensor.lisp
-dobot/CMakeFiles/dobot_generate_messages_lisp: /home/ed/lab_10/devel/share/common-lisp/ros/dobot/srv/SetQueuedCmdClear.lisp
-dobot/CMakeFiles/dobot_generate_messages_lisp: /home/ed/lab_10/devel/share/common-lisp/ros/dobot/srv/SetJOGCoordinateParams.lisp
-dobot/CMakeFiles/dobot_generate_messages_lisp: /home/ed/lab_10/devel/share/common-lisp/ros/dobot/srv/SetPTPCmd.lisp
-dobot/CMakeFiles/dobot_generate_messages_lisp: /home/ed/lab_10/devel/share/common-lisp/ros/dobot/srv/SetCmdTimeout.lisp
-dobot/CMakeFiles/dobot_generate_messages_lisp: /home/ed/lab_10/devel/share/common-lisp/ros/dobot/srv/SetHOMEParams.lisp
-dobot/CMakeFiles/dobot_generate_messages_lisp: /home/ed/lab_10/devel/share/common-lisp/ros/dobot/srv/GetPTPCoordinateParams.lisp
-dobot/CMakeFiles/dobot_generate_messages_lisp: /home/ed/lab_10/devel/share/common-lisp/ros/dobot/srv/GetIOPWM.lisp
-dobot/CMakeFiles/dobot_generate_messages_lisp: /home/ed/lab_10/devel/share/common-lisp/ros/dobot/srv/SetIODO.lisp
-dobot/CMakeFiles/dobot_generate_messages_lisp: /home/ed/lab_10/devel/share/common-lisp/ros/dobot/srv/SetJOGCommonParams.lisp
-dobot/CMakeFiles/dobot_generate_messages_lisp: /home/ed/lab_10/devel/share/common-lisp/ros/dobot/srv/GetHOMEParams.lisp
-dobot/CMakeFiles/dobot_generate_messages_lisp: /home/ed/lab_10/devel/share/common-lisp/ros/dobot/srv/GetPose.lisp
-dobot/CMakeFiles/dobot_generate_messages_lisp: /home/ed/lab_10/devel/share/common-lisp/ros/dobot/srv/GetJOGCoordinateParams.lisp
-dobot/CMakeFiles/dobot_generate_messages_lisp: /home/ed/lab_10/devel/share/common-lisp/ros/dobot/srv/SetEMotor.lisp
-dobot/CMakeFiles/dobot_generate_messages_lisp: /home/ed/lab_10/devel/share/common-lisp/ros/dobot/srv/SetCPCmd.lisp
-dobot/CMakeFiles/dobot_generate_messages_lisp: /home/ed/lab_10/devel/share/common-lisp/ros/dobot/srv/GetJOGCommonParams.lisp
-dobot/CMakeFiles/dobot_generate_messages_lisp: /home/ed/lab_10/devel/share/common-lisp/ros/dobot/srv/SetQueuedCmdForceStopExec.lisp
-dobot/CMakeFiles/dobot_generate_messages_lisp: /home/ed/lab_10/devel/share/common-lisp/ros/dobot/srv/GetIOMultiplexing.lisp
-dobot/CMakeFiles/dobot_generate_messages_lisp: /home/ed/lab_10/devel/share/common-lisp/ros/dobot/srv/GetIODI.lisp
-dobot/CMakeFiles/dobot_generate_messages_lisp: /home/ed/lab_10/devel/share/common-lisp/ros/dobot/srv/GetARCParams.lisp
-dobot/CMakeFiles/dobot_generate_messages_lisp: /home/ed/lab_10/devel/share/common-lisp/ros/dobot/srv/SetPTPCommonParams.lisp
-dobot/CMakeFiles/dobot_generate_messages_lisp: /home/ed/lab_10/devel/share/common-lisp/ros/dobot/srv/GetIODO.lisp
-dobot/CMakeFiles/dobot_generate_messages_lisp: /home/ed/lab_10/devel/share/common-lisp/ros/dobot/srv/SetIOMultiplexing.lisp
-dobot/CMakeFiles/dobot_generate_messages_lisp: /home/ed/lab_10/devel/share/common-lisp/ros/dobot/srv/GetDeviceName.lisp
-dobot/CMakeFiles/dobot_generate_messages_lisp: /home/ed/lab_10/devel/share/common-lisp/ros/dobot/srv/SetColorSensor.lisp
-dobot/CMakeFiles/dobot_generate_messages_lisp: /home/ed/lab_10/devel/share/common-lisp/ros/dobot/srv/GetPTPJumpParams.lisp
-dobot/CMakeFiles/dobot_generate_messages_lisp: /home/ed/lab_10/devel/share/common-lisp/ros/dobot/srv/GetDeviceSN.lisp
-dobot/CMakeFiles/dobot_generate_messages_lisp: /home/ed/lab_10/devel/share/common-lisp/ros/dobot/srv/GetPTPJointParams.lisp
-dobot/CMakeFiles/dobot_generate_messages_lisp: /home/ed/lab_10/devel/share/common-lisp/ros/dobot/srv/SetEndEffectorParams.lisp
-dobot/CMakeFiles/dobot_generate_messages_lisp: /home/ed/lab_10/devel/share/common-lisp/ros/dobot/srv/GetJOGJointParams.lisp
-dobot/CMakeFiles/dobot_generate_messages_lisp: /home/ed/lab_10/devel/share/common-lisp/ros/dobot/srv/SetCPParams.lisp
-dobot/CMakeFiles/dobot_generate_messages_lisp: /home/ed/lab_10/devel/share/common-lisp/ros/dobot/srv/SetInfraredSensor.lisp
-dobot/CMakeFiles/dobot_generate_messages_lisp: /home/ed/lab_10/devel/share/common-lisp/ros/dobot/srv/SetHOMECmd.lisp
-dobot/CMakeFiles/dobot_generate_messages_lisp: /home/ed/lab_10/devel/share/common-lisp/ros/dobot/srv/GetEndEffectorLaser.lisp
-dobot/CMakeFiles/dobot_generate_messages_lisp: /home/ed/lab_10/devel/share/common-lisp/ros/dobot/srv/GetCPParams.lisp
-dobot/CMakeFiles/dobot_generate_messages_lisp: /home/ed/lab_10/devel/share/common-lisp/ros/dobot/srv/GetEndEffectorGripper.lisp
-dobot/CMakeFiles/dobot_generate_messages_lisp: /home/ed/lab_10/devel/share/common-lisp/ros/dobot/srv/GetEndEffectorSuctionCup.lisp
-dobot/CMakeFiles/dobot_generate_messages_lisp: /home/ed/lab_10/devel/share/common-lisp/ros/dobot/srv/SetEndEffectorGripper.lisp
-dobot/CMakeFiles/dobot_generate_messages_lisp: /home/ed/lab_10/devel/share/common-lisp/ros/dobot/srv/SetPTPJumpParams.lisp
-dobot/CMakeFiles/dobot_generate_messages_lisp: /home/ed/lab_10/devel/share/common-lisp/ros/dobot/srv/GetAlarmsState.lisp
-dobot/CMakeFiles/dobot_generate_messages_lisp: /home/ed/lab_10/devel/share/common-lisp/ros/dobot/srv/SetARCParams.lisp
-dobot/CMakeFiles/dobot_generate_messages_lisp: /home/ed/lab_10/devel/share/common-lisp/ros/dobot/srv/SetEndEffectorSuctionCup.lisp
-dobot/CMakeFiles/dobot_generate_messages_lisp: /home/ed/lab_10/devel/share/common-lisp/ros/dobot/srv/GetInfraredSensor.lisp
-dobot/CMakeFiles/dobot_generate_messages_lisp: /home/ed/lab_10/devel/share/common-lisp/ros/dobot/srv/SetIOPWM.lisp
-dobot/CMakeFiles/dobot_generate_messages_lisp: /home/ed/lab_10/devel/share/common-lisp/ros/dobot/srv/GetDeviceVersion.lisp
-dobot/CMakeFiles/dobot_generate_messages_lisp: /home/ed/lab_10/devel/share/common-lisp/ros/dobot/srv/SetQueuedCmdStopExec.lisp
-dobot/CMakeFiles/dobot_generate_messages_lisp: /home/ed/lab_10/devel/share/common-lisp/ros/dobot/srv/SetQueuedCmdStartExec.lisp
-dobot/CMakeFiles/dobot_generate_messages_lisp: /home/ed/lab_10/devel/share/common-lisp/ros/dobot/srv/SetJOGCmd.lisp
-dobot/CMakeFiles/dobot_generate_messages_lisp: /home/ed/lab_10/devel/share/common-lisp/ros/dobot/srv/SetDeviceName.lisp
-dobot/CMakeFiles/dobot_generate_messages_lisp: /home/ed/lab_10/devel/share/common-lisp/ros/dobot/srv/GetEndEffectorParams.lisp
-dobot/CMakeFiles/dobot_generate_messages_lisp: /home/ed/lab_10/devel/share/common-lisp/ros/dobot/srv/GetIOADC.lisp
-dobot/CMakeFiles/dobot_generate_messages_lisp: /home/ed/lab_10/devel/share/common-lisp/ros/dobot/srv/SetWAITCmd.lisp
-dobot/CMakeFiles/dobot_generate_messages_lisp: /home/ed/lab_10/devel/share/common-lisp/ros/dobot/srv/SetEndEffectorLaser.lisp
-dobot/CMakeFiles/dobot_generate_messages_lisp: /home/ed/lab_10/devel/share/common-lisp/ros/dobot/srv/SetTRIGCmd.lisp
-dobot/CMakeFiles/dobot_generate_messages_lisp: /home/ed/lab_10/devel/share/common-lisp/ros/dobot/srv/SetJOGJointParams.lisp
-dobot/CMakeFiles/dobot_generate_messages_lisp: /home/ed/lab_10/devel/share/common-lisp/ros/dobot/srv/SetPTPCoordinateParams.lisp
-dobot/CMakeFiles/dobot_generate_messages_lisp: /home/ed/lab_10/devel/share/common-lisp/ros/dobot/srv/SetARCCmd.lisp
-
-
-/home/ed/lab_10/devel/share/common-lisp/ros/dobot/msg/CartesianQuat.lisp: /opt/ros/melodic/lib/genlisp/gen_lisp.py
-/home/ed/lab_10/devel/share/common-lisp/ros/dobot/msg/CartesianQuat.lisp: /home/ed/lab_10/src/dobot/msg/CartesianQuat.msg
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ed/lab_10/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating Lisp code from dobot/CartesianQuat.msg"
-	cd /home/ed/lab_10/build/dobot && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/genlisp/cmake/../../../lib/genlisp/gen_lisp.py /home/ed/lab_10/src/dobot/msg/CartesianQuat.msg -Idobot:/home/ed/lab_10/src/dobot/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p dobot -o /home/ed/lab_10/devel/share/common-lisp/ros/dobot/msg
-
-/home/ed/lab_10/devel/share/common-lisp/ros/dobot/msg/CartesianSimple.lisp: /opt/ros/melodic/lib/genlisp/gen_lisp.py
-/home/ed/lab_10/devel/share/common-lisp/ros/dobot/msg/CartesianSimple.lisp: /home/ed/lab_10/src/dobot/msg/CartesianSimple.msg
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ed/lab_10/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating Lisp code from dobot/CartesianSimple.msg"
-	cd /home/ed/lab_10/build/dobot && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/genlisp/cmake/../../../lib/genlisp/gen_lisp.py /home/ed/lab_10/src/dobot/msg/CartesianSimple.msg -Idobot:/home/ed/lab_10/src/dobot/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p dobot -o /home/ed/lab_10/devel/share/common-lisp/ros/dobot/msg
-
-/home/ed/lab_10/devel/share/common-lisp/ros/dobot/msg/PTPCommand.lisp: /opt/ros/melodic/lib/genlisp/gen_lisp.py
-/home/ed/lab_10/devel/share/common-lisp/ros/dobot/msg/PTPCommand.lisp: /home/ed/lab_10/src/dobot/msg/PTPCommand.msg
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ed/lab_10/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Generating Lisp code from dobot/PTPCommand.msg"
-	cd /home/ed/lab_10/build/dobot && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/genlisp/cmake/../../../lib/genlisp/gen_lisp.py /home/ed/lab_10/src/dobot/msg/PTPCommand.msg -Idobot:/home/ed/lab_10/src/dobot/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p dobot -o /home/ed/lab_10/devel/share/common-lisp/ros/dobot/msg
-
-/home/ed/lab_10/devel/share/common-lisp/ros/dobot/msg/Joint.lisp: /opt/ros/melodic/lib/genlisp/gen_lisp.py
-/home/ed/lab_10/devel/share/common-lisp/ros/dobot/msg/Joint.lisp: /home/ed/lab_10/src/dobot/msg/Joint.msg
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ed/lab_10/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Generating Lisp code from dobot/Joint.msg"
-	cd /home/ed/lab_10/build/dobot && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/genlisp/cmake/../../../lib/genlisp/gen_lisp.py /home/ed/lab_10/src/dobot/msg/Joint.msg -Idobot:/home/ed/lab_10/src/dobot/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p dobot -o /home/ed/lab_10/devel/share/common-lisp/ros/dobot/msg
-
-/home/ed/lab_10/devel/share/common-lisp/ros/dobot/srv/ClearAllAlarmsState.lisp: /opt/ros/melodic/lib/genlisp/gen_lisp.py
-/home/ed/lab_10/devel/share/common-lisp/ros/dobot/srv/ClearAllAlarmsState.lisp: /home/ed/lab_10/src/dobot/srv/ClearAllAlarmsState.srv
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ed/lab_10/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Generating Lisp code from dobot/ClearAllAlarmsState.srv"
-	cd /home/ed/lab_10/build/dobot && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/genlisp/cmake/../../../lib/genlisp/gen_lisp.py /home/ed/lab_10/src/dobot/srv/ClearAllAlarmsState.srv -Idobot:/home/ed/lab_10/src/dobot/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p dobot -o /home/ed/lab_10/devel/share/common-lisp/ros/dobot/srv
-
-/home/ed/lab_10/devel/share/common-lisp/ros/dobot/srv/SetPTPJointParams.lisp: /opt/ros/melodic/lib/genlisp/gen_lisp.py
-/home/ed/lab_10/devel/share/common-lisp/ros/dobot/srv/SetPTPJointParams.lisp: /home/ed/lab_10/src/dobot/srv/SetPTPJointParams.srv
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ed/lab_10/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Generating Lisp code from dobot/SetPTPJointParams.srv"
-	cd /home/ed/lab_10/build/dobot && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/genlisp/cmake/../../../lib/genlisp/gen_lisp.py /home/ed/lab_10/src/dobot/srv/SetPTPJointParams.srv -Idobot:/home/ed/lab_10/src/dobot/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p dobot -o /home/ed/lab_10/devel/share/common-lisp/ros/dobot/srv
-
-/home/ed/lab_10/devel/share/common-lisp/ros/dobot/srv/GetPTPCommonParams.lisp: /opt/ros/melodic/lib/genlisp/gen_lisp.py
-/home/ed/lab_10/devel/share/common-lisp/ros/dobot/srv/GetPTPCommonParams.lisp: /home/ed/lab_10/src/dobot/srv/GetPTPCommonParams.srv
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ed/lab_10/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Generating Lisp code from dobot/GetPTPCommonParams.srv"
-	cd /home/ed/lab_10/build/dobot && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/genlisp/cmake/../../../lib/genlisp/gen_lisp.py /home/ed/lab_10/src/dobot/srv/GetPTPCommonParams.srv -Idobot:/home/ed/lab_10/src/dobot/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p dobot -o /home/ed/lab_10/devel/share/common-lisp/ros/dobot/srv
-
-/home/ed/lab_10/devel/share/common-lisp/ros/dobot/srv/GetColorSensor.lisp: /opt/ros/melodic/lib/genlisp/gen_lisp.py
-/home/ed/lab_10/devel/share/common-lisp/ros/dobot/srv/GetColorSensor.lisp: /home/ed/lab_10/src/dobot/srv/GetColorSensor.srv
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ed/lab_10/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Generating Lisp code from dobot/GetColorSensor.srv"
-	cd /home/ed/lab_10/build/dobot && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/genlisp/cmake/../../../lib/genlisp/gen_lisp.py /home/ed/lab_10/src/dobot/srv/GetColorSensor.srv -Idobot:/home/ed/lab_10/src/dobot/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p dobot -o /home/ed/lab_10/devel/share/common-lisp/ros/dobot/srv
-
-/home/ed/lab_10/devel/share/common-lisp/ros/dobot/srv/SetQueuedCmdClear.lisp: /opt/ros/melodic/lib/genlisp/gen_lisp.py
-/home/ed/lab_10/devel/share/common-lisp/ros/dobot/srv/SetQueuedCmdClear.lisp: /home/ed/lab_10/src/dobot/srv/SetQueuedCmdClear.srv
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ed/lab_10/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Generating Lisp code from dobot/SetQueuedCmdClear.srv"
-	cd /home/ed/lab_10/build/dobot && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/genlisp/cmake/../../../lib/genlisp/gen_lisp.py /home/ed/lab_10/src/dobot/srv/SetQueuedCmdClear.srv -Idobot:/home/ed/lab_10/src/dobot/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p dobot -o /home/ed/lab_10/devel/share/common-lisp/ros/dobot/srv
-
-/home/ed/lab_10/devel/share/common-lisp/ros/dobot/srv/SetJOGCoordinateParams.lisp: /opt/ros/melodic/lib/genlisp/gen_lisp.py
-/home/ed/lab_10/devel/share/common-lisp/ros/dobot/srv/SetJOGCoordinateParams.lisp: /home/ed/lab_10/src/dobot/srv/SetJOGCoordinateParams.srv
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ed/lab_10/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Generating Lisp code from dobot/SetJOGCoordinateParams.srv"
-	cd /home/ed/lab_10/build/dobot && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/genlisp/cmake/../../../lib/genlisp/gen_lisp.py /home/ed/lab_10/src/dobot/srv/SetJOGCoordinateParams.srv -Idobot:/home/ed/lab_10/src/dobot/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p dobot -o /home/ed/lab_10/devel/share/common-lisp/ros/dobot/srv
-
-/home/ed/lab_10/devel/share/common-lisp/ros/dobot/srv/SetPTPCmd.lisp: /opt/ros/melodic/lib/genlisp/gen_lisp.py
-/home/ed/lab_10/devel/share/common-lisp/ros/dobot/srv/SetPTPCmd.lisp: /home/ed/lab_10/src/dobot/srv/SetPTPCmd.srv
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ed/lab_10/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Generating Lisp code from dobot/SetPTPCmd.srv"
-	cd /home/ed/lab_10/build/dobot && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/genlisp/cmake/../../../lib/genlisp/gen_lisp.py /home/ed/lab_10/src/dobot/srv/SetPTPCmd.srv -Idobot:/home/ed/lab_10/src/dobot/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p dobot -o /home/ed/lab_10/devel/share/common-lisp/ros/dobot/srv
-
-/home/ed/lab_10/devel/share/common-lisp/ros/dobot/srv/SetCmdTimeout.lisp: /opt/ros/melodic/lib/genlisp/gen_lisp.py
-/home/ed/lab_10/devel/share/common-lisp/ros/dobot/srv/SetCmdTimeout.lisp: /home/ed/lab_10/src/dobot/srv/SetCmdTimeout.srv
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ed/lab_10/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Generating Lisp code from dobot/SetCmdTimeout.srv"
-	cd /home/ed/lab_10/build/dobot && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/genlisp/cmake/../../../lib/genlisp/gen_lisp.py /home/ed/lab_10/src/dobot/srv/SetCmdTimeout.srv -Idobot:/home/ed/lab_10/src/dobot/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p dobot -o /home/ed/lab_10/devel/share/common-lisp/ros/dobot/srv
-
-/home/ed/lab_10/devel/share/common-lisp/ros/dobot/srv/SetHOMEParams.lisp: /opt/ros/melodic/lib/genlisp/gen_lisp.py
-/home/ed/lab_10/devel/share/common-lisp/ros/dobot/srv/SetHOMEParams.lisp: /home/ed/lab_10/src/dobot/srv/SetHOMEParams.srv
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ed/lab_10/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Generating Lisp code from dobot/SetHOMEParams.srv"
-	cd /home/ed/lab_10/build/dobot && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/genlisp/cmake/../../../lib/genlisp/gen_lisp.py /home/ed/lab_10/src/dobot/srv/SetHOMEParams.srv -Idobot:/home/ed/lab_10/src/dobot/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p dobot -o /home/ed/lab_10/devel/share/common-lisp/ros/dobot/srv
-
-/home/ed/lab_10/devel/share/common-lisp/ros/dobot/srv/GetPTPCoordinateParams.lisp: /opt/ros/melodic/lib/genlisp/gen_lisp.py
-/home/ed/lab_10/devel/share/common-lisp/ros/dobot/srv/GetPTPCoordinateParams.lisp: /home/ed/lab_10/src/dobot/srv/GetPTPCoordinateParams.srv
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ed/lab_10/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Generating Lisp code from dobot/GetPTPCoordinateParams.srv"
-	cd /home/ed/lab_10/build/dobot && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/genlisp/cmake/../../../lib/genlisp/gen_lisp.py /home/ed/lab_10/src/dobot/srv/GetPTPCoordinateParams.srv -Idobot:/home/ed/lab_10/src/dobot/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p dobot -o /home/ed/lab_10/devel/share/common-lisp/ros/dobot/srv
-
-/home/ed/lab_10/devel/share/common-lisp/ros/dobot/srv/GetIOPWM.lisp: /opt/ros/melodic/lib/genlisp/gen_lisp.py
-/home/ed/lab_10/devel/share/common-lisp/ros/dobot/srv/GetIOPWM.lisp: /home/ed/lab_10/src/dobot/srv/GetIOPWM.srv
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ed/lab_10/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Generating Lisp code from dobot/GetIOPWM.srv"
-	cd /home/ed/lab_10/build/dobot && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/genlisp/cmake/../../../lib/genlisp/gen_lisp.py /home/ed/lab_10/src/dobot/srv/GetIOPWM.srv -Idobot:/home/ed/lab_10/src/dobot/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p dobot -o /home/ed/lab_10/devel/share/common-lisp/ros/dobot/srv
-
-/home/ed/lab_10/devel/share/common-lisp/ros/dobot/srv/SetIODO.lisp: /opt/ros/melodic/lib/genlisp/gen_lisp.py
-/home/ed/lab_10/devel/share/common-lisp/ros/dobot/srv/SetIODO.lisp: /home/ed/lab_10/src/dobot/srv/SetIODO.srv
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ed/lab_10/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Generating Lisp code from dobot/SetIODO.srv"
-	cd /home/ed/lab_10/build/dobot && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/genlisp/cmake/../../../lib/genlisp/gen_lisp.py /home/ed/lab_10/src/dobot/srv/SetIODO.srv -Idobot:/home/ed/lab_10/src/dobot/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p dobot -o /home/ed/lab_10/devel/share/common-lisp/ros/dobot/srv
-
-/home/ed/lab_10/devel/share/common-lisp/ros/dobot/srv/SetJOGCommonParams.lisp: /opt/ros/melodic/lib/genlisp/gen_lisp.py
-/home/ed/lab_10/devel/share/common-lisp/ros/dobot/srv/SetJOGCommonParams.lisp: /home/ed/lab_10/src/dobot/srv/SetJOGCommonParams.srv
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ed/lab_10/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Generating Lisp code from dobot/SetJOGCommonParams.srv"
-	cd /home/ed/lab_10/build/dobot && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/genlisp/cmake/../../../lib/genlisp/gen_lisp.py /home/ed/lab_10/src/dobot/srv/SetJOGCommonParams.srv -Idobot:/home/ed/lab_10/src/dobot/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p dobot -o /home/ed/lab_10/devel/share/common-lisp/ros/dobot/srv
-
-/home/ed/lab_10/devel/share/common-lisp/ros/dobot/srv/GetHOMEParams.lisp: /opt/ros/melodic/lib/genlisp/gen_lisp.py
-/home/ed/lab_10/devel/share/common-lisp/ros/dobot/srv/GetHOMEParams.lisp: /home/ed/lab_10/src/dobot/srv/GetHOMEParams.srv
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ed/lab_10/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Generating Lisp code from dobot/GetHOMEParams.srv"
-	cd /home/ed/lab_10/build/dobot && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/genlisp/cmake/../../../lib/genlisp/gen_lisp.py /home/ed/lab_10/src/dobot/srv/GetHOMEParams.srv -Idobot:/home/ed/lab_10/src/dobot/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p dobot -o /home/ed/lab_10/devel/share/common-lisp/ros/dobot/srv
-
-/home/ed/lab_10/devel/share/common-lisp/ros/dobot/srv/GetPose.lisp: /opt/ros/melodic/lib/genlisp/gen_lisp.py
-/home/ed/lab_10/devel/share/common-lisp/ros/dobot/srv/GetPose.lisp: /home/ed/lab_10/src/dobot/srv/GetPose.srv
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ed/lab_10/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Generating Lisp code from dobot/GetPose.srv"
-	cd /home/ed/lab_10/build/dobot && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/genlisp/cmake/../../../lib/genlisp/gen_lisp.py /home/ed/lab_10/src/dobot/srv/GetPose.srv -Idobot:/home/ed/lab_10/src/dobot/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p dobot -o /home/ed/lab_10/devel/share/common-lisp/ros/dobot/srv
-
-/home/ed/lab_10/devel/share/common-lisp/ros/dobot/srv/GetJOGCoordinateParams.lisp: /opt/ros/melodic/lib/genlisp/gen_lisp.py
-/home/ed/lab_10/devel/share/common-lisp/ros/dobot/srv/GetJOGCoordinateParams.lisp: /home/ed/lab_10/src/dobot/srv/GetJOGCoordinateParams.srv
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ed/lab_10/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Generating Lisp code from dobot/GetJOGCoordinateParams.srv"
-	cd /home/ed/lab_10/build/dobot && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/genlisp/cmake/../../../lib/genlisp/gen_lisp.py /home/ed/lab_10/src/dobot/srv/GetJOGCoordinateParams.srv -Idobot:/home/ed/lab_10/src/dobot/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p dobot -o /home/ed/lab_10/devel/share/common-lisp/ros/dobot/srv
-
-/home/ed/lab_10/devel/share/common-lisp/ros/dobot/srv/SetEMotor.lisp: /opt/ros/melodic/lib/genlisp/gen_lisp.py
-/home/ed/lab_10/devel/share/common-lisp/ros/dobot/srv/SetEMotor.lisp: /home/ed/lab_10/src/dobot/srv/SetEMotor.srv
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ed/lab_10/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Generating Lisp code from dobot/SetEMotor.srv"
-	cd /home/ed/lab_10/build/dobot && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/genlisp/cmake/../../../lib/genlisp/gen_lisp.py /home/ed/lab_10/src/dobot/srv/SetEMotor.srv -Idobot:/home/ed/lab_10/src/dobot/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p dobot -o /home/ed/lab_10/devel/share/common-lisp/ros/dobot/srv
-
-/home/ed/lab_10/devel/share/common-lisp/ros/dobot/srv/SetCPCmd.lisp: /opt/ros/melodic/lib/genlisp/gen_lisp.py
-/home/ed/lab_10/devel/share/common-lisp/ros/dobot/srv/SetCPCmd.lisp: /home/ed/lab_10/src/dobot/srv/SetCPCmd.srv
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ed/lab_10/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Generating Lisp code from dobot/SetCPCmd.srv"
-	cd /home/ed/lab_10/build/dobot && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/genlisp/cmake/../../../lib/genlisp/gen_lisp.py /home/ed/lab_10/src/dobot/srv/SetCPCmd.srv -Idobot:/home/ed/lab_10/src/dobot/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p dobot -o /home/ed/lab_10/devel/share/common-lisp/ros/dobot/srv
-
-/home/ed/lab_10/devel/share/common-lisp/ros/dobot/srv/GetJOGCommonParams.lisp: /opt/ros/melodic/lib/genlisp/gen_lisp.py
-/home/ed/lab_10/devel/share/common-lisp/ros/dobot/srv/GetJOGCommonParams.lisp: /home/ed/lab_10/src/dobot/srv/GetJOGCommonParams.srv
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ed/lab_10/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Generating Lisp code from dobot/GetJOGCommonParams.srv"
-	cd /home/ed/lab_10/build/dobot && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/genlisp/cmake/../../../lib/genlisp/gen_lisp.py /home/ed/lab_10/src/dobot/srv/GetJOGCommonParams.srv -Idobot:/home/ed/lab_10/src/dobot/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p dobot -o /home/ed/lab_10/devel/share/common-lisp/ros/dobot/srv
-
-/home/ed/lab_10/devel/share/common-lisp/ros/dobot/srv/SetQueuedCmdForceStopExec.lisp: /opt/ros/melodic/lib/genlisp/gen_lisp.py
-/home/ed/lab_10/devel/share/common-lisp/ros/dobot/srv/SetQueuedCmdForceStopExec.lisp: /home/ed/lab_10/src/dobot/srv/SetQueuedCmdForceStopExec.srv
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ed/lab_10/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Generating Lisp code from dobot/SetQueuedCmdForceStopExec.srv"
-	cd /home/ed/lab_10/build/dobot && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/genlisp/cmake/../../../lib/genlisp/gen_lisp.py /home/ed/lab_10/src/dobot/srv/SetQueuedCmdForceStopExec.srv -Idobot:/home/ed/lab_10/src/dobot/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p dobot -o /home/ed/lab_10/devel/share/common-lisp/ros/dobot/srv
-
-/home/ed/lab_10/devel/share/common-lisp/ros/dobot/srv/GetIOMultiplexing.lisp: /opt/ros/melodic/lib/genlisp/gen_lisp.py
-/home/ed/lab_10/devel/share/common-lisp/ros/dobot/srv/GetIOMultiplexing.lisp: /home/ed/lab_10/src/dobot/srv/GetIOMultiplexing.srv
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ed/lab_10/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Generating Lisp code from dobot/GetIOMultiplexing.srv"
-	cd /home/ed/lab_10/build/dobot && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/genlisp/cmake/../../../lib/genlisp/gen_lisp.py /home/ed/lab_10/src/dobot/srv/GetIOMultiplexing.srv -Idobot:/home/ed/lab_10/src/dobot/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p dobot -o /home/ed/lab_10/devel/share/common-lisp/ros/dobot/srv
-
-/home/ed/lab_10/devel/share/common-lisp/ros/dobot/srv/GetIODI.lisp: /opt/ros/melodic/lib/genlisp/gen_lisp.py
-/home/ed/lab_10/devel/share/common-lisp/ros/dobot/srv/GetIODI.lisp: /home/ed/lab_10/src/dobot/srv/GetIODI.srv
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ed/lab_10/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Generating Lisp code from dobot/GetIODI.srv"
-	cd /home/ed/lab_10/build/dobot && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/genlisp/cmake/../../../lib/genlisp/gen_lisp.py /home/ed/lab_10/src/dobot/srv/GetIODI.srv -Idobot:/home/ed/lab_10/src/dobot/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p dobot -o /home/ed/lab_10/devel/share/common-lisp/ros/dobot/srv
-
-/home/ed/lab_10/devel/share/common-lisp/ros/dobot/srv/GetARCParams.lisp: /opt/ros/melodic/lib/genlisp/gen_lisp.py
-/home/ed/lab_10/devel/share/common-lisp/ros/dobot/srv/GetARCParams.lisp: /home/ed/lab_10/src/dobot/srv/GetARCParams.srv
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ed/lab_10/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Generating Lisp code from dobot/GetARCParams.srv"
-	cd /home/ed/lab_10/build/dobot && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/genlisp/cmake/../../../lib/genlisp/gen_lisp.py /home/ed/lab_10/src/dobot/srv/GetARCParams.srv -Idobot:/home/ed/lab_10/src/dobot/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p dobot -o /home/ed/lab_10/devel/share/common-lisp/ros/dobot/srv
-
-/home/ed/lab_10/devel/share/common-lisp/ros/dobot/srv/SetPTPCommonParams.lisp: /opt/ros/melodic/lib/genlisp/gen_lisp.py
-/home/ed/lab_10/devel/share/common-lisp/ros/dobot/srv/SetPTPCommonParams.lisp: /home/ed/lab_10/src/dobot/srv/SetPTPCommonParams.srv
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ed/lab_10/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Generating Lisp code from dobot/SetPTPCommonParams.srv"
-	cd /home/ed/lab_10/build/dobot && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/genlisp/cmake/../../../lib/genlisp/gen_lisp.py /home/ed/lab_10/src/dobot/srv/SetPTPCommonParams.srv -Idobot:/home/ed/lab_10/src/dobot/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p dobot -o /home/ed/lab_10/devel/share/common-lisp/ros/dobot/srv
-
-/home/ed/lab_10/devel/share/common-lisp/ros/dobot/srv/GetIODO.lisp: /opt/ros/melodic/lib/genlisp/gen_lisp.py
-/home/ed/lab_10/devel/share/common-lisp/ros/dobot/srv/GetIODO.lisp: /home/ed/lab_10/src/dobot/srv/GetIODO.srv
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ed/lab_10/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Generating Lisp code from dobot/GetIODO.srv"
-	cd /home/ed/lab_10/build/dobot && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/genlisp/cmake/../../../lib/genlisp/gen_lisp.py /home/ed/lab_10/src/dobot/srv/GetIODO.srv -Idobot:/home/ed/lab_10/src/dobot/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p dobot -o /home/ed/lab_10/devel/share/common-lisp/ros/dobot/srv
-
-/home/ed/lab_10/devel/share/common-lisp/ros/dobot/srv/SetIOMultiplexing.lisp: /opt/ros/melodic/lib/genlisp/gen_lisp.py
-/home/ed/lab_10/devel/share/common-lisp/ros/dobot/srv/SetIOMultiplexing.lisp: /home/ed/lab_10/src/dobot/srv/SetIOMultiplexing.srv
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ed/lab_10/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Generating Lisp code from dobot/SetIOMultiplexing.srv"
-	cd /home/ed/lab_10/build/dobot && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/genlisp/cmake/../../../lib/genlisp/gen_lisp.py /home/ed/lab_10/src/dobot/srv/SetIOMultiplexing.srv -Idobot:/home/ed/lab_10/src/dobot/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p dobot -o /home/ed/lab_10/devel/share/common-lisp/ros/dobot/srv
-
-/home/ed/lab_10/devel/share/common-lisp/ros/dobot/srv/GetDeviceName.lisp: /opt/ros/melodic/lib/genlisp/gen_lisp.py
-/home/ed/lab_10/devel/share/common-lisp/ros/dobot/srv/GetDeviceName.lisp: /home/ed/lab_10/src/dobot/srv/GetDeviceName.srv
-/home/ed/lab_10/devel/share/common-lisp/ros/dobot/srv/GetDeviceName.lisp: /opt/ros/melodic/share/std_msgs/msg/String.msg
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ed/lab_10/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Generating Lisp code from dobot/GetDeviceName.srv"
-	cd /home/ed/lab_10/build/dobot && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/genlisp/cmake/../../../lib/genlisp/gen_lisp.py /home/ed/lab_10/src/dobot/srv/GetDeviceName.srv -Idobot:/home/ed/lab_10/src/dobot/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p dobot -o /home/ed/lab_10/devel/share/common-lisp/ros/dobot/srv
-
-/home/ed/lab_10/devel/share/common-lisp/ros/dobot/srv/SetColorSensor.lisp: /opt/ros/melodic/lib/genlisp/gen_lisp.py
-/home/ed/lab_10/devel/share/common-lisp/ros/dobot/srv/SetColorSensor.lisp: /home/ed/lab_10/src/dobot/srv/SetColorSensor.srv
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ed/lab_10/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Generating Lisp code from dobot/SetColorSensor.srv"
-	cd /home/ed/lab_10/build/dobot && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/genlisp/cmake/../../../lib/genlisp/gen_lisp.py /home/ed/lab_10/src/dobot/srv/SetColorSensor.srv -Idobot:/home/ed/lab_10/src/dobot/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p dobot -o /home/ed/lab_10/devel/share/common-lisp/ros/dobot/srv
-
-/home/ed/lab_10/devel/share/common-lisp/ros/dobot/srv/GetPTPJumpParams.lisp: /opt/ros/melodic/lib/genlisp/gen_lisp.py
-/home/ed/lab_10/devel/share/common-lisp/ros/dobot/srv/GetPTPJumpParams.lisp: /home/ed/lab_10/src/dobot/srv/GetPTPJumpParams.srv
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ed/lab_10/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Generating Lisp code from dobot/GetPTPJumpParams.srv"
-	cd /home/ed/lab_10/build/dobot && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/genlisp/cmake/../../../lib/genlisp/gen_lisp.py /home/ed/lab_10/src/dobot/srv/GetPTPJumpParams.srv -Idobot:/home/ed/lab_10/src/dobot/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p dobot -o /home/ed/lab_10/devel/share/common-lisp/ros/dobot/srv
-
-/home/ed/lab_10/devel/share/common-lisp/ros/dobot/srv/GetDeviceSN.lisp: /opt/ros/melodic/lib/genlisp/gen_lisp.py
-/home/ed/lab_10/devel/share/common-lisp/ros/dobot/srv/GetDeviceSN.lisp: /home/ed/lab_10/src/dobot/srv/GetDeviceSN.srv
-/home/ed/lab_10/devel/share/common-lisp/ros/dobot/srv/GetDeviceSN.lisp: /opt/ros/melodic/share/std_msgs/msg/String.msg
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ed/lab_10/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Generating Lisp code from dobot/GetDeviceSN.srv"
-	cd /home/ed/lab_10/build/dobot && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/genlisp/cmake/../../../lib/genlisp/gen_lisp.py /home/ed/lab_10/src/dobot/srv/GetDeviceSN.srv -Idobot:/home/ed/lab_10/src/dobot/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p dobot -o /home/ed/lab_10/devel/share/common-lisp/ros/dobot/srv
-
-/home/ed/lab_10/devel/share/common-lisp/ros/dobot/srv/GetPTPJointParams.lisp: /opt/ros/melodic/lib/genlisp/gen_lisp.py
-/home/ed/lab_10/devel/share/common-lisp/ros/dobot/srv/GetPTPJointParams.lisp: /home/ed/lab_10/src/dobot/srv/GetPTPJointParams.srv
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ed/lab_10/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Generating Lisp code from dobot/GetPTPJointParams.srv"
-	cd /home/ed/lab_10/build/dobot && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/genlisp/cmake/../../../lib/genlisp/gen_lisp.py /home/ed/lab_10/src/dobot/srv/GetPTPJointParams.srv -Idobot:/home/ed/lab_10/src/dobot/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p dobot -o /home/ed/lab_10/devel/share/common-lisp/ros/dobot/srv
-
-/home/ed/lab_10/devel/share/common-lisp/ros/dobot/srv/SetEndEffectorParams.lisp: /opt/ros/melodic/lib/genlisp/gen_lisp.py
-/home/ed/lab_10/devel/share/common-lisp/ros/dobot/srv/SetEndEffectorParams.lisp: /home/ed/lab_10/src/dobot/srv/SetEndEffectorParams.srv
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ed/lab_10/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Generating Lisp code from dobot/SetEndEffectorParams.srv"
-	cd /home/ed/lab_10/build/dobot && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/genlisp/cmake/../../../lib/genlisp/gen_lisp.py /home/ed/lab_10/src/dobot/srv/SetEndEffectorParams.srv -Idobot:/home/ed/lab_10/src/dobot/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p dobot -o /home/ed/lab_10/devel/share/common-lisp/ros/dobot/srv
-
-/home/ed/lab_10/devel/share/common-lisp/ros/dobot/srv/GetJOGJointParams.lisp: /opt/ros/melodic/lib/genlisp/gen_lisp.py
-/home/ed/lab_10/devel/share/common-lisp/ros/dobot/srv/GetJOGJointParams.lisp: /home/ed/lab_10/src/dobot/srv/GetJOGJointParams.srv
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ed/lab_10/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Generating Lisp code from dobot/GetJOGJointParams.srv"
-	cd /home/ed/lab_10/build/dobot && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/genlisp/cmake/../../../lib/genlisp/gen_lisp.py /home/ed/lab_10/src/dobot/srv/GetJOGJointParams.srv -Idobot:/home/ed/lab_10/src/dobot/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p dobot -o /home/ed/lab_10/devel/share/common-lisp/ros/dobot/srv
-
-/home/ed/lab_10/devel/share/common-lisp/ros/dobot/srv/SetCPParams.lisp: /opt/ros/melodic/lib/genlisp/gen_lisp.py
-/home/ed/lab_10/devel/share/common-lisp/ros/dobot/srv/SetCPParams.lisp: /home/ed/lab_10/src/dobot/srv/SetCPParams.srv
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ed/lab_10/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Generating Lisp code from dobot/SetCPParams.srv"
-	cd /home/ed/lab_10/build/dobot && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/genlisp/cmake/../../../lib/genlisp/gen_lisp.py /home/ed/lab_10/src/dobot/srv/SetCPParams.srv -Idobot:/home/ed/lab_10/src/dobot/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p dobot -o /home/ed/lab_10/devel/share/common-lisp/ros/dobot/srv
-
-/home/ed/lab_10/devel/share/common-lisp/ros/dobot/srv/SetInfraredSensor.lisp: /opt/ros/melodic/lib/genlisp/gen_lisp.py
-/home/ed/lab_10/devel/share/common-lisp/ros/dobot/srv/SetInfraredSensor.lisp: /home/ed/lab_10/src/dobot/srv/SetInfraredSensor.srv
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ed/lab_10/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Generating Lisp code from dobot/SetInfraredSensor.srv"
-	cd /home/ed/lab_10/build/dobot && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/genlisp/cmake/../../../lib/genlisp/gen_lisp.py /home/ed/lab_10/src/dobot/srv/SetInfraredSensor.srv -Idobot:/home/ed/lab_10/src/dobot/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p dobot -o /home/ed/lab_10/devel/share/common-lisp/ros/dobot/srv
-
-/home/ed/lab_10/devel/share/common-lisp/ros/dobot/srv/SetHOMECmd.lisp: /opt/ros/melodic/lib/genlisp/gen_lisp.py
-/home/ed/lab_10/devel/share/common-lisp/ros/dobot/srv/SetHOMECmd.lisp: /home/ed/lab_10/src/dobot/srv/SetHOMECmd.srv
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ed/lab_10/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Generating Lisp code from dobot/SetHOMECmd.srv"
-	cd /home/ed/lab_10/build/dobot && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/genlisp/cmake/../../../lib/genlisp/gen_lisp.py /home/ed/lab_10/src/dobot/srv/SetHOMECmd.srv -Idobot:/home/ed/lab_10/src/dobot/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p dobot -o /home/ed/lab_10/devel/share/common-lisp/ros/dobot/srv
-
-/home/ed/lab_10/devel/share/common-lisp/ros/dobot/srv/GetEndEffectorLaser.lisp: /opt/ros/melodic/lib/genlisp/gen_lisp.py
-/home/ed/lab_10/devel/share/common-lisp/ros/dobot/srv/GetEndEffectorLaser.lisp: /home/ed/lab_10/src/dobot/srv/GetEndEffectorLaser.srv
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ed/lab_10/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Generating Lisp code from dobot/GetEndEffectorLaser.srv"
-	cd /home/ed/lab_10/build/dobot && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/genlisp/cmake/../../../lib/genlisp/gen_lisp.py /home/ed/lab_10/src/dobot/srv/GetEndEffectorLaser.srv -Idobot:/home/ed/lab_10/src/dobot/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p dobot -o /home/ed/lab_10/devel/share/common-lisp/ros/dobot/srv
-
-/home/ed/lab_10/devel/share/common-lisp/ros/dobot/srv/GetCPParams.lisp: /opt/ros/melodic/lib/genlisp/gen_lisp.py
-/home/ed/lab_10/devel/share/common-lisp/ros/dobot/srv/GetCPParams.lisp: /home/ed/lab_10/src/dobot/srv/GetCPParams.srv
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ed/lab_10/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Generating Lisp code from dobot/GetCPParams.srv"
-	cd /home/ed/lab_10/build/dobot && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/genlisp/cmake/../../../lib/genlisp/gen_lisp.py /home/ed/lab_10/src/dobot/srv/GetCPParams.srv -Idobot:/home/ed/lab_10/src/dobot/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p dobot -o /home/ed/lab_10/devel/share/common-lisp/ros/dobot/srv
-
-/home/ed/lab_10/devel/share/common-lisp/ros/dobot/srv/GetEndEffectorGripper.lisp: /opt/ros/melodic/lib/genlisp/gen_lisp.py
-/home/ed/lab_10/devel/share/common-lisp/ros/dobot/srv/GetEndEffectorGripper.lisp: /home/ed/lab_10/src/dobot/srv/GetEndEffectorGripper.srv
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ed/lab_10/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Generating Lisp code from dobot/GetEndEffectorGripper.srv"
-	cd /home/ed/lab_10/build/dobot && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/genlisp/cmake/../../../lib/genlisp/gen_lisp.py /home/ed/lab_10/src/dobot/srv/GetEndEffectorGripper.srv -Idobot:/home/ed/lab_10/src/dobot/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p dobot -o /home/ed/lab_10/devel/share/common-lisp/ros/dobot/srv
-
-/home/ed/lab_10/devel/share/common-lisp/ros/dobot/srv/GetEndEffectorSuctionCup.lisp: /opt/ros/melodic/lib/genlisp/gen_lisp.py
-/home/ed/lab_10/devel/share/common-lisp/ros/dobot/srv/GetEndEffectorSuctionCup.lisp: /home/ed/lab_10/src/dobot/srv/GetEndEffectorSuctionCup.srv
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ed/lab_10/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Generating Lisp code from dobot/GetEndEffectorSuctionCup.srv"
-	cd /home/ed/lab_10/build/dobot && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/genlisp/cmake/../../../lib/genlisp/gen_lisp.py /home/ed/lab_10/src/dobot/srv/GetEndEffectorSuctionCup.srv -Idobot:/home/ed/lab_10/src/dobot/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p dobot -o /home/ed/lab_10/devel/share/common-lisp/ros/dobot/srv
-
-/home/ed/lab_10/devel/share/common-lisp/ros/dobot/srv/SetEndEffectorGripper.lisp: /opt/ros/melodic/lib/genlisp/gen_lisp.py
-/home/ed/lab_10/devel/share/common-lisp/ros/dobot/srv/SetEndEffectorGripper.lisp: /home/ed/lab_10/src/dobot/srv/SetEndEffectorGripper.srv
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ed/lab_10/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_45) "Generating Lisp code from dobot/SetEndEffectorGripper.srv"
-	cd /home/ed/lab_10/build/dobot && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/genlisp/cmake/../../../lib/genlisp/gen_lisp.py /home/ed/lab_10/src/dobot/srv/SetEndEffectorGripper.srv -Idobot:/home/ed/lab_10/src/dobot/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p dobot -o /home/ed/lab_10/devel/share/common-lisp/ros/dobot/srv
-
-/home/ed/lab_10/devel/share/common-lisp/ros/dobot/srv/SetPTPJumpParams.lisp: /opt/ros/melodic/lib/genlisp/gen_lisp.py
-/home/ed/lab_10/devel/share/common-lisp/ros/dobot/srv/SetPTPJumpParams.lisp: /home/ed/lab_10/src/dobot/srv/SetPTPJumpParams.srv
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ed/lab_10/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_46) "Generating Lisp code from dobot/SetPTPJumpParams.srv"
-	cd /home/ed/lab_10/build/dobot && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/genlisp/cmake/../../../lib/genlisp/gen_lisp.py /home/ed/lab_10/src/dobot/srv/SetPTPJumpParams.srv -Idobot:/home/ed/lab_10/src/dobot/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p dobot -o /home/ed/lab_10/devel/share/common-lisp/ros/dobot/srv
-
-/home/ed/lab_10/devel/share/common-lisp/ros/dobot/srv/GetAlarmsState.lisp: /opt/ros/melodic/lib/genlisp/gen_lisp.py
-/home/ed/lab_10/devel/share/common-lisp/ros/dobot/srv/GetAlarmsState.lisp: /home/ed/lab_10/src/dobot/srv/GetAlarmsState.srv
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ed/lab_10/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Generating Lisp code from dobot/GetAlarmsState.srv"
-	cd /home/ed/lab_10/build/dobot && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/genlisp/cmake/../../../lib/genlisp/gen_lisp.py /home/ed/lab_10/src/dobot/srv/GetAlarmsState.srv -Idobot:/home/ed/lab_10/src/dobot/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p dobot -o /home/ed/lab_10/devel/share/common-lisp/ros/dobot/srv
-
-/home/ed/lab_10/devel/share/common-lisp/ros/dobot/srv/SetARCParams.lisp: /opt/ros/melodic/lib/genlisp/gen_lisp.py
-/home/ed/lab_10/devel/share/common-lisp/ros/dobot/srv/SetARCParams.lisp: /home/ed/lab_10/src/dobot/srv/SetARCParams.srv
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ed/lab_10/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_48) "Generating Lisp code from dobot/SetARCParams.srv"
-	cd /home/ed/lab_10/build/dobot && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/genlisp/cmake/../../../lib/genlisp/gen_lisp.py /home/ed/lab_10/src/dobot/srv/SetARCParams.srv -Idobot:/home/ed/lab_10/src/dobot/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p dobot -o /home/ed/lab_10/devel/share/common-lisp/ros/dobot/srv
-
-/home/ed/lab_10/devel/share/common-lisp/ros/dobot/srv/SetEndEffectorSuctionCup.lisp: /opt/ros/melodic/lib/genlisp/gen_lisp.py
-/home/ed/lab_10/devel/share/common-lisp/ros/dobot/srv/SetEndEffectorSuctionCup.lisp: /home/ed/lab_10/src/dobot/srv/SetEndEffectorSuctionCup.srv
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ed/lab_10/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_49) "Generating Lisp code from dobot/SetEndEffectorSuctionCup.srv"
-	cd /home/ed/lab_10/build/dobot && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/genlisp/cmake/../../../lib/genlisp/gen_lisp.py /home/ed/lab_10/src/dobot/srv/SetEndEffectorSuctionCup.srv -Idobot:/home/ed/lab_10/src/dobot/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p dobot -o /home/ed/lab_10/devel/share/common-lisp/ros/dobot/srv
-
-/home/ed/lab_10/devel/share/common-lisp/ros/dobot/srv/GetInfraredSensor.lisp: /opt/ros/melodic/lib/genlisp/gen_lisp.py
-/home/ed/lab_10/devel/share/common-lisp/ros/dobot/srv/GetInfraredSensor.lisp: /home/ed/lab_10/src/dobot/srv/GetInfraredSensor.srv
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ed/lab_10/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_50) "Generating Lisp code from dobot/GetInfraredSensor.srv"
-	cd /home/ed/lab_10/build/dobot && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/genlisp/cmake/../../../lib/genlisp/gen_lisp.py /home/ed/lab_10/src/dobot/srv/GetInfraredSensor.srv -Idobot:/home/ed/lab_10/src/dobot/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p dobot -o /home/ed/lab_10/devel/share/common-lisp/ros/dobot/srv
-
-/home/ed/lab_10/devel/share/common-lisp/ros/dobot/srv/SetIOPWM.lisp: /opt/ros/melodic/lib/genlisp/gen_lisp.py
-/home/ed/lab_10/devel/share/common-lisp/ros/dobot/srv/SetIOPWM.lisp: /home/ed/lab_10/src/dobot/srv/SetIOPWM.srv
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ed/lab_10/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_51) "Generating Lisp code from dobot/SetIOPWM.srv"
-	cd /home/ed/lab_10/build/dobot && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/genlisp/cmake/../../../lib/genlisp/gen_lisp.py /home/ed/lab_10/src/dobot/srv/SetIOPWM.srv -Idobot:/home/ed/lab_10/src/dobot/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p dobot -o /home/ed/lab_10/devel/share/common-lisp/ros/dobot/srv
-
-/home/ed/lab_10/devel/share/common-lisp/ros/dobot/srv/GetDeviceVersion.lisp: /opt/ros/melodic/lib/genlisp/gen_lisp.py
-/home/ed/lab_10/devel/share/common-lisp/ros/dobot/srv/GetDeviceVersion.lisp: /home/ed/lab_10/src/dobot/srv/GetDeviceVersion.srv
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ed/lab_10/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_52) "Generating Lisp code from dobot/GetDeviceVersion.srv"
-	cd /home/ed/lab_10/build/dobot && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/genlisp/cmake/../../../lib/genlisp/gen_lisp.py /home/ed/lab_10/src/dobot/srv/GetDeviceVersion.srv -Idobot:/home/ed/lab_10/src/dobot/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p dobot -o /home/ed/lab_10/devel/share/common-lisp/ros/dobot/srv
-
-/home/ed/lab_10/devel/share/common-lisp/ros/dobot/srv/SetQueuedCmdStopExec.lisp: /opt/ros/melodic/lib/genlisp/gen_lisp.py
-/home/ed/lab_10/devel/share/common-lisp/ros/dobot/srv/SetQueuedCmdStopExec.lisp: /home/ed/lab_10/src/dobot/srv/SetQueuedCmdStopExec.srv
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ed/lab_10/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_53) "Generating Lisp code from dobot/SetQueuedCmdStopExec.srv"
-	cd /home/ed/lab_10/build/dobot && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/genlisp/cmake/../../../lib/genlisp/gen_lisp.py /home/ed/lab_10/src/dobot/srv/SetQueuedCmdStopExec.srv -Idobot:/home/ed/lab_10/src/dobot/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p dobot -o /home/ed/lab_10/devel/share/common-lisp/ros/dobot/srv
-
-/home/ed/lab_10/devel/share/common-lisp/ros/dobot/srv/SetQueuedCmdStartExec.lisp: /opt/ros/melodic/lib/genlisp/gen_lisp.py
-/home/ed/lab_10/devel/share/common-lisp/ros/dobot/srv/SetQueuedCmdStartExec.lisp: /home/ed/lab_10/src/dobot/srv/SetQueuedCmdStartExec.srv
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ed/lab_10/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_54) "Generating Lisp code from dobot/SetQueuedCmdStartExec.srv"
-	cd /home/ed/lab_10/build/dobot && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/genlisp/cmake/../../../lib/genlisp/gen_lisp.py /home/ed/lab_10/src/dobot/srv/SetQueuedCmdStartExec.srv -Idobot:/home/ed/lab_10/src/dobot/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p dobot -o /home/ed/lab_10/devel/share/common-lisp/ros/dobot/srv
-
-/home/ed/lab_10/devel/share/common-lisp/ros/dobot/srv/SetJOGCmd.lisp: /opt/ros/melodic/lib/genlisp/gen_lisp.py
-/home/ed/lab_10/devel/share/common-lisp/ros/dobot/srv/SetJOGCmd.lisp: /home/ed/lab_10/src/dobot/srv/SetJOGCmd.srv
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ed/lab_10/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_55) "Generating Lisp code from dobot/SetJOGCmd.srv"
-	cd /home/ed/lab_10/build/dobot && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/genlisp/cmake/../../../lib/genlisp/gen_lisp.py /home/ed/lab_10/src/dobot/srv/SetJOGCmd.srv -Idobot:/home/ed/lab_10/src/dobot/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p dobot -o /home/ed/lab_10/devel/share/common-lisp/ros/dobot/srv
-
-/home/ed/lab_10/devel/share/common-lisp/ros/dobot/srv/SetDeviceName.lisp: /opt/ros/melodic/lib/genlisp/gen_lisp.py
-/home/ed/lab_10/devel/share/common-lisp/ros/dobot/srv/SetDeviceName.lisp: /home/ed/lab_10/src/dobot/srv/SetDeviceName.srv
-/home/ed/lab_10/devel/share/common-lisp/ros/dobot/srv/SetDeviceName.lisp: /opt/ros/melodic/share/std_msgs/msg/String.msg
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ed/lab_10/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_56) "Generating Lisp code from dobot/SetDeviceName.srv"
-	cd /home/ed/lab_10/build/dobot && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/genlisp/cmake/../../../lib/genlisp/gen_lisp.py /home/ed/lab_10/src/dobot/srv/SetDeviceName.srv -Idobot:/home/ed/lab_10/src/dobot/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p dobot -o /home/ed/lab_10/devel/share/common-lisp/ros/dobot/srv
-
-/home/ed/lab_10/devel/share/common-lisp/ros/dobot/srv/GetEndEffectorParams.lisp: /opt/ros/melodic/lib/genlisp/gen_lisp.py
-/home/ed/lab_10/devel/share/common-lisp/ros/dobot/srv/GetEndEffectorParams.lisp: /home/ed/lab_10/src/dobot/srv/GetEndEffectorParams.srv
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ed/lab_10/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_57) "Generating Lisp code from dobot/GetEndEffectorParams.srv"
-	cd /home/ed/lab_10/build/dobot && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/genlisp/cmake/../../../lib/genlisp/gen_lisp.py /home/ed/lab_10/src/dobot/srv/GetEndEffectorParams.srv -Idobot:/home/ed/lab_10/src/dobot/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p dobot -o /home/ed/lab_10/devel/share/common-lisp/ros/dobot/srv
-
-/home/ed/lab_10/devel/share/common-lisp/ros/dobot/srv/GetIOADC.lisp: /opt/ros/melodic/lib/genlisp/gen_lisp.py
-/home/ed/lab_10/devel/share/common-lisp/ros/dobot/srv/GetIOADC.lisp: /home/ed/lab_10/src/dobot/srv/GetIOADC.srv
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ed/lab_10/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_58) "Generating Lisp code from dobot/GetIOADC.srv"
-	cd /home/ed/lab_10/build/dobot && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/genlisp/cmake/../../../lib/genlisp/gen_lisp.py /home/ed/lab_10/src/dobot/srv/GetIOADC.srv -Idobot:/home/ed/lab_10/src/dobot/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p dobot -o /home/ed/lab_10/devel/share/common-lisp/ros/dobot/srv
-
-/home/ed/lab_10/devel/share/common-lisp/ros/dobot/srv/SetWAITCmd.lisp: /opt/ros/melodic/lib/genlisp/gen_lisp.py
-/home/ed/lab_10/devel/share/common-lisp/ros/dobot/srv/SetWAITCmd.lisp: /home/ed/lab_10/src/dobot/srv/SetWAITCmd.srv
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ed/lab_10/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_59) "Generating Lisp code from dobot/SetWAITCmd.srv"
-	cd /home/ed/lab_10/build/dobot && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/genlisp/cmake/../../../lib/genlisp/gen_lisp.py /home/ed/lab_10/src/dobot/srv/SetWAITCmd.srv -Idobot:/home/ed/lab_10/src/dobot/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p dobot -o /home/ed/lab_10/devel/share/common-lisp/ros/dobot/srv
-
-/home/ed/lab_10/devel/share/common-lisp/ros/dobot/srv/SetEndEffectorLaser.lisp: /opt/ros/melodic/lib/genlisp/gen_lisp.py
-/home/ed/lab_10/devel/share/common-lisp/ros/dobot/srv/SetEndEffectorLaser.lisp: /home/ed/lab_10/src/dobot/srv/SetEndEffectorLaser.srv
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ed/lab_10/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_60) "Generating Lisp code from dobot/SetEndEffectorLaser.srv"
-	cd /home/ed/lab_10/build/dobot && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/genlisp/cmake/../../../lib/genlisp/gen_lisp.py /home/ed/lab_10/src/dobot/srv/SetEndEffectorLaser.srv -Idobot:/home/ed/lab_10/src/dobot/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p dobot -o /home/ed/lab_10/devel/share/common-lisp/ros/dobot/srv
-
-/home/ed/lab_10/devel/share/common-lisp/ros/dobot/srv/SetTRIGCmd.lisp: /opt/ros/melodic/lib/genlisp/gen_lisp.py
-/home/ed/lab_10/devel/share/common-lisp/ros/dobot/srv/SetTRIGCmd.lisp: /home/ed/lab_10/src/dobot/srv/SetTRIGCmd.srv
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ed/lab_10/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_61) "Generating Lisp code from dobot/SetTRIGCmd.srv"
-	cd /home/ed/lab_10/build/dobot && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/genlisp/cmake/../../../lib/genlisp/gen_lisp.py /home/ed/lab_10/src/dobot/srv/SetTRIGCmd.srv -Idobot:/home/ed/lab_10/src/dobot/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p dobot -o /home/ed/lab_10/devel/share/common-lisp/ros/dobot/srv
-
-/home/ed/lab_10/devel/share/common-lisp/ros/dobot/srv/SetJOGJointParams.lisp: /opt/ros/melodic/lib/genlisp/gen_lisp.py
-/home/ed/lab_10/devel/share/common-lisp/ros/dobot/srv/SetJOGJointParams.lisp: /home/ed/lab_10/src/dobot/srv/SetJOGJointParams.srv
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ed/lab_10/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_62) "Generating Lisp code from dobot/SetJOGJointParams.srv"
-	cd /home/ed/lab_10/build/dobot && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/genlisp/cmake/../../../lib/genlisp/gen_lisp.py /home/ed/lab_10/src/dobot/srv/SetJOGJointParams.srv -Idobot:/home/ed/lab_10/src/dobot/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p dobot -o /home/ed/lab_10/devel/share/common-lisp/ros/dobot/srv
-
-/home/ed/lab_10/devel/share/common-lisp/ros/dobot/srv/SetPTPCoordinateParams.lisp: /opt/ros/melodic/lib/genlisp/gen_lisp.py
-/home/ed/lab_10/devel/share/common-lisp/ros/dobot/srv/SetPTPCoordinateParams.lisp: /home/ed/lab_10/src/dobot/srv/SetPTPCoordinateParams.srv
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ed/lab_10/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_63) "Generating Lisp code from dobot/SetPTPCoordinateParams.srv"
-	cd /home/ed/lab_10/build/dobot && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/genlisp/cmake/../../../lib/genlisp/gen_lisp.py /home/ed/lab_10/src/dobot/srv/SetPTPCoordinateParams.srv -Idobot:/home/ed/lab_10/src/dobot/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p dobot -o /home/ed/lab_10/devel/share/common-lisp/ros/dobot/srv
-
-/home/ed/lab_10/devel/share/common-lisp/ros/dobot/srv/SetARCCmd.lisp: /opt/ros/melodic/lib/genlisp/gen_lisp.py
-/home/ed/lab_10/devel/share/common-lisp/ros/dobot/srv/SetARCCmd.lisp: /home/ed/lab_10/src/dobot/srv/SetARCCmd.srv
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ed/lab_10/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_64) "Generating Lisp code from dobot/SetARCCmd.srv"
-	cd /home/ed/lab_10/build/dobot && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/genlisp/cmake/../../../lib/genlisp/gen_lisp.py /home/ed/lab_10/src/dobot/srv/SetARCCmd.srv -Idobot:/home/ed/lab_10/src/dobot/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p dobot -o /home/ed/lab_10/devel/share/common-lisp/ros/dobot/srv
+dobot/CMakeFiles/dobot_generate_messages_lisp: /home/edward/lab_10/devel/share/common-lisp/ros/dobot/msg/PTPCommand.lisp
+dobot/CMakeFiles/dobot_generate_messages_lisp: /home/edward/lab_10/devel/share/common-lisp/ros/dobot/msg/CartesianSimple.lisp
+dobot/CMakeFiles/dobot_generate_messages_lisp: /home/edward/lab_10/devel/share/common-lisp/ros/dobot/msg/CartesianQuat.lisp
+dobot/CMakeFiles/dobot_generate_messages_lisp: /home/edward/lab_10/devel/share/common-lisp/ros/dobot/msg/Joint.lisp
+dobot/CMakeFiles/dobot_generate_messages_lisp: /home/edward/lab_10/devel/share/common-lisp/ros/dobot/srv/SetJOGCmd.lisp
+dobot/CMakeFiles/dobot_generate_messages_lisp: /home/edward/lab_10/devel/share/common-lisp/ros/dobot/srv/SetPTPJointParams.lisp
+dobot/CMakeFiles/dobot_generate_messages_lisp: /home/edward/lab_10/devel/share/common-lisp/ros/dobot/srv/SetIOMultiplexing.lisp
+dobot/CMakeFiles/dobot_generate_messages_lisp: /home/edward/lab_10/devel/share/common-lisp/ros/dobot/srv/SetIOPWM.lisp
+dobot/CMakeFiles/dobot_generate_messages_lisp: /home/edward/lab_10/devel/share/common-lisp/ros/dobot/srv/GetJOGCoordinateParams.lisp
+dobot/CMakeFiles/dobot_generate_messages_lisp: /home/edward/lab_10/devel/share/common-lisp/ros/dobot/srv/SetWAITCmd.lisp
+dobot/CMakeFiles/dobot_generate_messages_lisp: /home/edward/lab_10/devel/share/common-lisp/ros/dobot/srv/GetIOPWM.lisp
+dobot/CMakeFiles/dobot_generate_messages_lisp: /home/edward/lab_10/devel/share/common-lisp/ros/dobot/srv/SetCPParams.lisp
+dobot/CMakeFiles/dobot_generate_messages_lisp: /home/edward/lab_10/devel/share/common-lisp/ros/dobot/srv/SetJOGJointParams.lisp
+dobot/CMakeFiles/dobot_generate_messages_lisp: /home/edward/lab_10/devel/share/common-lisp/ros/dobot/srv/SetARCParams.lisp
+dobot/CMakeFiles/dobot_generate_messages_lisp: /home/edward/lab_10/devel/share/common-lisp/ros/dobot/srv/SetARCCmd.lisp
+dobot/CMakeFiles/dobot_generate_messages_lisp: /home/edward/lab_10/devel/share/common-lisp/ros/dobot/srv/SetCPCmd.lisp
+dobot/CMakeFiles/dobot_generate_messages_lisp: /home/edward/lab_10/devel/share/common-lisp/ros/dobot/srv/SetEndEffectorGripper.lisp
+dobot/CMakeFiles/dobot_generate_messages_lisp: /home/edward/lab_10/devel/share/common-lisp/ros/dobot/srv/GetPTPJointParams.lisp
+dobot/CMakeFiles/dobot_generate_messages_lisp: /home/edward/lab_10/devel/share/common-lisp/ros/dobot/srv/GetARCParams.lisp
+dobot/CMakeFiles/dobot_generate_messages_lisp: /home/edward/lab_10/devel/share/common-lisp/ros/dobot/srv/SetHOMEParams.lisp
+dobot/CMakeFiles/dobot_generate_messages_lisp: /home/edward/lab_10/devel/share/common-lisp/ros/dobot/srv/SetColorSensor.lisp
+dobot/CMakeFiles/dobot_generate_messages_lisp: /home/edward/lab_10/devel/share/common-lisp/ros/dobot/srv/SetInfraredSensor.lisp
+dobot/CMakeFiles/dobot_generate_messages_lisp: /home/edward/lab_10/devel/share/common-lisp/ros/dobot/srv/GetPTPJumpParams.lisp
+dobot/CMakeFiles/dobot_generate_messages_lisp: /home/edward/lab_10/devel/share/common-lisp/ros/dobot/srv/SetPTPJumpParams.lisp
+dobot/CMakeFiles/dobot_generate_messages_lisp: /home/edward/lab_10/devel/share/common-lisp/ros/dobot/srv/SetPTPCommonParams.lisp
+dobot/CMakeFiles/dobot_generate_messages_lisp: /home/edward/lab_10/devel/share/common-lisp/ros/dobot/srv/GetColorSensor.lisp
+dobot/CMakeFiles/dobot_generate_messages_lisp: /home/edward/lab_10/devel/share/common-lisp/ros/dobot/srv/GetIOADC.lisp
+dobot/CMakeFiles/dobot_generate_messages_lisp: /home/edward/lab_10/devel/share/common-lisp/ros/dobot/srv/SetEMotor.lisp
+dobot/CMakeFiles/dobot_generate_messages_lisp: /home/edward/lab_10/devel/share/common-lisp/ros/dobot/srv/GetPTPCoordinateParams.lisp
+dobot/CMakeFiles/dobot_generate_messages_lisp: /home/edward/lab_10/devel/share/common-lisp/ros/dobot/srv/GetDeviceVersion.lisp
+dobot/CMakeFiles/dobot_generate_messages_lisp: /home/edward/lab_10/devel/share/common-lisp/ros/dobot/srv/GetPTPCommonParams.lisp
+dobot/CMakeFiles/dobot_generate_messages_lisp: /home/edward/lab_10/devel/share/common-lisp/ros/dobot/srv/SetEndEffectorLaser.lisp
+dobot/CMakeFiles/dobot_generate_messages_lisp: /home/edward/lab_10/devel/share/common-lisp/ros/dobot/srv/SetQueuedCmdStartExec.lisp
+dobot/CMakeFiles/dobot_generate_messages_lisp: /home/edward/lab_10/devel/share/common-lisp/ros/dobot/srv/GetEndEffectorSuctionCup.lisp
+dobot/CMakeFiles/dobot_generate_messages_lisp: /home/edward/lab_10/devel/share/common-lisp/ros/dobot/srv/GetInfraredSensor.lisp
+dobot/CMakeFiles/dobot_generate_messages_lisp: /home/edward/lab_10/devel/share/common-lisp/ros/dobot/srv/GetAlarmsState.lisp
+dobot/CMakeFiles/dobot_generate_messages_lisp: /home/edward/lab_10/devel/share/common-lisp/ros/dobot/srv/SetEndEffectorSuctionCup.lisp
+dobot/CMakeFiles/dobot_generate_messages_lisp: /home/edward/lab_10/devel/share/common-lisp/ros/dobot/srv/SetIODO.lisp
+dobot/CMakeFiles/dobot_generate_messages_lisp: /home/edward/lab_10/devel/share/common-lisp/ros/dobot/srv/GetIOMultiplexing.lisp
+dobot/CMakeFiles/dobot_generate_messages_lisp: /home/edward/lab_10/devel/share/common-lisp/ros/dobot/srv/SetQueuedCmdStopExec.lisp
+dobot/CMakeFiles/dobot_generate_messages_lisp: /home/edward/lab_10/devel/share/common-lisp/ros/dobot/srv/SetPTPCoordinateParams.lisp
+dobot/CMakeFiles/dobot_generate_messages_lisp: /home/edward/lab_10/devel/share/common-lisp/ros/dobot/srv/SetDeviceName.lisp
+dobot/CMakeFiles/dobot_generate_messages_lisp: /home/edward/lab_10/devel/share/common-lisp/ros/dobot/srv/GetEndEffectorParams.lisp
+dobot/CMakeFiles/dobot_generate_messages_lisp: /home/edward/lab_10/devel/share/common-lisp/ros/dobot/srv/SetPTPCmd.lisp
+dobot/CMakeFiles/dobot_generate_messages_lisp: /home/edward/lab_10/devel/share/common-lisp/ros/dobot/srv/GetDeviceSN.lisp
+dobot/CMakeFiles/dobot_generate_messages_lisp: /home/edward/lab_10/devel/share/common-lisp/ros/dobot/srv/GetJOGJointParams.lisp
+dobot/CMakeFiles/dobot_generate_messages_lisp: /home/edward/lab_10/devel/share/common-lisp/ros/dobot/srv/SetJOGCoordinateParams.lisp
+dobot/CMakeFiles/dobot_generate_messages_lisp: /home/edward/lab_10/devel/share/common-lisp/ros/dobot/srv/GetIODO.lisp
+dobot/CMakeFiles/dobot_generate_messages_lisp: /home/edward/lab_10/devel/share/common-lisp/ros/dobot/srv/ClearAllAlarmsState.lisp
+dobot/CMakeFiles/dobot_generate_messages_lisp: /home/edward/lab_10/devel/share/common-lisp/ros/dobot/srv/GetPose.lisp
+dobot/CMakeFiles/dobot_generate_messages_lisp: /home/edward/lab_10/devel/share/common-lisp/ros/dobot/srv/GetJOGCommonParams.lisp
+dobot/CMakeFiles/dobot_generate_messages_lisp: /home/edward/lab_10/devel/share/common-lisp/ros/dobot/srv/SetHOMECmd.lisp
+dobot/CMakeFiles/dobot_generate_messages_lisp: /home/edward/lab_10/devel/share/common-lisp/ros/dobot/srv/SetCmdTimeout.lisp
+dobot/CMakeFiles/dobot_generate_messages_lisp: /home/edward/lab_10/devel/share/common-lisp/ros/dobot/srv/SetTRIGCmd.lisp
+dobot/CMakeFiles/dobot_generate_messages_lisp: /home/edward/lab_10/devel/share/common-lisp/ros/dobot/srv/SetQueuedCmdClear.lisp
+dobot/CMakeFiles/dobot_generate_messages_lisp: /home/edward/lab_10/devel/share/common-lisp/ros/dobot/srv/GetIODI.lisp
+dobot/CMakeFiles/dobot_generate_messages_lisp: /home/edward/lab_10/devel/share/common-lisp/ros/dobot/srv/GetEndEffectorGripper.lisp
+dobot/CMakeFiles/dobot_generate_messages_lisp: /home/edward/lab_10/devel/share/common-lisp/ros/dobot/srv/GetDeviceName.lisp
+dobot/CMakeFiles/dobot_generate_messages_lisp: /home/edward/lab_10/devel/share/common-lisp/ros/dobot/srv/SetQueuedCmdForceStopExec.lisp
+dobot/CMakeFiles/dobot_generate_messages_lisp: /home/edward/lab_10/devel/share/common-lisp/ros/dobot/srv/SetEndEffectorParams.lisp
+dobot/CMakeFiles/dobot_generate_messages_lisp: /home/edward/lab_10/devel/share/common-lisp/ros/dobot/srv/GetCPParams.lisp
+dobot/CMakeFiles/dobot_generate_messages_lisp: /home/edward/lab_10/devel/share/common-lisp/ros/dobot/srv/SetJOGCommonParams.lisp
+dobot/CMakeFiles/dobot_generate_messages_lisp: /home/edward/lab_10/devel/share/common-lisp/ros/dobot/srv/GetHOMEParams.lisp
+dobot/CMakeFiles/dobot_generate_messages_lisp: /home/edward/lab_10/devel/share/common-lisp/ros/dobot/srv/GetEndEffectorLaser.lisp
+
+
+/home/edward/lab_10/devel/share/common-lisp/ros/dobot/msg/PTPCommand.lisp: /opt/ros/melodic/lib/genlisp/gen_lisp.py
+/home/edward/lab_10/devel/share/common-lisp/ros/dobot/msg/PTPCommand.lisp: /home/edward/lab_10/src/dobot/msg/PTPCommand.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/edward/lab_10/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating Lisp code from dobot/PTPCommand.msg"
+	cd /home/edward/lab_10/build/dobot && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/genlisp/cmake/../../../lib/genlisp/gen_lisp.py /home/edward/lab_10/src/dobot/msg/PTPCommand.msg -Idobot:/home/edward/lab_10/src/dobot/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p dobot -o /home/edward/lab_10/devel/share/common-lisp/ros/dobot/msg
+
+/home/edward/lab_10/devel/share/common-lisp/ros/dobot/msg/CartesianSimple.lisp: /opt/ros/melodic/lib/genlisp/gen_lisp.py
+/home/edward/lab_10/devel/share/common-lisp/ros/dobot/msg/CartesianSimple.lisp: /home/edward/lab_10/src/dobot/msg/CartesianSimple.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/edward/lab_10/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating Lisp code from dobot/CartesianSimple.msg"
+	cd /home/edward/lab_10/build/dobot && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/genlisp/cmake/../../../lib/genlisp/gen_lisp.py /home/edward/lab_10/src/dobot/msg/CartesianSimple.msg -Idobot:/home/edward/lab_10/src/dobot/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p dobot -o /home/edward/lab_10/devel/share/common-lisp/ros/dobot/msg
+
+/home/edward/lab_10/devel/share/common-lisp/ros/dobot/msg/CartesianQuat.lisp: /opt/ros/melodic/lib/genlisp/gen_lisp.py
+/home/edward/lab_10/devel/share/common-lisp/ros/dobot/msg/CartesianQuat.lisp: /home/edward/lab_10/src/dobot/msg/CartesianQuat.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/edward/lab_10/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Generating Lisp code from dobot/CartesianQuat.msg"
+	cd /home/edward/lab_10/build/dobot && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/genlisp/cmake/../../../lib/genlisp/gen_lisp.py /home/edward/lab_10/src/dobot/msg/CartesianQuat.msg -Idobot:/home/edward/lab_10/src/dobot/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p dobot -o /home/edward/lab_10/devel/share/common-lisp/ros/dobot/msg
+
+/home/edward/lab_10/devel/share/common-lisp/ros/dobot/msg/Joint.lisp: /opt/ros/melodic/lib/genlisp/gen_lisp.py
+/home/edward/lab_10/devel/share/common-lisp/ros/dobot/msg/Joint.lisp: /home/edward/lab_10/src/dobot/msg/Joint.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/edward/lab_10/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Generating Lisp code from dobot/Joint.msg"
+	cd /home/edward/lab_10/build/dobot && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/genlisp/cmake/../../../lib/genlisp/gen_lisp.py /home/edward/lab_10/src/dobot/msg/Joint.msg -Idobot:/home/edward/lab_10/src/dobot/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p dobot -o /home/edward/lab_10/devel/share/common-lisp/ros/dobot/msg
+
+/home/edward/lab_10/devel/share/common-lisp/ros/dobot/srv/SetJOGCmd.lisp: /opt/ros/melodic/lib/genlisp/gen_lisp.py
+/home/edward/lab_10/devel/share/common-lisp/ros/dobot/srv/SetJOGCmd.lisp: /home/edward/lab_10/src/dobot/srv/SetJOGCmd.srv
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/edward/lab_10/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Generating Lisp code from dobot/SetJOGCmd.srv"
+	cd /home/edward/lab_10/build/dobot && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/genlisp/cmake/../../../lib/genlisp/gen_lisp.py /home/edward/lab_10/src/dobot/srv/SetJOGCmd.srv -Idobot:/home/edward/lab_10/src/dobot/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p dobot -o /home/edward/lab_10/devel/share/common-lisp/ros/dobot/srv
+
+/home/edward/lab_10/devel/share/common-lisp/ros/dobot/srv/SetPTPJointParams.lisp: /opt/ros/melodic/lib/genlisp/gen_lisp.py
+/home/edward/lab_10/devel/share/common-lisp/ros/dobot/srv/SetPTPJointParams.lisp: /home/edward/lab_10/src/dobot/srv/SetPTPJointParams.srv
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/edward/lab_10/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Generating Lisp code from dobot/SetPTPJointParams.srv"
+	cd /home/edward/lab_10/build/dobot && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/genlisp/cmake/../../../lib/genlisp/gen_lisp.py /home/edward/lab_10/src/dobot/srv/SetPTPJointParams.srv -Idobot:/home/edward/lab_10/src/dobot/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p dobot -o /home/edward/lab_10/devel/share/common-lisp/ros/dobot/srv
+
+/home/edward/lab_10/devel/share/common-lisp/ros/dobot/srv/SetIOMultiplexing.lisp: /opt/ros/melodic/lib/genlisp/gen_lisp.py
+/home/edward/lab_10/devel/share/common-lisp/ros/dobot/srv/SetIOMultiplexing.lisp: /home/edward/lab_10/src/dobot/srv/SetIOMultiplexing.srv
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/edward/lab_10/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Generating Lisp code from dobot/SetIOMultiplexing.srv"
+	cd /home/edward/lab_10/build/dobot && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/genlisp/cmake/../../../lib/genlisp/gen_lisp.py /home/edward/lab_10/src/dobot/srv/SetIOMultiplexing.srv -Idobot:/home/edward/lab_10/src/dobot/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p dobot -o /home/edward/lab_10/devel/share/common-lisp/ros/dobot/srv
+
+/home/edward/lab_10/devel/share/common-lisp/ros/dobot/srv/SetIOPWM.lisp: /opt/ros/melodic/lib/genlisp/gen_lisp.py
+/home/edward/lab_10/devel/share/common-lisp/ros/dobot/srv/SetIOPWM.lisp: /home/edward/lab_10/src/dobot/srv/SetIOPWM.srv
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/edward/lab_10/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Generating Lisp code from dobot/SetIOPWM.srv"
+	cd /home/edward/lab_10/build/dobot && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/genlisp/cmake/../../../lib/genlisp/gen_lisp.py /home/edward/lab_10/src/dobot/srv/SetIOPWM.srv -Idobot:/home/edward/lab_10/src/dobot/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p dobot -o /home/edward/lab_10/devel/share/common-lisp/ros/dobot/srv
+
+/home/edward/lab_10/devel/share/common-lisp/ros/dobot/srv/GetJOGCoordinateParams.lisp: /opt/ros/melodic/lib/genlisp/gen_lisp.py
+/home/edward/lab_10/devel/share/common-lisp/ros/dobot/srv/GetJOGCoordinateParams.lisp: /home/edward/lab_10/src/dobot/srv/GetJOGCoordinateParams.srv
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/edward/lab_10/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Generating Lisp code from dobot/GetJOGCoordinateParams.srv"
+	cd /home/edward/lab_10/build/dobot && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/genlisp/cmake/../../../lib/genlisp/gen_lisp.py /home/edward/lab_10/src/dobot/srv/GetJOGCoordinateParams.srv -Idobot:/home/edward/lab_10/src/dobot/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p dobot -o /home/edward/lab_10/devel/share/common-lisp/ros/dobot/srv
+
+/home/edward/lab_10/devel/share/common-lisp/ros/dobot/srv/SetWAITCmd.lisp: /opt/ros/melodic/lib/genlisp/gen_lisp.py
+/home/edward/lab_10/devel/share/common-lisp/ros/dobot/srv/SetWAITCmd.lisp: /home/edward/lab_10/src/dobot/srv/SetWAITCmd.srv
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/edward/lab_10/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Generating Lisp code from dobot/SetWAITCmd.srv"
+	cd /home/edward/lab_10/build/dobot && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/genlisp/cmake/../../../lib/genlisp/gen_lisp.py /home/edward/lab_10/src/dobot/srv/SetWAITCmd.srv -Idobot:/home/edward/lab_10/src/dobot/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p dobot -o /home/edward/lab_10/devel/share/common-lisp/ros/dobot/srv
+
+/home/edward/lab_10/devel/share/common-lisp/ros/dobot/srv/GetIOPWM.lisp: /opt/ros/melodic/lib/genlisp/gen_lisp.py
+/home/edward/lab_10/devel/share/common-lisp/ros/dobot/srv/GetIOPWM.lisp: /home/edward/lab_10/src/dobot/srv/GetIOPWM.srv
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/edward/lab_10/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Generating Lisp code from dobot/GetIOPWM.srv"
+	cd /home/edward/lab_10/build/dobot && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/genlisp/cmake/../../../lib/genlisp/gen_lisp.py /home/edward/lab_10/src/dobot/srv/GetIOPWM.srv -Idobot:/home/edward/lab_10/src/dobot/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p dobot -o /home/edward/lab_10/devel/share/common-lisp/ros/dobot/srv
+
+/home/edward/lab_10/devel/share/common-lisp/ros/dobot/srv/SetCPParams.lisp: /opt/ros/melodic/lib/genlisp/gen_lisp.py
+/home/edward/lab_10/devel/share/common-lisp/ros/dobot/srv/SetCPParams.lisp: /home/edward/lab_10/src/dobot/srv/SetCPParams.srv
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/edward/lab_10/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Generating Lisp code from dobot/SetCPParams.srv"
+	cd /home/edward/lab_10/build/dobot && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/genlisp/cmake/../../../lib/genlisp/gen_lisp.py /home/edward/lab_10/src/dobot/srv/SetCPParams.srv -Idobot:/home/edward/lab_10/src/dobot/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p dobot -o /home/edward/lab_10/devel/share/common-lisp/ros/dobot/srv
+
+/home/edward/lab_10/devel/share/common-lisp/ros/dobot/srv/SetJOGJointParams.lisp: /opt/ros/melodic/lib/genlisp/gen_lisp.py
+/home/edward/lab_10/devel/share/common-lisp/ros/dobot/srv/SetJOGJointParams.lisp: /home/edward/lab_10/src/dobot/srv/SetJOGJointParams.srv
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/edward/lab_10/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Generating Lisp code from dobot/SetJOGJointParams.srv"
+	cd /home/edward/lab_10/build/dobot && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/genlisp/cmake/../../../lib/genlisp/gen_lisp.py /home/edward/lab_10/src/dobot/srv/SetJOGJointParams.srv -Idobot:/home/edward/lab_10/src/dobot/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p dobot -o /home/edward/lab_10/devel/share/common-lisp/ros/dobot/srv
+
+/home/edward/lab_10/devel/share/common-lisp/ros/dobot/srv/SetARCParams.lisp: /opt/ros/melodic/lib/genlisp/gen_lisp.py
+/home/edward/lab_10/devel/share/common-lisp/ros/dobot/srv/SetARCParams.lisp: /home/edward/lab_10/src/dobot/srv/SetARCParams.srv
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/edward/lab_10/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Generating Lisp code from dobot/SetARCParams.srv"
+	cd /home/edward/lab_10/build/dobot && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/genlisp/cmake/../../../lib/genlisp/gen_lisp.py /home/edward/lab_10/src/dobot/srv/SetARCParams.srv -Idobot:/home/edward/lab_10/src/dobot/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p dobot -o /home/edward/lab_10/devel/share/common-lisp/ros/dobot/srv
+
+/home/edward/lab_10/devel/share/common-lisp/ros/dobot/srv/SetARCCmd.lisp: /opt/ros/melodic/lib/genlisp/gen_lisp.py
+/home/edward/lab_10/devel/share/common-lisp/ros/dobot/srv/SetARCCmd.lisp: /home/edward/lab_10/src/dobot/srv/SetARCCmd.srv
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/edward/lab_10/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Generating Lisp code from dobot/SetARCCmd.srv"
+	cd /home/edward/lab_10/build/dobot && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/genlisp/cmake/../../../lib/genlisp/gen_lisp.py /home/edward/lab_10/src/dobot/srv/SetARCCmd.srv -Idobot:/home/edward/lab_10/src/dobot/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p dobot -o /home/edward/lab_10/devel/share/common-lisp/ros/dobot/srv
+
+/home/edward/lab_10/devel/share/common-lisp/ros/dobot/srv/SetCPCmd.lisp: /opt/ros/melodic/lib/genlisp/gen_lisp.py
+/home/edward/lab_10/devel/share/common-lisp/ros/dobot/srv/SetCPCmd.lisp: /home/edward/lab_10/src/dobot/srv/SetCPCmd.srv
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/edward/lab_10/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Generating Lisp code from dobot/SetCPCmd.srv"
+	cd /home/edward/lab_10/build/dobot && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/genlisp/cmake/../../../lib/genlisp/gen_lisp.py /home/edward/lab_10/src/dobot/srv/SetCPCmd.srv -Idobot:/home/edward/lab_10/src/dobot/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p dobot -o /home/edward/lab_10/devel/share/common-lisp/ros/dobot/srv
+
+/home/edward/lab_10/devel/share/common-lisp/ros/dobot/srv/SetEndEffectorGripper.lisp: /opt/ros/melodic/lib/genlisp/gen_lisp.py
+/home/edward/lab_10/devel/share/common-lisp/ros/dobot/srv/SetEndEffectorGripper.lisp: /home/edward/lab_10/src/dobot/srv/SetEndEffectorGripper.srv
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/edward/lab_10/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Generating Lisp code from dobot/SetEndEffectorGripper.srv"
+	cd /home/edward/lab_10/build/dobot && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/genlisp/cmake/../../../lib/genlisp/gen_lisp.py /home/edward/lab_10/src/dobot/srv/SetEndEffectorGripper.srv -Idobot:/home/edward/lab_10/src/dobot/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p dobot -o /home/edward/lab_10/devel/share/common-lisp/ros/dobot/srv
+
+/home/edward/lab_10/devel/share/common-lisp/ros/dobot/srv/GetPTPJointParams.lisp: /opt/ros/melodic/lib/genlisp/gen_lisp.py
+/home/edward/lab_10/devel/share/common-lisp/ros/dobot/srv/GetPTPJointParams.lisp: /home/edward/lab_10/src/dobot/srv/GetPTPJointParams.srv
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/edward/lab_10/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Generating Lisp code from dobot/GetPTPJointParams.srv"
+	cd /home/edward/lab_10/build/dobot && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/genlisp/cmake/../../../lib/genlisp/gen_lisp.py /home/edward/lab_10/src/dobot/srv/GetPTPJointParams.srv -Idobot:/home/edward/lab_10/src/dobot/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p dobot -o /home/edward/lab_10/devel/share/common-lisp/ros/dobot/srv
+
+/home/edward/lab_10/devel/share/common-lisp/ros/dobot/srv/GetARCParams.lisp: /opt/ros/melodic/lib/genlisp/gen_lisp.py
+/home/edward/lab_10/devel/share/common-lisp/ros/dobot/srv/GetARCParams.lisp: /home/edward/lab_10/src/dobot/srv/GetARCParams.srv
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/edward/lab_10/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Generating Lisp code from dobot/GetARCParams.srv"
+	cd /home/edward/lab_10/build/dobot && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/genlisp/cmake/../../../lib/genlisp/gen_lisp.py /home/edward/lab_10/src/dobot/srv/GetARCParams.srv -Idobot:/home/edward/lab_10/src/dobot/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p dobot -o /home/edward/lab_10/devel/share/common-lisp/ros/dobot/srv
+
+/home/edward/lab_10/devel/share/common-lisp/ros/dobot/srv/SetHOMEParams.lisp: /opt/ros/melodic/lib/genlisp/gen_lisp.py
+/home/edward/lab_10/devel/share/common-lisp/ros/dobot/srv/SetHOMEParams.lisp: /home/edward/lab_10/src/dobot/srv/SetHOMEParams.srv
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/edward/lab_10/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Generating Lisp code from dobot/SetHOMEParams.srv"
+	cd /home/edward/lab_10/build/dobot && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/genlisp/cmake/../../../lib/genlisp/gen_lisp.py /home/edward/lab_10/src/dobot/srv/SetHOMEParams.srv -Idobot:/home/edward/lab_10/src/dobot/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p dobot -o /home/edward/lab_10/devel/share/common-lisp/ros/dobot/srv
+
+/home/edward/lab_10/devel/share/common-lisp/ros/dobot/srv/SetColorSensor.lisp: /opt/ros/melodic/lib/genlisp/gen_lisp.py
+/home/edward/lab_10/devel/share/common-lisp/ros/dobot/srv/SetColorSensor.lisp: /home/edward/lab_10/src/dobot/srv/SetColorSensor.srv
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/edward/lab_10/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Generating Lisp code from dobot/SetColorSensor.srv"
+	cd /home/edward/lab_10/build/dobot && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/genlisp/cmake/../../../lib/genlisp/gen_lisp.py /home/edward/lab_10/src/dobot/srv/SetColorSensor.srv -Idobot:/home/edward/lab_10/src/dobot/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p dobot -o /home/edward/lab_10/devel/share/common-lisp/ros/dobot/srv
+
+/home/edward/lab_10/devel/share/common-lisp/ros/dobot/srv/SetInfraredSensor.lisp: /opt/ros/melodic/lib/genlisp/gen_lisp.py
+/home/edward/lab_10/devel/share/common-lisp/ros/dobot/srv/SetInfraredSensor.lisp: /home/edward/lab_10/src/dobot/srv/SetInfraredSensor.srv
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/edward/lab_10/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Generating Lisp code from dobot/SetInfraredSensor.srv"
+	cd /home/edward/lab_10/build/dobot && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/genlisp/cmake/../../../lib/genlisp/gen_lisp.py /home/edward/lab_10/src/dobot/srv/SetInfraredSensor.srv -Idobot:/home/edward/lab_10/src/dobot/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p dobot -o /home/edward/lab_10/devel/share/common-lisp/ros/dobot/srv
+
+/home/edward/lab_10/devel/share/common-lisp/ros/dobot/srv/GetPTPJumpParams.lisp: /opt/ros/melodic/lib/genlisp/gen_lisp.py
+/home/edward/lab_10/devel/share/common-lisp/ros/dobot/srv/GetPTPJumpParams.lisp: /home/edward/lab_10/src/dobot/srv/GetPTPJumpParams.srv
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/edward/lab_10/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Generating Lisp code from dobot/GetPTPJumpParams.srv"
+	cd /home/edward/lab_10/build/dobot && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/genlisp/cmake/../../../lib/genlisp/gen_lisp.py /home/edward/lab_10/src/dobot/srv/GetPTPJumpParams.srv -Idobot:/home/edward/lab_10/src/dobot/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p dobot -o /home/edward/lab_10/devel/share/common-lisp/ros/dobot/srv
+
+/home/edward/lab_10/devel/share/common-lisp/ros/dobot/srv/SetPTPJumpParams.lisp: /opt/ros/melodic/lib/genlisp/gen_lisp.py
+/home/edward/lab_10/devel/share/common-lisp/ros/dobot/srv/SetPTPJumpParams.lisp: /home/edward/lab_10/src/dobot/srv/SetPTPJumpParams.srv
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/edward/lab_10/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Generating Lisp code from dobot/SetPTPJumpParams.srv"
+	cd /home/edward/lab_10/build/dobot && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/genlisp/cmake/../../../lib/genlisp/gen_lisp.py /home/edward/lab_10/src/dobot/srv/SetPTPJumpParams.srv -Idobot:/home/edward/lab_10/src/dobot/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p dobot -o /home/edward/lab_10/devel/share/common-lisp/ros/dobot/srv
+
+/home/edward/lab_10/devel/share/common-lisp/ros/dobot/srv/SetPTPCommonParams.lisp: /opt/ros/melodic/lib/genlisp/gen_lisp.py
+/home/edward/lab_10/devel/share/common-lisp/ros/dobot/srv/SetPTPCommonParams.lisp: /home/edward/lab_10/src/dobot/srv/SetPTPCommonParams.srv
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/edward/lab_10/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Generating Lisp code from dobot/SetPTPCommonParams.srv"
+	cd /home/edward/lab_10/build/dobot && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/genlisp/cmake/../../../lib/genlisp/gen_lisp.py /home/edward/lab_10/src/dobot/srv/SetPTPCommonParams.srv -Idobot:/home/edward/lab_10/src/dobot/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p dobot -o /home/edward/lab_10/devel/share/common-lisp/ros/dobot/srv
+
+/home/edward/lab_10/devel/share/common-lisp/ros/dobot/srv/GetColorSensor.lisp: /opt/ros/melodic/lib/genlisp/gen_lisp.py
+/home/edward/lab_10/devel/share/common-lisp/ros/dobot/srv/GetColorSensor.lisp: /home/edward/lab_10/src/dobot/srv/GetColorSensor.srv
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/edward/lab_10/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Generating Lisp code from dobot/GetColorSensor.srv"
+	cd /home/edward/lab_10/build/dobot && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/genlisp/cmake/../../../lib/genlisp/gen_lisp.py /home/edward/lab_10/src/dobot/srv/GetColorSensor.srv -Idobot:/home/edward/lab_10/src/dobot/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p dobot -o /home/edward/lab_10/devel/share/common-lisp/ros/dobot/srv
+
+/home/edward/lab_10/devel/share/common-lisp/ros/dobot/srv/GetIOADC.lisp: /opt/ros/melodic/lib/genlisp/gen_lisp.py
+/home/edward/lab_10/devel/share/common-lisp/ros/dobot/srv/GetIOADC.lisp: /home/edward/lab_10/src/dobot/srv/GetIOADC.srv
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/edward/lab_10/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Generating Lisp code from dobot/GetIOADC.srv"
+	cd /home/edward/lab_10/build/dobot && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/genlisp/cmake/../../../lib/genlisp/gen_lisp.py /home/edward/lab_10/src/dobot/srv/GetIOADC.srv -Idobot:/home/edward/lab_10/src/dobot/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p dobot -o /home/edward/lab_10/devel/share/common-lisp/ros/dobot/srv
+
+/home/edward/lab_10/devel/share/common-lisp/ros/dobot/srv/SetEMotor.lisp: /opt/ros/melodic/lib/genlisp/gen_lisp.py
+/home/edward/lab_10/devel/share/common-lisp/ros/dobot/srv/SetEMotor.lisp: /home/edward/lab_10/src/dobot/srv/SetEMotor.srv
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/edward/lab_10/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Generating Lisp code from dobot/SetEMotor.srv"
+	cd /home/edward/lab_10/build/dobot && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/genlisp/cmake/../../../lib/genlisp/gen_lisp.py /home/edward/lab_10/src/dobot/srv/SetEMotor.srv -Idobot:/home/edward/lab_10/src/dobot/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p dobot -o /home/edward/lab_10/devel/share/common-lisp/ros/dobot/srv
+
+/home/edward/lab_10/devel/share/common-lisp/ros/dobot/srv/GetPTPCoordinateParams.lisp: /opt/ros/melodic/lib/genlisp/gen_lisp.py
+/home/edward/lab_10/devel/share/common-lisp/ros/dobot/srv/GetPTPCoordinateParams.lisp: /home/edward/lab_10/src/dobot/srv/GetPTPCoordinateParams.srv
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/edward/lab_10/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Generating Lisp code from dobot/GetPTPCoordinateParams.srv"
+	cd /home/edward/lab_10/build/dobot && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/genlisp/cmake/../../../lib/genlisp/gen_lisp.py /home/edward/lab_10/src/dobot/srv/GetPTPCoordinateParams.srv -Idobot:/home/edward/lab_10/src/dobot/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p dobot -o /home/edward/lab_10/devel/share/common-lisp/ros/dobot/srv
+
+/home/edward/lab_10/devel/share/common-lisp/ros/dobot/srv/GetDeviceVersion.lisp: /opt/ros/melodic/lib/genlisp/gen_lisp.py
+/home/edward/lab_10/devel/share/common-lisp/ros/dobot/srv/GetDeviceVersion.lisp: /home/edward/lab_10/src/dobot/srv/GetDeviceVersion.srv
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/edward/lab_10/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Generating Lisp code from dobot/GetDeviceVersion.srv"
+	cd /home/edward/lab_10/build/dobot && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/genlisp/cmake/../../../lib/genlisp/gen_lisp.py /home/edward/lab_10/src/dobot/srv/GetDeviceVersion.srv -Idobot:/home/edward/lab_10/src/dobot/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p dobot -o /home/edward/lab_10/devel/share/common-lisp/ros/dobot/srv
+
+/home/edward/lab_10/devel/share/common-lisp/ros/dobot/srv/GetPTPCommonParams.lisp: /opt/ros/melodic/lib/genlisp/gen_lisp.py
+/home/edward/lab_10/devel/share/common-lisp/ros/dobot/srv/GetPTPCommonParams.lisp: /home/edward/lab_10/src/dobot/srv/GetPTPCommonParams.srv
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/edward/lab_10/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Generating Lisp code from dobot/GetPTPCommonParams.srv"
+	cd /home/edward/lab_10/build/dobot && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/genlisp/cmake/../../../lib/genlisp/gen_lisp.py /home/edward/lab_10/src/dobot/srv/GetPTPCommonParams.srv -Idobot:/home/edward/lab_10/src/dobot/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p dobot -o /home/edward/lab_10/devel/share/common-lisp/ros/dobot/srv
+
+/home/edward/lab_10/devel/share/common-lisp/ros/dobot/srv/SetEndEffectorLaser.lisp: /opt/ros/melodic/lib/genlisp/gen_lisp.py
+/home/edward/lab_10/devel/share/common-lisp/ros/dobot/srv/SetEndEffectorLaser.lisp: /home/edward/lab_10/src/dobot/srv/SetEndEffectorLaser.srv
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/edward/lab_10/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Generating Lisp code from dobot/SetEndEffectorLaser.srv"
+	cd /home/edward/lab_10/build/dobot && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/genlisp/cmake/../../../lib/genlisp/gen_lisp.py /home/edward/lab_10/src/dobot/srv/SetEndEffectorLaser.srv -Idobot:/home/edward/lab_10/src/dobot/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p dobot -o /home/edward/lab_10/devel/share/common-lisp/ros/dobot/srv
+
+/home/edward/lab_10/devel/share/common-lisp/ros/dobot/srv/SetQueuedCmdStartExec.lisp: /opt/ros/melodic/lib/genlisp/gen_lisp.py
+/home/edward/lab_10/devel/share/common-lisp/ros/dobot/srv/SetQueuedCmdStartExec.lisp: /home/edward/lab_10/src/dobot/srv/SetQueuedCmdStartExec.srv
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/edward/lab_10/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Generating Lisp code from dobot/SetQueuedCmdStartExec.srv"
+	cd /home/edward/lab_10/build/dobot && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/genlisp/cmake/../../../lib/genlisp/gen_lisp.py /home/edward/lab_10/src/dobot/srv/SetQueuedCmdStartExec.srv -Idobot:/home/edward/lab_10/src/dobot/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p dobot -o /home/edward/lab_10/devel/share/common-lisp/ros/dobot/srv
+
+/home/edward/lab_10/devel/share/common-lisp/ros/dobot/srv/GetEndEffectorSuctionCup.lisp: /opt/ros/melodic/lib/genlisp/gen_lisp.py
+/home/edward/lab_10/devel/share/common-lisp/ros/dobot/srv/GetEndEffectorSuctionCup.lisp: /home/edward/lab_10/src/dobot/srv/GetEndEffectorSuctionCup.srv
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/edward/lab_10/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Generating Lisp code from dobot/GetEndEffectorSuctionCup.srv"
+	cd /home/edward/lab_10/build/dobot && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/genlisp/cmake/../../../lib/genlisp/gen_lisp.py /home/edward/lab_10/src/dobot/srv/GetEndEffectorSuctionCup.srv -Idobot:/home/edward/lab_10/src/dobot/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p dobot -o /home/edward/lab_10/devel/share/common-lisp/ros/dobot/srv
+
+/home/edward/lab_10/devel/share/common-lisp/ros/dobot/srv/GetInfraredSensor.lisp: /opt/ros/melodic/lib/genlisp/gen_lisp.py
+/home/edward/lab_10/devel/share/common-lisp/ros/dobot/srv/GetInfraredSensor.lisp: /home/edward/lab_10/src/dobot/srv/GetInfraredSensor.srv
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/edward/lab_10/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Generating Lisp code from dobot/GetInfraredSensor.srv"
+	cd /home/edward/lab_10/build/dobot && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/genlisp/cmake/../../../lib/genlisp/gen_lisp.py /home/edward/lab_10/src/dobot/srv/GetInfraredSensor.srv -Idobot:/home/edward/lab_10/src/dobot/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p dobot -o /home/edward/lab_10/devel/share/common-lisp/ros/dobot/srv
+
+/home/edward/lab_10/devel/share/common-lisp/ros/dobot/srv/GetAlarmsState.lisp: /opt/ros/melodic/lib/genlisp/gen_lisp.py
+/home/edward/lab_10/devel/share/common-lisp/ros/dobot/srv/GetAlarmsState.lisp: /home/edward/lab_10/src/dobot/srv/GetAlarmsState.srv
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/edward/lab_10/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Generating Lisp code from dobot/GetAlarmsState.srv"
+	cd /home/edward/lab_10/build/dobot && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/genlisp/cmake/../../../lib/genlisp/gen_lisp.py /home/edward/lab_10/src/dobot/srv/GetAlarmsState.srv -Idobot:/home/edward/lab_10/src/dobot/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p dobot -o /home/edward/lab_10/devel/share/common-lisp/ros/dobot/srv
+
+/home/edward/lab_10/devel/share/common-lisp/ros/dobot/srv/SetEndEffectorSuctionCup.lisp: /opt/ros/melodic/lib/genlisp/gen_lisp.py
+/home/edward/lab_10/devel/share/common-lisp/ros/dobot/srv/SetEndEffectorSuctionCup.lisp: /home/edward/lab_10/src/dobot/srv/SetEndEffectorSuctionCup.srv
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/edward/lab_10/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Generating Lisp code from dobot/SetEndEffectorSuctionCup.srv"
+	cd /home/edward/lab_10/build/dobot && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/genlisp/cmake/../../../lib/genlisp/gen_lisp.py /home/edward/lab_10/src/dobot/srv/SetEndEffectorSuctionCup.srv -Idobot:/home/edward/lab_10/src/dobot/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p dobot -o /home/edward/lab_10/devel/share/common-lisp/ros/dobot/srv
+
+/home/edward/lab_10/devel/share/common-lisp/ros/dobot/srv/SetIODO.lisp: /opt/ros/melodic/lib/genlisp/gen_lisp.py
+/home/edward/lab_10/devel/share/common-lisp/ros/dobot/srv/SetIODO.lisp: /home/edward/lab_10/src/dobot/srv/SetIODO.srv
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/edward/lab_10/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Generating Lisp code from dobot/SetIODO.srv"
+	cd /home/edward/lab_10/build/dobot && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/genlisp/cmake/../../../lib/genlisp/gen_lisp.py /home/edward/lab_10/src/dobot/srv/SetIODO.srv -Idobot:/home/edward/lab_10/src/dobot/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p dobot -o /home/edward/lab_10/devel/share/common-lisp/ros/dobot/srv
+
+/home/edward/lab_10/devel/share/common-lisp/ros/dobot/srv/GetIOMultiplexing.lisp: /opt/ros/melodic/lib/genlisp/gen_lisp.py
+/home/edward/lab_10/devel/share/common-lisp/ros/dobot/srv/GetIOMultiplexing.lisp: /home/edward/lab_10/src/dobot/srv/GetIOMultiplexing.srv
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/edward/lab_10/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Generating Lisp code from dobot/GetIOMultiplexing.srv"
+	cd /home/edward/lab_10/build/dobot && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/genlisp/cmake/../../../lib/genlisp/gen_lisp.py /home/edward/lab_10/src/dobot/srv/GetIOMultiplexing.srv -Idobot:/home/edward/lab_10/src/dobot/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p dobot -o /home/edward/lab_10/devel/share/common-lisp/ros/dobot/srv
+
+/home/edward/lab_10/devel/share/common-lisp/ros/dobot/srv/SetQueuedCmdStopExec.lisp: /opt/ros/melodic/lib/genlisp/gen_lisp.py
+/home/edward/lab_10/devel/share/common-lisp/ros/dobot/srv/SetQueuedCmdStopExec.lisp: /home/edward/lab_10/src/dobot/srv/SetQueuedCmdStopExec.srv
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/edward/lab_10/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Generating Lisp code from dobot/SetQueuedCmdStopExec.srv"
+	cd /home/edward/lab_10/build/dobot && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/genlisp/cmake/../../../lib/genlisp/gen_lisp.py /home/edward/lab_10/src/dobot/srv/SetQueuedCmdStopExec.srv -Idobot:/home/edward/lab_10/src/dobot/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p dobot -o /home/edward/lab_10/devel/share/common-lisp/ros/dobot/srv
+
+/home/edward/lab_10/devel/share/common-lisp/ros/dobot/srv/SetPTPCoordinateParams.lisp: /opt/ros/melodic/lib/genlisp/gen_lisp.py
+/home/edward/lab_10/devel/share/common-lisp/ros/dobot/srv/SetPTPCoordinateParams.lisp: /home/edward/lab_10/src/dobot/srv/SetPTPCoordinateParams.srv
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/edward/lab_10/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Generating Lisp code from dobot/SetPTPCoordinateParams.srv"
+	cd /home/edward/lab_10/build/dobot && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/genlisp/cmake/../../../lib/genlisp/gen_lisp.py /home/edward/lab_10/src/dobot/srv/SetPTPCoordinateParams.srv -Idobot:/home/edward/lab_10/src/dobot/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p dobot -o /home/edward/lab_10/devel/share/common-lisp/ros/dobot/srv
+
+/home/edward/lab_10/devel/share/common-lisp/ros/dobot/srv/SetDeviceName.lisp: /opt/ros/melodic/lib/genlisp/gen_lisp.py
+/home/edward/lab_10/devel/share/common-lisp/ros/dobot/srv/SetDeviceName.lisp: /home/edward/lab_10/src/dobot/srv/SetDeviceName.srv
+/home/edward/lab_10/devel/share/common-lisp/ros/dobot/srv/SetDeviceName.lisp: /opt/ros/melodic/share/std_msgs/msg/String.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/edward/lab_10/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Generating Lisp code from dobot/SetDeviceName.srv"
+	cd /home/edward/lab_10/build/dobot && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/genlisp/cmake/../../../lib/genlisp/gen_lisp.py /home/edward/lab_10/src/dobot/srv/SetDeviceName.srv -Idobot:/home/edward/lab_10/src/dobot/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p dobot -o /home/edward/lab_10/devel/share/common-lisp/ros/dobot/srv
+
+/home/edward/lab_10/devel/share/common-lisp/ros/dobot/srv/GetEndEffectorParams.lisp: /opt/ros/melodic/lib/genlisp/gen_lisp.py
+/home/edward/lab_10/devel/share/common-lisp/ros/dobot/srv/GetEndEffectorParams.lisp: /home/edward/lab_10/src/dobot/srv/GetEndEffectorParams.srv
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/edward/lab_10/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Generating Lisp code from dobot/GetEndEffectorParams.srv"
+	cd /home/edward/lab_10/build/dobot && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/genlisp/cmake/../../../lib/genlisp/gen_lisp.py /home/edward/lab_10/src/dobot/srv/GetEndEffectorParams.srv -Idobot:/home/edward/lab_10/src/dobot/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p dobot -o /home/edward/lab_10/devel/share/common-lisp/ros/dobot/srv
+
+/home/edward/lab_10/devel/share/common-lisp/ros/dobot/srv/SetPTPCmd.lisp: /opt/ros/melodic/lib/genlisp/gen_lisp.py
+/home/edward/lab_10/devel/share/common-lisp/ros/dobot/srv/SetPTPCmd.lisp: /home/edward/lab_10/src/dobot/srv/SetPTPCmd.srv
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/edward/lab_10/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Generating Lisp code from dobot/SetPTPCmd.srv"
+	cd /home/edward/lab_10/build/dobot && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/genlisp/cmake/../../../lib/genlisp/gen_lisp.py /home/edward/lab_10/src/dobot/srv/SetPTPCmd.srv -Idobot:/home/edward/lab_10/src/dobot/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p dobot -o /home/edward/lab_10/devel/share/common-lisp/ros/dobot/srv
+
+/home/edward/lab_10/devel/share/common-lisp/ros/dobot/srv/GetDeviceSN.lisp: /opt/ros/melodic/lib/genlisp/gen_lisp.py
+/home/edward/lab_10/devel/share/common-lisp/ros/dobot/srv/GetDeviceSN.lisp: /home/edward/lab_10/src/dobot/srv/GetDeviceSN.srv
+/home/edward/lab_10/devel/share/common-lisp/ros/dobot/srv/GetDeviceSN.lisp: /opt/ros/melodic/share/std_msgs/msg/String.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/edward/lab_10/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_45) "Generating Lisp code from dobot/GetDeviceSN.srv"
+	cd /home/edward/lab_10/build/dobot && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/genlisp/cmake/../../../lib/genlisp/gen_lisp.py /home/edward/lab_10/src/dobot/srv/GetDeviceSN.srv -Idobot:/home/edward/lab_10/src/dobot/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p dobot -o /home/edward/lab_10/devel/share/common-lisp/ros/dobot/srv
+
+/home/edward/lab_10/devel/share/common-lisp/ros/dobot/srv/GetJOGJointParams.lisp: /opt/ros/melodic/lib/genlisp/gen_lisp.py
+/home/edward/lab_10/devel/share/common-lisp/ros/dobot/srv/GetJOGJointParams.lisp: /home/edward/lab_10/src/dobot/srv/GetJOGJointParams.srv
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/edward/lab_10/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_46) "Generating Lisp code from dobot/GetJOGJointParams.srv"
+	cd /home/edward/lab_10/build/dobot && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/genlisp/cmake/../../../lib/genlisp/gen_lisp.py /home/edward/lab_10/src/dobot/srv/GetJOGJointParams.srv -Idobot:/home/edward/lab_10/src/dobot/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p dobot -o /home/edward/lab_10/devel/share/common-lisp/ros/dobot/srv
+
+/home/edward/lab_10/devel/share/common-lisp/ros/dobot/srv/SetJOGCoordinateParams.lisp: /opt/ros/melodic/lib/genlisp/gen_lisp.py
+/home/edward/lab_10/devel/share/common-lisp/ros/dobot/srv/SetJOGCoordinateParams.lisp: /home/edward/lab_10/src/dobot/srv/SetJOGCoordinateParams.srv
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/edward/lab_10/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Generating Lisp code from dobot/SetJOGCoordinateParams.srv"
+	cd /home/edward/lab_10/build/dobot && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/genlisp/cmake/../../../lib/genlisp/gen_lisp.py /home/edward/lab_10/src/dobot/srv/SetJOGCoordinateParams.srv -Idobot:/home/edward/lab_10/src/dobot/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p dobot -o /home/edward/lab_10/devel/share/common-lisp/ros/dobot/srv
+
+/home/edward/lab_10/devel/share/common-lisp/ros/dobot/srv/GetIODO.lisp: /opt/ros/melodic/lib/genlisp/gen_lisp.py
+/home/edward/lab_10/devel/share/common-lisp/ros/dobot/srv/GetIODO.lisp: /home/edward/lab_10/src/dobot/srv/GetIODO.srv
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/edward/lab_10/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_48) "Generating Lisp code from dobot/GetIODO.srv"
+	cd /home/edward/lab_10/build/dobot && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/genlisp/cmake/../../../lib/genlisp/gen_lisp.py /home/edward/lab_10/src/dobot/srv/GetIODO.srv -Idobot:/home/edward/lab_10/src/dobot/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p dobot -o /home/edward/lab_10/devel/share/common-lisp/ros/dobot/srv
+
+/home/edward/lab_10/devel/share/common-lisp/ros/dobot/srv/ClearAllAlarmsState.lisp: /opt/ros/melodic/lib/genlisp/gen_lisp.py
+/home/edward/lab_10/devel/share/common-lisp/ros/dobot/srv/ClearAllAlarmsState.lisp: /home/edward/lab_10/src/dobot/srv/ClearAllAlarmsState.srv
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/edward/lab_10/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_49) "Generating Lisp code from dobot/ClearAllAlarmsState.srv"
+	cd /home/edward/lab_10/build/dobot && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/genlisp/cmake/../../../lib/genlisp/gen_lisp.py /home/edward/lab_10/src/dobot/srv/ClearAllAlarmsState.srv -Idobot:/home/edward/lab_10/src/dobot/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p dobot -o /home/edward/lab_10/devel/share/common-lisp/ros/dobot/srv
+
+/home/edward/lab_10/devel/share/common-lisp/ros/dobot/srv/GetPose.lisp: /opt/ros/melodic/lib/genlisp/gen_lisp.py
+/home/edward/lab_10/devel/share/common-lisp/ros/dobot/srv/GetPose.lisp: /home/edward/lab_10/src/dobot/srv/GetPose.srv
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/edward/lab_10/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_50) "Generating Lisp code from dobot/GetPose.srv"
+	cd /home/edward/lab_10/build/dobot && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/genlisp/cmake/../../../lib/genlisp/gen_lisp.py /home/edward/lab_10/src/dobot/srv/GetPose.srv -Idobot:/home/edward/lab_10/src/dobot/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p dobot -o /home/edward/lab_10/devel/share/common-lisp/ros/dobot/srv
+
+/home/edward/lab_10/devel/share/common-lisp/ros/dobot/srv/GetJOGCommonParams.lisp: /opt/ros/melodic/lib/genlisp/gen_lisp.py
+/home/edward/lab_10/devel/share/common-lisp/ros/dobot/srv/GetJOGCommonParams.lisp: /home/edward/lab_10/src/dobot/srv/GetJOGCommonParams.srv
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/edward/lab_10/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_51) "Generating Lisp code from dobot/GetJOGCommonParams.srv"
+	cd /home/edward/lab_10/build/dobot && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/genlisp/cmake/../../../lib/genlisp/gen_lisp.py /home/edward/lab_10/src/dobot/srv/GetJOGCommonParams.srv -Idobot:/home/edward/lab_10/src/dobot/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p dobot -o /home/edward/lab_10/devel/share/common-lisp/ros/dobot/srv
+
+/home/edward/lab_10/devel/share/common-lisp/ros/dobot/srv/SetHOMECmd.lisp: /opt/ros/melodic/lib/genlisp/gen_lisp.py
+/home/edward/lab_10/devel/share/common-lisp/ros/dobot/srv/SetHOMECmd.lisp: /home/edward/lab_10/src/dobot/srv/SetHOMECmd.srv
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/edward/lab_10/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_52) "Generating Lisp code from dobot/SetHOMECmd.srv"
+	cd /home/edward/lab_10/build/dobot && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/genlisp/cmake/../../../lib/genlisp/gen_lisp.py /home/edward/lab_10/src/dobot/srv/SetHOMECmd.srv -Idobot:/home/edward/lab_10/src/dobot/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p dobot -o /home/edward/lab_10/devel/share/common-lisp/ros/dobot/srv
+
+/home/edward/lab_10/devel/share/common-lisp/ros/dobot/srv/SetCmdTimeout.lisp: /opt/ros/melodic/lib/genlisp/gen_lisp.py
+/home/edward/lab_10/devel/share/common-lisp/ros/dobot/srv/SetCmdTimeout.lisp: /home/edward/lab_10/src/dobot/srv/SetCmdTimeout.srv
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/edward/lab_10/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_53) "Generating Lisp code from dobot/SetCmdTimeout.srv"
+	cd /home/edward/lab_10/build/dobot && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/genlisp/cmake/../../../lib/genlisp/gen_lisp.py /home/edward/lab_10/src/dobot/srv/SetCmdTimeout.srv -Idobot:/home/edward/lab_10/src/dobot/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p dobot -o /home/edward/lab_10/devel/share/common-lisp/ros/dobot/srv
+
+/home/edward/lab_10/devel/share/common-lisp/ros/dobot/srv/SetTRIGCmd.lisp: /opt/ros/melodic/lib/genlisp/gen_lisp.py
+/home/edward/lab_10/devel/share/common-lisp/ros/dobot/srv/SetTRIGCmd.lisp: /home/edward/lab_10/src/dobot/srv/SetTRIGCmd.srv
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/edward/lab_10/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_54) "Generating Lisp code from dobot/SetTRIGCmd.srv"
+	cd /home/edward/lab_10/build/dobot && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/genlisp/cmake/../../../lib/genlisp/gen_lisp.py /home/edward/lab_10/src/dobot/srv/SetTRIGCmd.srv -Idobot:/home/edward/lab_10/src/dobot/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p dobot -o /home/edward/lab_10/devel/share/common-lisp/ros/dobot/srv
+
+/home/edward/lab_10/devel/share/common-lisp/ros/dobot/srv/SetQueuedCmdClear.lisp: /opt/ros/melodic/lib/genlisp/gen_lisp.py
+/home/edward/lab_10/devel/share/common-lisp/ros/dobot/srv/SetQueuedCmdClear.lisp: /home/edward/lab_10/src/dobot/srv/SetQueuedCmdClear.srv
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/edward/lab_10/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_55) "Generating Lisp code from dobot/SetQueuedCmdClear.srv"
+	cd /home/edward/lab_10/build/dobot && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/genlisp/cmake/../../../lib/genlisp/gen_lisp.py /home/edward/lab_10/src/dobot/srv/SetQueuedCmdClear.srv -Idobot:/home/edward/lab_10/src/dobot/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p dobot -o /home/edward/lab_10/devel/share/common-lisp/ros/dobot/srv
+
+/home/edward/lab_10/devel/share/common-lisp/ros/dobot/srv/GetIODI.lisp: /opt/ros/melodic/lib/genlisp/gen_lisp.py
+/home/edward/lab_10/devel/share/common-lisp/ros/dobot/srv/GetIODI.lisp: /home/edward/lab_10/src/dobot/srv/GetIODI.srv
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/edward/lab_10/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_56) "Generating Lisp code from dobot/GetIODI.srv"
+	cd /home/edward/lab_10/build/dobot && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/genlisp/cmake/../../../lib/genlisp/gen_lisp.py /home/edward/lab_10/src/dobot/srv/GetIODI.srv -Idobot:/home/edward/lab_10/src/dobot/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p dobot -o /home/edward/lab_10/devel/share/common-lisp/ros/dobot/srv
+
+/home/edward/lab_10/devel/share/common-lisp/ros/dobot/srv/GetEndEffectorGripper.lisp: /opt/ros/melodic/lib/genlisp/gen_lisp.py
+/home/edward/lab_10/devel/share/common-lisp/ros/dobot/srv/GetEndEffectorGripper.lisp: /home/edward/lab_10/src/dobot/srv/GetEndEffectorGripper.srv
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/edward/lab_10/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_57) "Generating Lisp code from dobot/GetEndEffectorGripper.srv"
+	cd /home/edward/lab_10/build/dobot && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/genlisp/cmake/../../../lib/genlisp/gen_lisp.py /home/edward/lab_10/src/dobot/srv/GetEndEffectorGripper.srv -Idobot:/home/edward/lab_10/src/dobot/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p dobot -o /home/edward/lab_10/devel/share/common-lisp/ros/dobot/srv
+
+/home/edward/lab_10/devel/share/common-lisp/ros/dobot/srv/GetDeviceName.lisp: /opt/ros/melodic/lib/genlisp/gen_lisp.py
+/home/edward/lab_10/devel/share/common-lisp/ros/dobot/srv/GetDeviceName.lisp: /home/edward/lab_10/src/dobot/srv/GetDeviceName.srv
+/home/edward/lab_10/devel/share/common-lisp/ros/dobot/srv/GetDeviceName.lisp: /opt/ros/melodic/share/std_msgs/msg/String.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/edward/lab_10/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_58) "Generating Lisp code from dobot/GetDeviceName.srv"
+	cd /home/edward/lab_10/build/dobot && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/genlisp/cmake/../../../lib/genlisp/gen_lisp.py /home/edward/lab_10/src/dobot/srv/GetDeviceName.srv -Idobot:/home/edward/lab_10/src/dobot/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p dobot -o /home/edward/lab_10/devel/share/common-lisp/ros/dobot/srv
+
+/home/edward/lab_10/devel/share/common-lisp/ros/dobot/srv/SetQueuedCmdForceStopExec.lisp: /opt/ros/melodic/lib/genlisp/gen_lisp.py
+/home/edward/lab_10/devel/share/common-lisp/ros/dobot/srv/SetQueuedCmdForceStopExec.lisp: /home/edward/lab_10/src/dobot/srv/SetQueuedCmdForceStopExec.srv
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/edward/lab_10/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_59) "Generating Lisp code from dobot/SetQueuedCmdForceStopExec.srv"
+	cd /home/edward/lab_10/build/dobot && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/genlisp/cmake/../../../lib/genlisp/gen_lisp.py /home/edward/lab_10/src/dobot/srv/SetQueuedCmdForceStopExec.srv -Idobot:/home/edward/lab_10/src/dobot/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p dobot -o /home/edward/lab_10/devel/share/common-lisp/ros/dobot/srv
+
+/home/edward/lab_10/devel/share/common-lisp/ros/dobot/srv/SetEndEffectorParams.lisp: /opt/ros/melodic/lib/genlisp/gen_lisp.py
+/home/edward/lab_10/devel/share/common-lisp/ros/dobot/srv/SetEndEffectorParams.lisp: /home/edward/lab_10/src/dobot/srv/SetEndEffectorParams.srv
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/edward/lab_10/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_60) "Generating Lisp code from dobot/SetEndEffectorParams.srv"
+	cd /home/edward/lab_10/build/dobot && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/genlisp/cmake/../../../lib/genlisp/gen_lisp.py /home/edward/lab_10/src/dobot/srv/SetEndEffectorParams.srv -Idobot:/home/edward/lab_10/src/dobot/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p dobot -o /home/edward/lab_10/devel/share/common-lisp/ros/dobot/srv
+
+/home/edward/lab_10/devel/share/common-lisp/ros/dobot/srv/GetCPParams.lisp: /opt/ros/melodic/lib/genlisp/gen_lisp.py
+/home/edward/lab_10/devel/share/common-lisp/ros/dobot/srv/GetCPParams.lisp: /home/edward/lab_10/src/dobot/srv/GetCPParams.srv
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/edward/lab_10/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_61) "Generating Lisp code from dobot/GetCPParams.srv"
+	cd /home/edward/lab_10/build/dobot && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/genlisp/cmake/../../../lib/genlisp/gen_lisp.py /home/edward/lab_10/src/dobot/srv/GetCPParams.srv -Idobot:/home/edward/lab_10/src/dobot/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p dobot -o /home/edward/lab_10/devel/share/common-lisp/ros/dobot/srv
+
+/home/edward/lab_10/devel/share/common-lisp/ros/dobot/srv/SetJOGCommonParams.lisp: /opt/ros/melodic/lib/genlisp/gen_lisp.py
+/home/edward/lab_10/devel/share/common-lisp/ros/dobot/srv/SetJOGCommonParams.lisp: /home/edward/lab_10/src/dobot/srv/SetJOGCommonParams.srv
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/edward/lab_10/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_62) "Generating Lisp code from dobot/SetJOGCommonParams.srv"
+	cd /home/edward/lab_10/build/dobot && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/genlisp/cmake/../../../lib/genlisp/gen_lisp.py /home/edward/lab_10/src/dobot/srv/SetJOGCommonParams.srv -Idobot:/home/edward/lab_10/src/dobot/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p dobot -o /home/edward/lab_10/devel/share/common-lisp/ros/dobot/srv
+
+/home/edward/lab_10/devel/share/common-lisp/ros/dobot/srv/GetHOMEParams.lisp: /opt/ros/melodic/lib/genlisp/gen_lisp.py
+/home/edward/lab_10/devel/share/common-lisp/ros/dobot/srv/GetHOMEParams.lisp: /home/edward/lab_10/src/dobot/srv/GetHOMEParams.srv
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/edward/lab_10/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_63) "Generating Lisp code from dobot/GetHOMEParams.srv"
+	cd /home/edward/lab_10/build/dobot && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/genlisp/cmake/../../../lib/genlisp/gen_lisp.py /home/edward/lab_10/src/dobot/srv/GetHOMEParams.srv -Idobot:/home/edward/lab_10/src/dobot/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p dobot -o /home/edward/lab_10/devel/share/common-lisp/ros/dobot/srv
+
+/home/edward/lab_10/devel/share/common-lisp/ros/dobot/srv/GetEndEffectorLaser.lisp: /opt/ros/melodic/lib/genlisp/gen_lisp.py
+/home/edward/lab_10/devel/share/common-lisp/ros/dobot/srv/GetEndEffectorLaser.lisp: /home/edward/lab_10/src/dobot/srv/GetEndEffectorLaser.srv
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/edward/lab_10/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_64) "Generating Lisp code from dobot/GetEndEffectorLaser.srv"
+	cd /home/edward/lab_10/build/dobot && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/genlisp/cmake/../../../lib/genlisp/gen_lisp.py /home/edward/lab_10/src/dobot/srv/GetEndEffectorLaser.srv -Idobot:/home/edward/lab_10/src/dobot/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p dobot -o /home/edward/lab_10/devel/share/common-lisp/ros/dobot/srv
 
 dobot_generate_messages_lisp: dobot/CMakeFiles/dobot_generate_messages_lisp
-dobot_generate_messages_lisp: /home/ed/lab_10/devel/share/common-lisp/ros/dobot/msg/CartesianQuat.lisp
-dobot_generate_messages_lisp: /home/ed/lab_10/devel/share/common-lisp/ros/dobot/msg/CartesianSimple.lisp
-dobot_generate_messages_lisp: /home/ed/lab_10/devel/share/common-lisp/ros/dobot/msg/PTPCommand.lisp
-dobot_generate_messages_lisp: /home/ed/lab_10/devel/share/common-lisp/ros/dobot/msg/Joint.lisp
-dobot_generate_messages_lisp: /home/ed/lab_10/devel/share/common-lisp/ros/dobot/srv/ClearAllAlarmsState.lisp
-dobot_generate_messages_lisp: /home/ed/lab_10/devel/share/common-lisp/ros/dobot/srv/SetPTPJointParams.lisp
-dobot_generate_messages_lisp: /home/ed/lab_10/devel/share/common-lisp/ros/dobot/srv/GetPTPCommonParams.lisp
-dobot_generate_messages_lisp: /home/ed/lab_10/devel/share/common-lisp/ros/dobot/srv/GetColorSensor.lisp
-dobot_generate_messages_lisp: /home/ed/lab_10/devel/share/common-lisp/ros/dobot/srv/SetQueuedCmdClear.lisp
-dobot_generate_messages_lisp: /home/ed/lab_10/devel/share/common-lisp/ros/dobot/srv/SetJOGCoordinateParams.lisp
-dobot_generate_messages_lisp: /home/ed/lab_10/devel/share/common-lisp/ros/dobot/srv/SetPTPCmd.lisp
-dobot_generate_messages_lisp: /home/ed/lab_10/devel/share/common-lisp/ros/dobot/srv/SetCmdTimeout.lisp
-dobot_generate_messages_lisp: /home/ed/lab_10/devel/share/common-lisp/ros/dobot/srv/SetHOMEParams.lisp
-dobot_generate_messages_lisp: /home/ed/lab_10/devel/share/common-lisp/ros/dobot/srv/GetPTPCoordinateParams.lisp
-dobot_generate_messages_lisp: /home/ed/lab_10/devel/share/common-lisp/ros/dobot/srv/GetIOPWM.lisp
-dobot_generate_messages_lisp: /home/ed/lab_10/devel/share/common-lisp/ros/dobot/srv/SetIODO.lisp
-dobot_generate_messages_lisp: /home/ed/lab_10/devel/share/common-lisp/ros/dobot/srv/SetJOGCommonParams.lisp
-dobot_generate_messages_lisp: /home/ed/lab_10/devel/share/common-lisp/ros/dobot/srv/GetHOMEParams.lisp
-dobot_generate_messages_lisp: /home/ed/lab_10/devel/share/common-lisp/ros/dobot/srv/GetPose.lisp
-dobot_generate_messages_lisp: /home/ed/lab_10/devel/share/common-lisp/ros/dobot/srv/GetJOGCoordinateParams.lisp
-dobot_generate_messages_lisp: /home/ed/lab_10/devel/share/common-lisp/ros/dobot/srv/SetEMotor.lisp
-dobot_generate_messages_lisp: /home/ed/lab_10/devel/share/common-lisp/ros/dobot/srv/SetCPCmd.lisp
-dobot_generate_messages_lisp: /home/ed/lab_10/devel/share/common-lisp/ros/dobot/srv/GetJOGCommonParams.lisp
-dobot_generate_messages_lisp: /home/ed/lab_10/devel/share/common-lisp/ros/dobot/srv/SetQueuedCmdForceStopExec.lisp
-dobot_generate_messages_lisp: /home/ed/lab_10/devel/share/common-lisp/ros/dobot/srv/GetIOMultiplexing.lisp
-dobot_generate_messages_lisp: /home/ed/lab_10/devel/share/common-lisp/ros/dobot/srv/GetIODI.lisp
-dobot_generate_messages_lisp: /home/ed/lab_10/devel/share/common-lisp/ros/dobot/srv/GetARCParams.lisp
-dobot_generate_messages_lisp: /home/ed/lab_10/devel/share/common-lisp/ros/dobot/srv/SetPTPCommonParams.lisp
-dobot_generate_messages_lisp: /home/ed/lab_10/devel/share/common-lisp/ros/dobot/srv/GetIODO.lisp
-dobot_generate_messages_lisp: /home/ed/lab_10/devel/share/common-lisp/ros/dobot/srv/SetIOMultiplexing.lisp
-dobot_generate_messages_lisp: /home/ed/lab_10/devel/share/common-lisp/ros/dobot/srv/GetDeviceName.lisp
-dobot_generate_messages_lisp: /home/ed/lab_10/devel/share/common-lisp/ros/dobot/srv/SetColorSensor.lisp
-dobot_generate_messages_lisp: /home/ed/lab_10/devel/share/common-lisp/ros/dobot/srv/GetPTPJumpParams.lisp
-dobot_generate_messages_lisp: /home/ed/lab_10/devel/share/common-lisp/ros/dobot/srv/GetDeviceSN.lisp
-dobot_generate_messages_lisp: /home/ed/lab_10/devel/share/common-lisp/ros/dobot/srv/GetPTPJointParams.lisp
-dobot_generate_messages_lisp: /home/ed/lab_10/devel/share/common-lisp/ros/dobot/srv/SetEndEffectorParams.lisp
-dobot_generate_messages_lisp: /home/ed/lab_10/devel/share/common-lisp/ros/dobot/srv/GetJOGJointParams.lisp
-dobot_generate_messages_lisp: /home/ed/lab_10/devel/share/common-lisp/ros/dobot/srv/SetCPParams.lisp
-dobot_generate_messages_lisp: /home/ed/lab_10/devel/share/common-lisp/ros/dobot/srv/SetInfraredSensor.lisp
-dobot_generate_messages_lisp: /home/ed/lab_10/devel/share/common-lisp/ros/dobot/srv/SetHOMECmd.lisp
-dobot_generate_messages_lisp: /home/ed/lab_10/devel/share/common-lisp/ros/dobot/srv/GetEndEffectorLaser.lisp
-dobot_generate_messages_lisp: /home/ed/lab_10/devel/share/common-lisp/ros/dobot/srv/GetCPParams.lisp
-dobot_generate_messages_lisp: /home/ed/lab_10/devel/share/common-lisp/ros/dobot/srv/GetEndEffectorGripper.lisp
-dobot_generate_messages_lisp: /home/ed/lab_10/devel/share/common-lisp/ros/dobot/srv/GetEndEffectorSuctionCup.lisp
-dobot_generate_messages_lisp: /home/ed/lab_10/devel/share/common-lisp/ros/dobot/srv/SetEndEffectorGripper.lisp
-dobot_generate_messages_lisp: /home/ed/lab_10/devel/share/common-lisp/ros/dobot/srv/SetPTPJumpParams.lisp
-dobot_generate_messages_lisp: /home/ed/lab_10/devel/share/common-lisp/ros/dobot/srv/GetAlarmsState.lisp
-dobot_generate_messages_lisp: /home/ed/lab_10/devel/share/common-lisp/ros/dobot/srv/SetARCParams.lisp
-dobot_generate_messages_lisp: /home/ed/lab_10/devel/share/common-lisp/ros/dobot/srv/SetEndEffectorSuctionCup.lisp
-dobot_generate_messages_lisp: /home/ed/lab_10/devel/share/common-lisp/ros/dobot/srv/GetInfraredSensor.lisp
-dobot_generate_messages_lisp: /home/ed/lab_10/devel/share/common-lisp/ros/dobot/srv/SetIOPWM.lisp
-dobot_generate_messages_lisp: /home/ed/lab_10/devel/share/common-lisp/ros/dobot/srv/GetDeviceVersion.lisp
-dobot_generate_messages_lisp: /home/ed/lab_10/devel/share/common-lisp/ros/dobot/srv/SetQueuedCmdStopExec.lisp
-dobot_generate_messages_lisp: /home/ed/lab_10/devel/share/common-lisp/ros/dobot/srv/SetQueuedCmdStartExec.lisp
-dobot_generate_messages_lisp: /home/ed/lab_10/devel/share/common-lisp/ros/dobot/srv/SetJOGCmd.lisp
-dobot_generate_messages_lisp: /home/ed/lab_10/devel/share/common-lisp/ros/dobot/srv/SetDeviceName.lisp
-dobot_generate_messages_lisp: /home/ed/lab_10/devel/share/common-lisp/ros/dobot/srv/GetEndEffectorParams.lisp
-dobot_generate_messages_lisp: /home/ed/lab_10/devel/share/common-lisp/ros/dobot/srv/GetIOADC.lisp
-dobot_generate_messages_lisp: /home/ed/lab_10/devel/share/common-lisp/ros/dobot/srv/SetWAITCmd.lisp
-dobot_generate_messages_lisp: /home/ed/lab_10/devel/share/common-lisp/ros/dobot/srv/SetEndEffectorLaser.lisp
-dobot_generate_messages_lisp: /home/ed/lab_10/devel/share/common-lisp/ros/dobot/srv/SetTRIGCmd.lisp
-dobot_generate_messages_lisp: /home/ed/lab_10/devel/share/common-lisp/ros/dobot/srv/SetJOGJointParams.lisp
-dobot_generate_messages_lisp: /home/ed/lab_10/devel/share/common-lisp/ros/dobot/srv/SetPTPCoordinateParams.lisp
-dobot_generate_messages_lisp: /home/ed/lab_10/devel/share/common-lisp/ros/dobot/srv/SetARCCmd.lisp
+dobot_generate_messages_lisp: /home/edward/lab_10/devel/share/common-lisp/ros/dobot/msg/PTPCommand.lisp
+dobot_generate_messages_lisp: /home/edward/lab_10/devel/share/common-lisp/ros/dobot/msg/CartesianSimple.lisp
+dobot_generate_messages_lisp: /home/edward/lab_10/devel/share/common-lisp/ros/dobot/msg/CartesianQuat.lisp
+dobot_generate_messages_lisp: /home/edward/lab_10/devel/share/common-lisp/ros/dobot/msg/Joint.lisp
+dobot_generate_messages_lisp: /home/edward/lab_10/devel/share/common-lisp/ros/dobot/srv/SetJOGCmd.lisp
+dobot_generate_messages_lisp: /home/edward/lab_10/devel/share/common-lisp/ros/dobot/srv/SetPTPJointParams.lisp
+dobot_generate_messages_lisp: /home/edward/lab_10/devel/share/common-lisp/ros/dobot/srv/SetIOMultiplexing.lisp
+dobot_generate_messages_lisp: /home/edward/lab_10/devel/share/common-lisp/ros/dobot/srv/SetIOPWM.lisp
+dobot_generate_messages_lisp: /home/edward/lab_10/devel/share/common-lisp/ros/dobot/srv/GetJOGCoordinateParams.lisp
+dobot_generate_messages_lisp: /home/edward/lab_10/devel/share/common-lisp/ros/dobot/srv/SetWAITCmd.lisp
+dobot_generate_messages_lisp: /home/edward/lab_10/devel/share/common-lisp/ros/dobot/srv/GetIOPWM.lisp
+dobot_generate_messages_lisp: /home/edward/lab_10/devel/share/common-lisp/ros/dobot/srv/SetCPParams.lisp
+dobot_generate_messages_lisp: /home/edward/lab_10/devel/share/common-lisp/ros/dobot/srv/SetJOGJointParams.lisp
+dobot_generate_messages_lisp: /home/edward/lab_10/devel/share/common-lisp/ros/dobot/srv/SetARCParams.lisp
+dobot_generate_messages_lisp: /home/edward/lab_10/devel/share/common-lisp/ros/dobot/srv/SetARCCmd.lisp
+dobot_generate_messages_lisp: /home/edward/lab_10/devel/share/common-lisp/ros/dobot/srv/SetCPCmd.lisp
+dobot_generate_messages_lisp: /home/edward/lab_10/devel/share/common-lisp/ros/dobot/srv/SetEndEffectorGripper.lisp
+dobot_generate_messages_lisp: /home/edward/lab_10/devel/share/common-lisp/ros/dobot/srv/GetPTPJointParams.lisp
+dobot_generate_messages_lisp: /home/edward/lab_10/devel/share/common-lisp/ros/dobot/srv/GetARCParams.lisp
+dobot_generate_messages_lisp: /home/edward/lab_10/devel/share/common-lisp/ros/dobot/srv/SetHOMEParams.lisp
+dobot_generate_messages_lisp: /home/edward/lab_10/devel/share/common-lisp/ros/dobot/srv/SetColorSensor.lisp
+dobot_generate_messages_lisp: /home/edward/lab_10/devel/share/common-lisp/ros/dobot/srv/SetInfraredSensor.lisp
+dobot_generate_messages_lisp: /home/edward/lab_10/devel/share/common-lisp/ros/dobot/srv/GetPTPJumpParams.lisp
+dobot_generate_messages_lisp: /home/edward/lab_10/devel/share/common-lisp/ros/dobot/srv/SetPTPJumpParams.lisp
+dobot_generate_messages_lisp: /home/edward/lab_10/devel/share/common-lisp/ros/dobot/srv/SetPTPCommonParams.lisp
+dobot_generate_messages_lisp: /home/edward/lab_10/devel/share/common-lisp/ros/dobot/srv/GetColorSensor.lisp
+dobot_generate_messages_lisp: /home/edward/lab_10/devel/share/common-lisp/ros/dobot/srv/GetIOADC.lisp
+dobot_generate_messages_lisp: /home/edward/lab_10/devel/share/common-lisp/ros/dobot/srv/SetEMotor.lisp
+dobot_generate_messages_lisp: /home/edward/lab_10/devel/share/common-lisp/ros/dobot/srv/GetPTPCoordinateParams.lisp
+dobot_generate_messages_lisp: /home/edward/lab_10/devel/share/common-lisp/ros/dobot/srv/GetDeviceVersion.lisp
+dobot_generate_messages_lisp: /home/edward/lab_10/devel/share/common-lisp/ros/dobot/srv/GetPTPCommonParams.lisp
+dobot_generate_messages_lisp: /home/edward/lab_10/devel/share/common-lisp/ros/dobot/srv/SetEndEffectorLaser.lisp
+dobot_generate_messages_lisp: /home/edward/lab_10/devel/share/common-lisp/ros/dobot/srv/SetQueuedCmdStartExec.lisp
+dobot_generate_messages_lisp: /home/edward/lab_10/devel/share/common-lisp/ros/dobot/srv/GetEndEffectorSuctionCup.lisp
+dobot_generate_messages_lisp: /home/edward/lab_10/devel/share/common-lisp/ros/dobot/srv/GetInfraredSensor.lisp
+dobot_generate_messages_lisp: /home/edward/lab_10/devel/share/common-lisp/ros/dobot/srv/GetAlarmsState.lisp
+dobot_generate_messages_lisp: /home/edward/lab_10/devel/share/common-lisp/ros/dobot/srv/SetEndEffectorSuctionCup.lisp
+dobot_generate_messages_lisp: /home/edward/lab_10/devel/share/common-lisp/ros/dobot/srv/SetIODO.lisp
+dobot_generate_messages_lisp: /home/edward/lab_10/devel/share/common-lisp/ros/dobot/srv/GetIOMultiplexing.lisp
+dobot_generate_messages_lisp: /home/edward/lab_10/devel/share/common-lisp/ros/dobot/srv/SetQueuedCmdStopExec.lisp
+dobot_generate_messages_lisp: /home/edward/lab_10/devel/share/common-lisp/ros/dobot/srv/SetPTPCoordinateParams.lisp
+dobot_generate_messages_lisp: /home/edward/lab_10/devel/share/common-lisp/ros/dobot/srv/SetDeviceName.lisp
+dobot_generate_messages_lisp: /home/edward/lab_10/devel/share/common-lisp/ros/dobot/srv/GetEndEffectorParams.lisp
+dobot_generate_messages_lisp: /home/edward/lab_10/devel/share/common-lisp/ros/dobot/srv/SetPTPCmd.lisp
+dobot_generate_messages_lisp: /home/edward/lab_10/devel/share/common-lisp/ros/dobot/srv/GetDeviceSN.lisp
+dobot_generate_messages_lisp: /home/edward/lab_10/devel/share/common-lisp/ros/dobot/srv/GetJOGJointParams.lisp
+dobot_generate_messages_lisp: /home/edward/lab_10/devel/share/common-lisp/ros/dobot/srv/SetJOGCoordinateParams.lisp
+dobot_generate_messages_lisp: /home/edward/lab_10/devel/share/common-lisp/ros/dobot/srv/GetIODO.lisp
+dobot_generate_messages_lisp: /home/edward/lab_10/devel/share/common-lisp/ros/dobot/srv/ClearAllAlarmsState.lisp
+dobot_generate_messages_lisp: /home/edward/lab_10/devel/share/common-lisp/ros/dobot/srv/GetPose.lisp
+dobot_generate_messages_lisp: /home/edward/lab_10/devel/share/common-lisp/ros/dobot/srv/GetJOGCommonParams.lisp
+dobot_generate_messages_lisp: /home/edward/lab_10/devel/share/common-lisp/ros/dobot/srv/SetHOMECmd.lisp
+dobot_generate_messages_lisp: /home/edward/lab_10/devel/share/common-lisp/ros/dobot/srv/SetCmdTimeout.lisp
+dobot_generate_messages_lisp: /home/edward/lab_10/devel/share/common-lisp/ros/dobot/srv/SetTRIGCmd.lisp
+dobot_generate_messages_lisp: /home/edward/lab_10/devel/share/common-lisp/ros/dobot/srv/SetQueuedCmdClear.lisp
+dobot_generate_messages_lisp: /home/edward/lab_10/devel/share/common-lisp/ros/dobot/srv/GetIODI.lisp
+dobot_generate_messages_lisp: /home/edward/lab_10/devel/share/common-lisp/ros/dobot/srv/GetEndEffectorGripper.lisp
+dobot_generate_messages_lisp: /home/edward/lab_10/devel/share/common-lisp/ros/dobot/srv/GetDeviceName.lisp
+dobot_generate_messages_lisp: /home/edward/lab_10/devel/share/common-lisp/ros/dobot/srv/SetQueuedCmdForceStopExec.lisp
+dobot_generate_messages_lisp: /home/edward/lab_10/devel/share/common-lisp/ros/dobot/srv/SetEndEffectorParams.lisp
+dobot_generate_messages_lisp: /home/edward/lab_10/devel/share/common-lisp/ros/dobot/srv/GetCPParams.lisp
+dobot_generate_messages_lisp: /home/edward/lab_10/devel/share/common-lisp/ros/dobot/srv/SetJOGCommonParams.lisp
+dobot_generate_messages_lisp: /home/edward/lab_10/devel/share/common-lisp/ros/dobot/srv/GetHOMEParams.lisp
+dobot_generate_messages_lisp: /home/edward/lab_10/devel/share/common-lisp/ros/dobot/srv/GetEndEffectorLaser.lisp
 dobot_generate_messages_lisp: dobot/CMakeFiles/dobot_generate_messages_lisp.dir/build.make
 
 .PHONY : dobot_generate_messages_lisp
@@ -517,10 +517,10 @@ dobot/CMakeFiles/dobot_generate_messages_lisp.dir/build: dobot_generate_messages
 .PHONY : dobot/CMakeFiles/dobot_generate_messages_lisp.dir/build
 
 dobot/CMakeFiles/dobot_generate_messages_lisp.dir/clean:
-	cd /home/ed/lab_10/build/dobot && $(CMAKE_COMMAND) -P CMakeFiles/dobot_generate_messages_lisp.dir/cmake_clean.cmake
+	cd /home/edward/lab_10/build/dobot && $(CMAKE_COMMAND) -P CMakeFiles/dobot_generate_messages_lisp.dir/cmake_clean.cmake
 .PHONY : dobot/CMakeFiles/dobot_generate_messages_lisp.dir/clean
 
 dobot/CMakeFiles/dobot_generate_messages_lisp.dir/depend:
-	cd /home/ed/lab_10/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ed/lab_10/src /home/ed/lab_10/src/dobot /home/ed/lab_10/build /home/ed/lab_10/build/dobot /home/ed/lab_10/build/dobot/CMakeFiles/dobot_generate_messages_lisp.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/edward/lab_10/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/edward/lab_10/src /home/edward/lab_10/src/dobot /home/edward/lab_10/build /home/edward/lab_10/build/dobot /home/edward/lab_10/build/dobot/CMakeFiles/dobot_generate_messages_lisp.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : dobot/CMakeFiles/dobot_generate_messages_lisp.dir/depend
 

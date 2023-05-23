@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/ed/lab_10/devel/include/dobot/PTPCommand.h
+/home/edward/lab_10/devel/include/dobot/PTPCommand.h
 string
 -
 vector
@@ -22,7 +22,7 @@ ros/builtin_message_traits.h
 ros/message_operations.h
 -
 
-/home/ed/lab_10/devel/include/dobot/SetPTPCmd.h
+/home/edward/lab_10/devel/include/dobot/SetPTPCmd.h
 ros/service_traits.h
 -
 dobot/SetPTPCmdRequest.h
@@ -30,7 +30,7 @@ dobot/SetPTPCmdRequest.h
 dobot/SetPTPCmdResponse.h
 -
 
-/home/ed/lab_10/devel/include/dobot/SetPTPCmdRequest.h
+/home/edward/lab_10/devel/include/dobot/SetPTPCmdRequest.h
 string
 -
 vector
@@ -46,7 +46,7 @@ ros/builtin_message_traits.h
 ros/message_operations.h
 -
 
-/home/ed/lab_10/devel/include/dobot/SetPTPCmdResponse.h
+/home/edward/lab_10/devel/include/dobot/SetPTPCmdResponse.h
 string
 -
 vector
@@ -62,15 +62,15 @@ ros/builtin_message_traits.h
 ros/message_operations.h
 -
 
-/home/ed/lab_10/src/dobot/src/ptp_command_client.cpp
+/home/edward/lab_10/src/dobot/src/ptp_command_client.cpp
 string
 -
 ros/ros.h
 -
 dobot/SetPTPCmd.h
-/home/ed/lab_10/src/dobot/src/dobot/SetPTPCmd.h
+/home/edward/lab_10/src/dobot/src/dobot/SetPTPCmd.h
 dobot/PTPCommand.h
-/home/ed/lab_10/src/dobot/src/dobot/PTPCommand.h
+/home/edward/lab_10/src/dobot/src/dobot/PTPCommand.h
 
 /opt/ros/melodic/include/ros/advertise_options.h
 ros/forwards.h

@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ed/lab_10/src
+CMAKE_SOURCE_DIR = /home/edward/lab_10/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ed/lab_10/build
+CMAKE_BINARY_DIR = /home/edward/lab_10/build
 
 # Utility rule file for dobot_genpy.
 
@@ -63,10 +63,10 @@ dobot/CMakeFiles/dobot_genpy.dir/build: dobot_genpy
 .PHONY : dobot/CMakeFiles/dobot_genpy.dir/build
 
 dobot/CMakeFiles/dobot_genpy.dir/clean:
-	cd /home/ed/lab_10/build/dobot && $(CMAKE_COMMAND) -P CMakeFiles/dobot_genpy.dir/cmake_clean.cmake
+	cd /home/edward/lab_10/build/dobot && $(CMAKE_COMMAND) -P CMakeFiles/dobot_genpy.dir/cmake_clean.cmake
 .PHONY : dobot/CMakeFiles/dobot_genpy.dir/clean
 
 dobot/CMakeFiles/dobot_genpy.dir/depend:
-	cd /home/ed/lab_10/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ed/lab_10/src /home/ed/lab_10/src/dobot /home/ed/lab_10/build /home/ed/lab_10/build/dobot /home/ed/lab_10/build/dobot/CMakeFiles/dobot_genpy.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/edward/lab_10/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/edward/lab_10/src /home/edward/lab_10/src/dobot /home/edward/lab_10/build /home/edward/lab_10/build/dobot /home/edward/lab_10/build/dobot/CMakeFiles/dobot_genpy.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : dobot/CMakeFiles/dobot_genpy.dir/depend
 

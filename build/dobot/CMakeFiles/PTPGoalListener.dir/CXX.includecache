@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/ed/lab_10/devel/include/dobot/CartesianQuat.h
+/home/edward/lab_10/devel/include/dobot/CartesianQuat.h
 string
 -
 vector
@@ -22,7 +22,7 @@ ros/builtin_message_traits.h
 ros/message_operations.h
 -
 
-/home/ed/lab_10/devel/include/dobot/CartesianSimple.h
+/home/edward/lab_10/devel/include/dobot/CartesianSimple.h
 string
 -
 vector
@@ -38,7 +38,7 @@ ros/builtin_message_traits.h
 ros/message_operations.h
 -
 
-/home/ed/lab_10/devel/include/dobot/Joint.h
+/home/edward/lab_10/devel/include/dobot/Joint.h
 string
 -
 vector
@@ -54,7 +54,7 @@ ros/builtin_message_traits.h
 ros/message_operations.h
 -
 
-/home/ed/lab_10/devel/include/dobot/PTPCommand.h
+/home/edward/lab_10/devel/include/dobot/PTPCommand.h
 string
 -
 vector
@@ -70,7 +70,7 @@ ros/builtin_message_traits.h
 ros/message_operations.h
 -
 
-/home/ed/lab_10/src/dobot/src/ptp_goal_listener.cpp
+/home/edward/lab_10/src/dobot/src/ptp_goal_listener.cpp
 ros/ros.h
 -
 dobot/PTPCommand.h

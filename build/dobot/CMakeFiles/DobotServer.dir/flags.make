@@ -6,5 +6,5 @@ CXX_FLAGS =
 
 CXX_DEFINES = -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\"dobot\"
 
-CXX_INCLUDES = -I/home/ed/lab_10/devel/include -I/opt/ros/melodic/include -I/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/home/ed/lab_10/src/dobot/src/DobotDll_x64 
+CXX_INCLUDES = -I/home/edward/lab_10/devel/include -I/opt/ros/melodic/include -I/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/home/edward/lab_10/src/dobot/src/DobotDll_x64 
 

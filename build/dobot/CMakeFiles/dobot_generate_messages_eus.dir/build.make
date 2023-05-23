@@ -43,476 +43,476 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ed/lab_10/src
+CMAKE_SOURCE_DIR = /home/edward/lab_10/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ed/lab_10/build
+CMAKE_BINARY_DIR = /home/edward/lab_10/build
 
 # Utility rule file for dobot_generate_messages_eus.
 
 # Include the progress variables for this target.
 include dobot/CMakeFiles/dobot_generate_messages_eus.dir/progress.make
 
-dobot/CMakeFiles/dobot_generate_messages_eus: /home/ed/lab_10/devel/share/roseus/ros/dobot/msg/CartesianQuat.l
-dobot/CMakeFiles/dobot_generate_messages_eus: /home/ed/lab_10/devel/share/roseus/ros/dobot/msg/CartesianSimple.l
-dobot/CMakeFiles/dobot_generate_messages_eus: /home/ed/lab_10/devel/share/roseus/ros/dobot/msg/PTPCommand.l
-dobot/CMakeFiles/dobot_generate_messages_eus: /home/ed/lab_10/devel/share/roseus/ros/dobot/msg/Joint.l
-dobot/CMakeFiles/dobot_generate_messages_eus: /home/ed/lab_10/devel/share/roseus/ros/dobot/srv/ClearAllAlarmsState.l
-dobot/CMakeFiles/dobot_generate_messages_eus: /home/ed/lab_10/devel/share/roseus/ros/dobot/srv/SetPTPJointParams.l
-dobot/CMakeFiles/dobot_generate_messages_eus: /home/ed/lab_10/devel/share/roseus/ros/dobot/srv/GetPTPCommonParams.l
-dobot/CMakeFiles/dobot_generate_messages_eus: /home/ed/lab_10/devel/share/roseus/ros/dobot/srv/GetColorSensor.l
-dobot/CMakeFiles/dobot_generate_messages_eus: /home/ed/lab_10/devel/share/roseus/ros/dobot/srv/SetQueuedCmdClear.l
-dobot/CMakeFiles/dobot_generate_messages_eus: /home/ed/lab_10/devel/share/roseus/ros/dobot/srv/SetJOGCoordinateParams.l
-dobot/CMakeFiles/dobot_generate_messages_eus: /home/ed/lab_10/devel/share/roseus/ros/dobot/srv/SetPTPCmd.l
-dobot/CMakeFiles/dobot_generate_messages_eus: /home/ed/lab_10/devel/share/roseus/ros/dobot/srv/SetCmdTimeout.l
-dobot/CMakeFiles/dobot_generate_messages_eus: /home/ed/lab_10/devel/share/roseus/ros/dobot/srv/SetHOMEParams.l
-dobot/CMakeFiles/dobot_generate_messages_eus: /home/ed/lab_10/devel/share/roseus/ros/dobot/srv/GetPTPCoordinateParams.l
-dobot/CMakeFiles/dobot_generate_messages_eus: /home/ed/lab_10/devel/share/roseus/ros/dobot/srv/GetIOPWM.l
-dobot/CMakeFiles/dobot_generate_messages_eus: /home/ed/lab_10/devel/share/roseus/ros/dobot/srv/SetIODO.l
-dobot/CMakeFiles/dobot_generate_messages_eus: /home/ed/lab_10/devel/share/roseus/ros/dobot/srv/SetJOGCommonParams.l
-dobot/CMakeFiles/dobot_generate_messages_eus: /home/ed/lab_10/devel/share/roseus/ros/dobot/srv/GetHOMEParams.l
-dobot/CMakeFiles/dobot_generate_messages_eus: /home/ed/lab_10/devel/share/roseus/ros/dobot/srv/GetPose.l
-dobot/CMakeFiles/dobot_generate_messages_eus: /home/ed/lab_10/devel/share/roseus/ros/dobot/srv/GetJOGCoordinateParams.l
-dobot/CMakeFiles/dobot_generate_messages_eus: /home/ed/lab_10/devel/share/roseus/ros/dobot/srv/SetEMotor.l
-dobot/CMakeFiles/dobot_generate_messages_eus: /home/ed/lab_10/devel/share/roseus/ros/dobot/srv/SetCPCmd.l
-dobot/CMakeFiles/dobot_generate_messages_eus: /home/ed/lab_10/devel/share/roseus/ros/dobot/srv/GetJOGCommonParams.l
-dobot/CMakeFiles/dobot_generate_messages_eus: /home/ed/lab_10/devel/share/roseus/ros/dobot/srv/SetQueuedCmdForceStopExec.l
-dobot/CMakeFiles/dobot_generate_messages_eus: /home/ed/lab_10/devel/share/roseus/ros/dobot/srv/GetIOMultiplexing.l
-dobot/CMakeFiles/dobot_generate_messages_eus: /home/ed/lab_10/devel/share/roseus/ros/dobot/srv/GetIODI.l
-dobot/CMakeFiles/dobot_generate_messages_eus: /home/ed/lab_10/devel/share/roseus/ros/dobot/srv/GetARCParams.l
-dobot/CMakeFiles/dobot_generate_messages_eus: /home/ed/lab_10/devel/share/roseus/ros/dobot/srv/SetPTPCommonParams.l
-dobot/CMakeFiles/dobot_generate_messages_eus: /home/ed/lab_10/devel/share/roseus/ros/dobot/srv/GetIODO.l
-dobot/CMakeFiles/dobot_generate_messages_eus: /home/ed/lab_10/devel/share/roseus/ros/dobot/srv/SetIOMultiplexing.l
-dobot/CMakeFiles/dobot_generate_messages_eus: /home/ed/lab_10/devel/share/roseus/ros/dobot/srv/GetDeviceName.l
-dobot/CMakeFiles/dobot_generate_messages_eus: /home/ed/lab_10/devel/share/roseus/ros/dobot/srv/SetColorSensor.l
-dobot/CMakeFiles/dobot_generate_messages_eus: /home/ed/lab_10/devel/share/roseus/ros/dobot/srv/GetPTPJumpParams.l
-dobot/CMakeFiles/dobot_generate_messages_eus: /home/ed/lab_10/devel/share/roseus/ros/dobot/srv/GetDeviceSN.l
-dobot/CMakeFiles/dobot_generate_messages_eus: /home/ed/lab_10/devel/share/roseus/ros/dobot/srv/GetPTPJointParams.l
-dobot/CMakeFiles/dobot_generate_messages_eus: /home/ed/lab_10/devel/share/roseus/ros/dobot/srv/SetEndEffectorParams.l
-dobot/CMakeFiles/dobot_generate_messages_eus: /home/ed/lab_10/devel/share/roseus/ros/dobot/srv/GetJOGJointParams.l
-dobot/CMakeFiles/dobot_generate_messages_eus: /home/ed/lab_10/devel/share/roseus/ros/dobot/srv/SetCPParams.l
-dobot/CMakeFiles/dobot_generate_messages_eus: /home/ed/lab_10/devel/share/roseus/ros/dobot/srv/SetInfraredSensor.l
-dobot/CMakeFiles/dobot_generate_messages_eus: /home/ed/lab_10/devel/share/roseus/ros/dobot/srv/SetHOMECmd.l
-dobot/CMakeFiles/dobot_generate_messages_eus: /home/ed/lab_10/devel/share/roseus/ros/dobot/srv/GetEndEffectorLaser.l
-dobot/CMakeFiles/dobot_generate_messages_eus: /home/ed/lab_10/devel/share/roseus/ros/dobot/srv/GetCPParams.l
-dobot/CMakeFiles/dobot_generate_messages_eus: /home/ed/lab_10/devel/share/roseus/ros/dobot/srv/GetEndEffectorGripper.l
-dobot/CMakeFiles/dobot_generate_messages_eus: /home/ed/lab_10/devel/share/roseus/ros/dobot/srv/GetEndEffectorSuctionCup.l
-dobot/CMakeFiles/dobot_generate_messages_eus: /home/ed/lab_10/devel/share/roseus/ros/dobot/srv/SetEndEffectorGripper.l
-dobot/CMakeFiles/dobot_generate_messages_eus: /home/ed/lab_10/devel/share/roseus/ros/dobot/srv/SetPTPJumpParams.l
-dobot/CMakeFiles/dobot_generate_messages_eus: /home/ed/lab_10/devel/share/roseus/ros/dobot/srv/GetAlarmsState.l
-dobot/CMakeFiles/dobot_generate_messages_eus: /home/ed/lab_10/devel/share/roseus/ros/dobot/srv/SetARCParams.l
-dobot/CMakeFiles/dobot_generate_messages_eus: /home/ed/lab_10/devel/share/roseus/ros/dobot/srv/SetEndEffectorSuctionCup.l
-dobot/CMakeFiles/dobot_generate_messages_eus: /home/ed/lab_10/devel/share/roseus/ros/dobot/srv/GetInfraredSensor.l
-dobot/CMakeFiles/dobot_generate_messages_eus: /home/ed/lab_10/devel/share/roseus/ros/dobot/srv/SetIOPWM.l
-dobot/CMakeFiles/dobot_generate_messages_eus: /home/ed/lab_10/devel/share/roseus/ros/dobot/srv/GetDeviceVersion.l
-dobot/CMakeFiles/dobot_generate_messages_eus: /home/ed/lab_10/devel/share/roseus/ros/dobot/srv/SetQueuedCmdStopExec.l
-dobot/CMakeFiles/dobot_generate_messages_eus: /home/ed/lab_10/devel/share/roseus/ros/dobot/srv/SetQueuedCmdStartExec.l
-dobot/CMakeFiles/dobot_generate_messages_eus: /home/ed/lab_10/devel/share/roseus/ros/dobot/srv/SetJOGCmd.l
-dobot/CMakeFiles/dobot_generate_messages_eus: /home/ed/lab_10/devel/share/roseus/ros/dobot/srv/SetDeviceName.l
-dobot/CMakeFiles/dobot_generate_messages_eus: /home/ed/lab_10/devel/share/roseus/ros/dobot/srv/GetEndEffectorParams.l
-dobot/CMakeFiles/dobot_generate_messages_eus: /home/ed/lab_10/devel/share/roseus/ros/dobot/srv/GetIOADC.l
-dobot/CMakeFiles/dobot_generate_messages_eus: /home/ed/lab_10/devel/share/roseus/ros/dobot/srv/SetWAITCmd.l
-dobot/CMakeFiles/dobot_generate_messages_eus: /home/ed/lab_10/devel/share/roseus/ros/dobot/srv/SetEndEffectorLaser.l
-dobot/CMakeFiles/dobot_generate_messages_eus: /home/ed/lab_10/devel/share/roseus/ros/dobot/srv/SetTRIGCmd.l
-dobot/CMakeFiles/dobot_generate_messages_eus: /home/ed/lab_10/devel/share/roseus/ros/dobot/srv/SetJOGJointParams.l
-dobot/CMakeFiles/dobot_generate_messages_eus: /home/ed/lab_10/devel/share/roseus/ros/dobot/srv/SetPTPCoordinateParams.l
-dobot/CMakeFiles/dobot_generate_messages_eus: /home/ed/lab_10/devel/share/roseus/ros/dobot/srv/SetARCCmd.l
-dobot/CMakeFiles/dobot_generate_messages_eus: /home/ed/lab_10/devel/share/roseus/ros/dobot/manifest.l
-
-
-/home/ed/lab_10/devel/share/roseus/ros/dobot/msg/CartesianQuat.l: /opt/ros/melodic/lib/geneus/gen_eus.py
-/home/ed/lab_10/devel/share/roseus/ros/dobot/msg/CartesianQuat.l: /home/ed/lab_10/src/dobot/msg/CartesianQuat.msg
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ed/lab_10/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating EusLisp code from dobot/CartesianQuat.msg"
-	cd /home/ed/lab_10/build/dobot && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/geneus/cmake/../../../lib/geneus/gen_eus.py /home/ed/lab_10/src/dobot/msg/CartesianQuat.msg -Idobot:/home/ed/lab_10/src/dobot/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p dobot -o /home/ed/lab_10/devel/share/roseus/ros/dobot/msg
-
-/home/ed/lab_10/devel/share/roseus/ros/dobot/msg/CartesianSimple.l: /opt/ros/melodic/lib/geneus/gen_eus.py
-/home/ed/lab_10/devel/share/roseus/ros/dobot/msg/CartesianSimple.l: /home/ed/lab_10/src/dobot/msg/CartesianSimple.msg
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ed/lab_10/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating EusLisp code from dobot/CartesianSimple.msg"
-	cd /home/ed/lab_10/build/dobot && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/geneus/cmake/../../../lib/geneus/gen_eus.py /home/ed/lab_10/src/dobot/msg/CartesianSimple.msg -Idobot:/home/ed/lab_10/src/dobot/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p dobot -o /home/ed/lab_10/devel/share/roseus/ros/dobot/msg
-
-/home/ed/lab_10/devel/share/roseus/ros/dobot/msg/PTPCommand.l: /opt/ros/melodic/lib/geneus/gen_eus.py
-/home/ed/lab_10/devel/share/roseus/ros/dobot/msg/PTPCommand.l: /home/ed/lab_10/src/dobot/msg/PTPCommand.msg
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ed/lab_10/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Generating EusLisp code from dobot/PTPCommand.msg"
-	cd /home/ed/lab_10/build/dobot && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/geneus/cmake/../../../lib/geneus/gen_eus.py /home/ed/lab_10/src/dobot/msg/PTPCommand.msg -Idobot:/home/ed/lab_10/src/dobot/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p dobot -o /home/ed/lab_10/devel/share/roseus/ros/dobot/msg
-
-/home/ed/lab_10/devel/share/roseus/ros/dobot/msg/Joint.l: /opt/ros/melodic/lib/geneus/gen_eus.py
-/home/ed/lab_10/devel/share/roseus/ros/dobot/msg/Joint.l: /home/ed/lab_10/src/dobot/msg/Joint.msg
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ed/lab_10/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Generating EusLisp code from dobot/Joint.msg"
-	cd /home/ed/lab_10/build/dobot && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/geneus/cmake/../../../lib/geneus/gen_eus.py /home/ed/lab_10/src/dobot/msg/Joint.msg -Idobot:/home/ed/lab_10/src/dobot/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p dobot -o /home/ed/lab_10/devel/share/roseus/ros/dobot/msg
-
-/home/ed/lab_10/devel/share/roseus/ros/dobot/srv/ClearAllAlarmsState.l: /opt/ros/melodic/lib/geneus/gen_eus.py
-/home/ed/lab_10/devel/share/roseus/ros/dobot/srv/ClearAllAlarmsState.l: /home/ed/lab_10/src/dobot/srv/ClearAllAlarmsState.srv
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ed/lab_10/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Generating EusLisp code from dobot/ClearAllAlarmsState.srv"
-	cd /home/ed/lab_10/build/dobot && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/geneus/cmake/../../../lib/geneus/gen_eus.py /home/ed/lab_10/src/dobot/srv/ClearAllAlarmsState.srv -Idobot:/home/ed/lab_10/src/dobot/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p dobot -o /home/ed/lab_10/devel/share/roseus/ros/dobot/srv
-
-/home/ed/lab_10/devel/share/roseus/ros/dobot/srv/SetPTPJointParams.l: /opt/ros/melodic/lib/geneus/gen_eus.py
-/home/ed/lab_10/devel/share/roseus/ros/dobot/srv/SetPTPJointParams.l: /home/ed/lab_10/src/dobot/srv/SetPTPJointParams.srv
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ed/lab_10/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Generating EusLisp code from dobot/SetPTPJointParams.srv"
-	cd /home/ed/lab_10/build/dobot && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/geneus/cmake/../../../lib/geneus/gen_eus.py /home/ed/lab_10/src/dobot/srv/SetPTPJointParams.srv -Idobot:/home/ed/lab_10/src/dobot/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p dobot -o /home/ed/lab_10/devel/share/roseus/ros/dobot/srv
-
-/home/ed/lab_10/devel/share/roseus/ros/dobot/srv/GetPTPCommonParams.l: /opt/ros/melodic/lib/geneus/gen_eus.py
-/home/ed/lab_10/devel/share/roseus/ros/dobot/srv/GetPTPCommonParams.l: /home/ed/lab_10/src/dobot/srv/GetPTPCommonParams.srv
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ed/lab_10/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Generating EusLisp code from dobot/GetPTPCommonParams.srv"
-	cd /home/ed/lab_10/build/dobot && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/geneus/cmake/../../../lib/geneus/gen_eus.py /home/ed/lab_10/src/dobot/srv/GetPTPCommonParams.srv -Idobot:/home/ed/lab_10/src/dobot/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p dobot -o /home/ed/lab_10/devel/share/roseus/ros/dobot/srv
-
-/home/ed/lab_10/devel/share/roseus/ros/dobot/srv/GetColorSensor.l: /opt/ros/melodic/lib/geneus/gen_eus.py
-/home/ed/lab_10/devel/share/roseus/ros/dobot/srv/GetColorSensor.l: /home/ed/lab_10/src/dobot/srv/GetColorSensor.srv
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ed/lab_10/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Generating EusLisp code from dobot/GetColorSensor.srv"
-	cd /home/ed/lab_10/build/dobot && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/geneus/cmake/../../../lib/geneus/gen_eus.py /home/ed/lab_10/src/dobot/srv/GetColorSensor.srv -Idobot:/home/ed/lab_10/src/dobot/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p dobot -o /home/ed/lab_10/devel/share/roseus/ros/dobot/srv
-
-/home/ed/lab_10/devel/share/roseus/ros/dobot/srv/SetQueuedCmdClear.l: /opt/ros/melodic/lib/geneus/gen_eus.py
-/home/ed/lab_10/devel/share/roseus/ros/dobot/srv/SetQueuedCmdClear.l: /home/ed/lab_10/src/dobot/srv/SetQueuedCmdClear.srv
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ed/lab_10/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Generating EusLisp code from dobot/SetQueuedCmdClear.srv"
-	cd /home/ed/lab_10/build/dobot && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/geneus/cmake/../../../lib/geneus/gen_eus.py /home/ed/lab_10/src/dobot/srv/SetQueuedCmdClear.srv -Idobot:/home/ed/lab_10/src/dobot/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p dobot -o /home/ed/lab_10/devel/share/roseus/ros/dobot/srv
-
-/home/ed/lab_10/devel/share/roseus/ros/dobot/srv/SetJOGCoordinateParams.l: /opt/ros/melodic/lib/geneus/gen_eus.py
-/home/ed/lab_10/devel/share/roseus/ros/dobot/srv/SetJOGCoordinateParams.l: /home/ed/lab_10/src/dobot/srv/SetJOGCoordinateParams.srv
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ed/lab_10/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Generating EusLisp code from dobot/SetJOGCoordinateParams.srv"
-	cd /home/ed/lab_10/build/dobot && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/geneus/cmake/../../../lib/geneus/gen_eus.py /home/ed/lab_10/src/dobot/srv/SetJOGCoordinateParams.srv -Idobot:/home/ed/lab_10/src/dobot/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p dobot -o /home/ed/lab_10/devel/share/roseus/ros/dobot/srv
-
-/home/ed/lab_10/devel/share/roseus/ros/dobot/srv/SetPTPCmd.l: /opt/ros/melodic/lib/geneus/gen_eus.py
-/home/ed/lab_10/devel/share/roseus/ros/dobot/srv/SetPTPCmd.l: /home/ed/lab_10/src/dobot/srv/SetPTPCmd.srv
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ed/lab_10/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Generating EusLisp code from dobot/SetPTPCmd.srv"
-	cd /home/ed/lab_10/build/dobot && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/geneus/cmake/../../../lib/geneus/gen_eus.py /home/ed/lab_10/src/dobot/srv/SetPTPCmd.srv -Idobot:/home/ed/lab_10/src/dobot/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p dobot -o /home/ed/lab_10/devel/share/roseus/ros/dobot/srv
-
-/home/ed/lab_10/devel/share/roseus/ros/dobot/srv/SetCmdTimeout.l: /opt/ros/melodic/lib/geneus/gen_eus.py
-/home/ed/lab_10/devel/share/roseus/ros/dobot/srv/SetCmdTimeout.l: /home/ed/lab_10/src/dobot/srv/SetCmdTimeout.srv
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ed/lab_10/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Generating EusLisp code from dobot/SetCmdTimeout.srv"
-	cd /home/ed/lab_10/build/dobot && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/geneus/cmake/../../../lib/geneus/gen_eus.py /home/ed/lab_10/src/dobot/srv/SetCmdTimeout.srv -Idobot:/home/ed/lab_10/src/dobot/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p dobot -o /home/ed/lab_10/devel/share/roseus/ros/dobot/srv
-
-/home/ed/lab_10/devel/share/roseus/ros/dobot/srv/SetHOMEParams.l: /opt/ros/melodic/lib/geneus/gen_eus.py
-/home/ed/lab_10/devel/share/roseus/ros/dobot/srv/SetHOMEParams.l: /home/ed/lab_10/src/dobot/srv/SetHOMEParams.srv
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ed/lab_10/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Generating EusLisp code from dobot/SetHOMEParams.srv"
-	cd /home/ed/lab_10/build/dobot && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/geneus/cmake/../../../lib/geneus/gen_eus.py /home/ed/lab_10/src/dobot/srv/SetHOMEParams.srv -Idobot:/home/ed/lab_10/src/dobot/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p dobot -o /home/ed/lab_10/devel/share/roseus/ros/dobot/srv
-
-/home/ed/lab_10/devel/share/roseus/ros/dobot/srv/GetPTPCoordinateParams.l: /opt/ros/melodic/lib/geneus/gen_eus.py
-/home/ed/lab_10/devel/share/roseus/ros/dobot/srv/GetPTPCoordinateParams.l: /home/ed/lab_10/src/dobot/srv/GetPTPCoordinateParams.srv
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ed/lab_10/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Generating EusLisp code from dobot/GetPTPCoordinateParams.srv"
-	cd /home/ed/lab_10/build/dobot && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/geneus/cmake/../../../lib/geneus/gen_eus.py /home/ed/lab_10/src/dobot/srv/GetPTPCoordinateParams.srv -Idobot:/home/ed/lab_10/src/dobot/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p dobot -o /home/ed/lab_10/devel/share/roseus/ros/dobot/srv
-
-/home/ed/lab_10/devel/share/roseus/ros/dobot/srv/GetIOPWM.l: /opt/ros/melodic/lib/geneus/gen_eus.py
-/home/ed/lab_10/devel/share/roseus/ros/dobot/srv/GetIOPWM.l: /home/ed/lab_10/src/dobot/srv/GetIOPWM.srv
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ed/lab_10/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Generating EusLisp code from dobot/GetIOPWM.srv"
-	cd /home/ed/lab_10/build/dobot && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/geneus/cmake/../../../lib/geneus/gen_eus.py /home/ed/lab_10/src/dobot/srv/GetIOPWM.srv -Idobot:/home/ed/lab_10/src/dobot/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p dobot -o /home/ed/lab_10/devel/share/roseus/ros/dobot/srv
-
-/home/ed/lab_10/devel/share/roseus/ros/dobot/srv/SetIODO.l: /opt/ros/melodic/lib/geneus/gen_eus.py
-/home/ed/lab_10/devel/share/roseus/ros/dobot/srv/SetIODO.l: /home/ed/lab_10/src/dobot/srv/SetIODO.srv
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ed/lab_10/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Generating EusLisp code from dobot/SetIODO.srv"
-	cd /home/ed/lab_10/build/dobot && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/geneus/cmake/../../../lib/geneus/gen_eus.py /home/ed/lab_10/src/dobot/srv/SetIODO.srv -Idobot:/home/ed/lab_10/src/dobot/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p dobot -o /home/ed/lab_10/devel/share/roseus/ros/dobot/srv
-
-/home/ed/lab_10/devel/share/roseus/ros/dobot/srv/SetJOGCommonParams.l: /opt/ros/melodic/lib/geneus/gen_eus.py
-/home/ed/lab_10/devel/share/roseus/ros/dobot/srv/SetJOGCommonParams.l: /home/ed/lab_10/src/dobot/srv/SetJOGCommonParams.srv
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ed/lab_10/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Generating EusLisp code from dobot/SetJOGCommonParams.srv"
-	cd /home/ed/lab_10/build/dobot && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/geneus/cmake/../../../lib/geneus/gen_eus.py /home/ed/lab_10/src/dobot/srv/SetJOGCommonParams.srv -Idobot:/home/ed/lab_10/src/dobot/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p dobot -o /home/ed/lab_10/devel/share/roseus/ros/dobot/srv
-
-/home/ed/lab_10/devel/share/roseus/ros/dobot/srv/GetHOMEParams.l: /opt/ros/melodic/lib/geneus/gen_eus.py
-/home/ed/lab_10/devel/share/roseus/ros/dobot/srv/GetHOMEParams.l: /home/ed/lab_10/src/dobot/srv/GetHOMEParams.srv
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ed/lab_10/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Generating EusLisp code from dobot/GetHOMEParams.srv"
-	cd /home/ed/lab_10/build/dobot && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/geneus/cmake/../../../lib/geneus/gen_eus.py /home/ed/lab_10/src/dobot/srv/GetHOMEParams.srv -Idobot:/home/ed/lab_10/src/dobot/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p dobot -o /home/ed/lab_10/devel/share/roseus/ros/dobot/srv
-
-/home/ed/lab_10/devel/share/roseus/ros/dobot/srv/GetPose.l: /opt/ros/melodic/lib/geneus/gen_eus.py
-/home/ed/lab_10/devel/share/roseus/ros/dobot/srv/GetPose.l: /home/ed/lab_10/src/dobot/srv/GetPose.srv
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ed/lab_10/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Generating EusLisp code from dobot/GetPose.srv"
-	cd /home/ed/lab_10/build/dobot && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/geneus/cmake/../../../lib/geneus/gen_eus.py /home/ed/lab_10/src/dobot/srv/GetPose.srv -Idobot:/home/ed/lab_10/src/dobot/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p dobot -o /home/ed/lab_10/devel/share/roseus/ros/dobot/srv
-
-/home/ed/lab_10/devel/share/roseus/ros/dobot/srv/GetJOGCoordinateParams.l: /opt/ros/melodic/lib/geneus/gen_eus.py
-/home/ed/lab_10/devel/share/roseus/ros/dobot/srv/GetJOGCoordinateParams.l: /home/ed/lab_10/src/dobot/srv/GetJOGCoordinateParams.srv
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ed/lab_10/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Generating EusLisp code from dobot/GetJOGCoordinateParams.srv"
-	cd /home/ed/lab_10/build/dobot && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/geneus/cmake/../../../lib/geneus/gen_eus.py /home/ed/lab_10/src/dobot/srv/GetJOGCoordinateParams.srv -Idobot:/home/ed/lab_10/src/dobot/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p dobot -o /home/ed/lab_10/devel/share/roseus/ros/dobot/srv
-
-/home/ed/lab_10/devel/share/roseus/ros/dobot/srv/SetEMotor.l: /opt/ros/melodic/lib/geneus/gen_eus.py
-/home/ed/lab_10/devel/share/roseus/ros/dobot/srv/SetEMotor.l: /home/ed/lab_10/src/dobot/srv/SetEMotor.srv
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ed/lab_10/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Generating EusLisp code from dobot/SetEMotor.srv"
-	cd /home/ed/lab_10/build/dobot && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/geneus/cmake/../../../lib/geneus/gen_eus.py /home/ed/lab_10/src/dobot/srv/SetEMotor.srv -Idobot:/home/ed/lab_10/src/dobot/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p dobot -o /home/ed/lab_10/devel/share/roseus/ros/dobot/srv
-
-/home/ed/lab_10/devel/share/roseus/ros/dobot/srv/SetCPCmd.l: /opt/ros/melodic/lib/geneus/gen_eus.py
-/home/ed/lab_10/devel/share/roseus/ros/dobot/srv/SetCPCmd.l: /home/ed/lab_10/src/dobot/srv/SetCPCmd.srv
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ed/lab_10/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Generating EusLisp code from dobot/SetCPCmd.srv"
-	cd /home/ed/lab_10/build/dobot && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/geneus/cmake/../../../lib/geneus/gen_eus.py /home/ed/lab_10/src/dobot/srv/SetCPCmd.srv -Idobot:/home/ed/lab_10/src/dobot/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p dobot -o /home/ed/lab_10/devel/share/roseus/ros/dobot/srv
-
-/home/ed/lab_10/devel/share/roseus/ros/dobot/srv/GetJOGCommonParams.l: /opt/ros/melodic/lib/geneus/gen_eus.py
-/home/ed/lab_10/devel/share/roseus/ros/dobot/srv/GetJOGCommonParams.l: /home/ed/lab_10/src/dobot/srv/GetJOGCommonParams.srv
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ed/lab_10/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Generating EusLisp code from dobot/GetJOGCommonParams.srv"
-	cd /home/ed/lab_10/build/dobot && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/geneus/cmake/../../../lib/geneus/gen_eus.py /home/ed/lab_10/src/dobot/srv/GetJOGCommonParams.srv -Idobot:/home/ed/lab_10/src/dobot/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p dobot -o /home/ed/lab_10/devel/share/roseus/ros/dobot/srv
-
-/home/ed/lab_10/devel/share/roseus/ros/dobot/srv/SetQueuedCmdForceStopExec.l: /opt/ros/melodic/lib/geneus/gen_eus.py
-/home/ed/lab_10/devel/share/roseus/ros/dobot/srv/SetQueuedCmdForceStopExec.l: /home/ed/lab_10/src/dobot/srv/SetQueuedCmdForceStopExec.srv
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ed/lab_10/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Generating EusLisp code from dobot/SetQueuedCmdForceStopExec.srv"
-	cd /home/ed/lab_10/build/dobot && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/geneus/cmake/../../../lib/geneus/gen_eus.py /home/ed/lab_10/src/dobot/srv/SetQueuedCmdForceStopExec.srv -Idobot:/home/ed/lab_10/src/dobot/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p dobot -o /home/ed/lab_10/devel/share/roseus/ros/dobot/srv
-
-/home/ed/lab_10/devel/share/roseus/ros/dobot/srv/GetIOMultiplexing.l: /opt/ros/melodic/lib/geneus/gen_eus.py
-/home/ed/lab_10/devel/share/roseus/ros/dobot/srv/GetIOMultiplexing.l: /home/ed/lab_10/src/dobot/srv/GetIOMultiplexing.srv
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ed/lab_10/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Generating EusLisp code from dobot/GetIOMultiplexing.srv"
-	cd /home/ed/lab_10/build/dobot && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/geneus/cmake/../../../lib/geneus/gen_eus.py /home/ed/lab_10/src/dobot/srv/GetIOMultiplexing.srv -Idobot:/home/ed/lab_10/src/dobot/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p dobot -o /home/ed/lab_10/devel/share/roseus/ros/dobot/srv
-
-/home/ed/lab_10/devel/share/roseus/ros/dobot/srv/GetIODI.l: /opt/ros/melodic/lib/geneus/gen_eus.py
-/home/ed/lab_10/devel/share/roseus/ros/dobot/srv/GetIODI.l: /home/ed/lab_10/src/dobot/srv/GetIODI.srv
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ed/lab_10/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Generating EusLisp code from dobot/GetIODI.srv"
-	cd /home/ed/lab_10/build/dobot && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/geneus/cmake/../../../lib/geneus/gen_eus.py /home/ed/lab_10/src/dobot/srv/GetIODI.srv -Idobot:/home/ed/lab_10/src/dobot/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p dobot -o /home/ed/lab_10/devel/share/roseus/ros/dobot/srv
-
-/home/ed/lab_10/devel/share/roseus/ros/dobot/srv/GetARCParams.l: /opt/ros/melodic/lib/geneus/gen_eus.py
-/home/ed/lab_10/devel/share/roseus/ros/dobot/srv/GetARCParams.l: /home/ed/lab_10/src/dobot/srv/GetARCParams.srv
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ed/lab_10/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Generating EusLisp code from dobot/GetARCParams.srv"
-	cd /home/ed/lab_10/build/dobot && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/geneus/cmake/../../../lib/geneus/gen_eus.py /home/ed/lab_10/src/dobot/srv/GetARCParams.srv -Idobot:/home/ed/lab_10/src/dobot/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p dobot -o /home/ed/lab_10/devel/share/roseus/ros/dobot/srv
-
-/home/ed/lab_10/devel/share/roseus/ros/dobot/srv/SetPTPCommonParams.l: /opt/ros/melodic/lib/geneus/gen_eus.py
-/home/ed/lab_10/devel/share/roseus/ros/dobot/srv/SetPTPCommonParams.l: /home/ed/lab_10/src/dobot/srv/SetPTPCommonParams.srv
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ed/lab_10/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Generating EusLisp code from dobot/SetPTPCommonParams.srv"
-	cd /home/ed/lab_10/build/dobot && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/geneus/cmake/../../../lib/geneus/gen_eus.py /home/ed/lab_10/src/dobot/srv/SetPTPCommonParams.srv -Idobot:/home/ed/lab_10/src/dobot/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p dobot -o /home/ed/lab_10/devel/share/roseus/ros/dobot/srv
-
-/home/ed/lab_10/devel/share/roseus/ros/dobot/srv/GetIODO.l: /opt/ros/melodic/lib/geneus/gen_eus.py
-/home/ed/lab_10/devel/share/roseus/ros/dobot/srv/GetIODO.l: /home/ed/lab_10/src/dobot/srv/GetIODO.srv
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ed/lab_10/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Generating EusLisp code from dobot/GetIODO.srv"
-	cd /home/ed/lab_10/build/dobot && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/geneus/cmake/../../../lib/geneus/gen_eus.py /home/ed/lab_10/src/dobot/srv/GetIODO.srv -Idobot:/home/ed/lab_10/src/dobot/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p dobot -o /home/ed/lab_10/devel/share/roseus/ros/dobot/srv
-
-/home/ed/lab_10/devel/share/roseus/ros/dobot/srv/SetIOMultiplexing.l: /opt/ros/melodic/lib/geneus/gen_eus.py
-/home/ed/lab_10/devel/share/roseus/ros/dobot/srv/SetIOMultiplexing.l: /home/ed/lab_10/src/dobot/srv/SetIOMultiplexing.srv
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ed/lab_10/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Generating EusLisp code from dobot/SetIOMultiplexing.srv"
-	cd /home/ed/lab_10/build/dobot && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/geneus/cmake/../../../lib/geneus/gen_eus.py /home/ed/lab_10/src/dobot/srv/SetIOMultiplexing.srv -Idobot:/home/ed/lab_10/src/dobot/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p dobot -o /home/ed/lab_10/devel/share/roseus/ros/dobot/srv
-
-/home/ed/lab_10/devel/share/roseus/ros/dobot/srv/GetDeviceName.l: /opt/ros/melodic/lib/geneus/gen_eus.py
-/home/ed/lab_10/devel/share/roseus/ros/dobot/srv/GetDeviceName.l: /home/ed/lab_10/src/dobot/srv/GetDeviceName.srv
-/home/ed/lab_10/devel/share/roseus/ros/dobot/srv/GetDeviceName.l: /opt/ros/melodic/share/std_msgs/msg/String.msg
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ed/lab_10/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Generating EusLisp code from dobot/GetDeviceName.srv"
-	cd /home/ed/lab_10/build/dobot && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/geneus/cmake/../../../lib/geneus/gen_eus.py /home/ed/lab_10/src/dobot/srv/GetDeviceName.srv -Idobot:/home/ed/lab_10/src/dobot/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p dobot -o /home/ed/lab_10/devel/share/roseus/ros/dobot/srv
-
-/home/ed/lab_10/devel/share/roseus/ros/dobot/srv/SetColorSensor.l: /opt/ros/melodic/lib/geneus/gen_eus.py
-/home/ed/lab_10/devel/share/roseus/ros/dobot/srv/SetColorSensor.l: /home/ed/lab_10/src/dobot/srv/SetColorSensor.srv
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ed/lab_10/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Generating EusLisp code from dobot/SetColorSensor.srv"
-	cd /home/ed/lab_10/build/dobot && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/geneus/cmake/../../../lib/geneus/gen_eus.py /home/ed/lab_10/src/dobot/srv/SetColorSensor.srv -Idobot:/home/ed/lab_10/src/dobot/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p dobot -o /home/ed/lab_10/devel/share/roseus/ros/dobot/srv
-
-/home/ed/lab_10/devel/share/roseus/ros/dobot/srv/GetPTPJumpParams.l: /opt/ros/melodic/lib/geneus/gen_eus.py
-/home/ed/lab_10/devel/share/roseus/ros/dobot/srv/GetPTPJumpParams.l: /home/ed/lab_10/src/dobot/srv/GetPTPJumpParams.srv
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ed/lab_10/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Generating EusLisp code from dobot/GetPTPJumpParams.srv"
-	cd /home/ed/lab_10/build/dobot && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/geneus/cmake/../../../lib/geneus/gen_eus.py /home/ed/lab_10/src/dobot/srv/GetPTPJumpParams.srv -Idobot:/home/ed/lab_10/src/dobot/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p dobot -o /home/ed/lab_10/devel/share/roseus/ros/dobot/srv
-
-/home/ed/lab_10/devel/share/roseus/ros/dobot/srv/GetDeviceSN.l: /opt/ros/melodic/lib/geneus/gen_eus.py
-/home/ed/lab_10/devel/share/roseus/ros/dobot/srv/GetDeviceSN.l: /home/ed/lab_10/src/dobot/srv/GetDeviceSN.srv
-/home/ed/lab_10/devel/share/roseus/ros/dobot/srv/GetDeviceSN.l: /opt/ros/melodic/share/std_msgs/msg/String.msg
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ed/lab_10/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Generating EusLisp code from dobot/GetDeviceSN.srv"
-	cd /home/ed/lab_10/build/dobot && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/geneus/cmake/../../../lib/geneus/gen_eus.py /home/ed/lab_10/src/dobot/srv/GetDeviceSN.srv -Idobot:/home/ed/lab_10/src/dobot/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p dobot -o /home/ed/lab_10/devel/share/roseus/ros/dobot/srv
-
-/home/ed/lab_10/devel/share/roseus/ros/dobot/srv/GetPTPJointParams.l: /opt/ros/melodic/lib/geneus/gen_eus.py
-/home/ed/lab_10/devel/share/roseus/ros/dobot/srv/GetPTPJointParams.l: /home/ed/lab_10/src/dobot/srv/GetPTPJointParams.srv
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ed/lab_10/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Generating EusLisp code from dobot/GetPTPJointParams.srv"
-	cd /home/ed/lab_10/build/dobot && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/geneus/cmake/../../../lib/geneus/gen_eus.py /home/ed/lab_10/src/dobot/srv/GetPTPJointParams.srv -Idobot:/home/ed/lab_10/src/dobot/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p dobot -o /home/ed/lab_10/devel/share/roseus/ros/dobot/srv
-
-/home/ed/lab_10/devel/share/roseus/ros/dobot/srv/SetEndEffectorParams.l: /opt/ros/melodic/lib/geneus/gen_eus.py
-/home/ed/lab_10/devel/share/roseus/ros/dobot/srv/SetEndEffectorParams.l: /home/ed/lab_10/src/dobot/srv/SetEndEffectorParams.srv
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ed/lab_10/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Generating EusLisp code from dobot/SetEndEffectorParams.srv"
-	cd /home/ed/lab_10/build/dobot && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/geneus/cmake/../../../lib/geneus/gen_eus.py /home/ed/lab_10/src/dobot/srv/SetEndEffectorParams.srv -Idobot:/home/ed/lab_10/src/dobot/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p dobot -o /home/ed/lab_10/devel/share/roseus/ros/dobot/srv
-
-/home/ed/lab_10/devel/share/roseus/ros/dobot/srv/GetJOGJointParams.l: /opt/ros/melodic/lib/geneus/gen_eus.py
-/home/ed/lab_10/devel/share/roseus/ros/dobot/srv/GetJOGJointParams.l: /home/ed/lab_10/src/dobot/srv/GetJOGJointParams.srv
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ed/lab_10/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Generating EusLisp code from dobot/GetJOGJointParams.srv"
-	cd /home/ed/lab_10/build/dobot && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/geneus/cmake/../../../lib/geneus/gen_eus.py /home/ed/lab_10/src/dobot/srv/GetJOGJointParams.srv -Idobot:/home/ed/lab_10/src/dobot/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p dobot -o /home/ed/lab_10/devel/share/roseus/ros/dobot/srv
-
-/home/ed/lab_10/devel/share/roseus/ros/dobot/srv/SetCPParams.l: /opt/ros/melodic/lib/geneus/gen_eus.py
-/home/ed/lab_10/devel/share/roseus/ros/dobot/srv/SetCPParams.l: /home/ed/lab_10/src/dobot/srv/SetCPParams.srv
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ed/lab_10/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Generating EusLisp code from dobot/SetCPParams.srv"
-	cd /home/ed/lab_10/build/dobot && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/geneus/cmake/../../../lib/geneus/gen_eus.py /home/ed/lab_10/src/dobot/srv/SetCPParams.srv -Idobot:/home/ed/lab_10/src/dobot/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p dobot -o /home/ed/lab_10/devel/share/roseus/ros/dobot/srv
-
-/home/ed/lab_10/devel/share/roseus/ros/dobot/srv/SetInfraredSensor.l: /opt/ros/melodic/lib/geneus/gen_eus.py
-/home/ed/lab_10/devel/share/roseus/ros/dobot/srv/SetInfraredSensor.l: /home/ed/lab_10/src/dobot/srv/SetInfraredSensor.srv
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ed/lab_10/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Generating EusLisp code from dobot/SetInfraredSensor.srv"
-	cd /home/ed/lab_10/build/dobot && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/geneus/cmake/../../../lib/geneus/gen_eus.py /home/ed/lab_10/src/dobot/srv/SetInfraredSensor.srv -Idobot:/home/ed/lab_10/src/dobot/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p dobot -o /home/ed/lab_10/devel/share/roseus/ros/dobot/srv
-
-/home/ed/lab_10/devel/share/roseus/ros/dobot/srv/SetHOMECmd.l: /opt/ros/melodic/lib/geneus/gen_eus.py
-/home/ed/lab_10/devel/share/roseus/ros/dobot/srv/SetHOMECmd.l: /home/ed/lab_10/src/dobot/srv/SetHOMECmd.srv
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ed/lab_10/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Generating EusLisp code from dobot/SetHOMECmd.srv"
-	cd /home/ed/lab_10/build/dobot && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/geneus/cmake/../../../lib/geneus/gen_eus.py /home/ed/lab_10/src/dobot/srv/SetHOMECmd.srv -Idobot:/home/ed/lab_10/src/dobot/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p dobot -o /home/ed/lab_10/devel/share/roseus/ros/dobot/srv
-
-/home/ed/lab_10/devel/share/roseus/ros/dobot/srv/GetEndEffectorLaser.l: /opt/ros/melodic/lib/geneus/gen_eus.py
-/home/ed/lab_10/devel/share/roseus/ros/dobot/srv/GetEndEffectorLaser.l: /home/ed/lab_10/src/dobot/srv/GetEndEffectorLaser.srv
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ed/lab_10/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Generating EusLisp code from dobot/GetEndEffectorLaser.srv"
-	cd /home/ed/lab_10/build/dobot && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/geneus/cmake/../../../lib/geneus/gen_eus.py /home/ed/lab_10/src/dobot/srv/GetEndEffectorLaser.srv -Idobot:/home/ed/lab_10/src/dobot/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p dobot -o /home/ed/lab_10/devel/share/roseus/ros/dobot/srv
-
-/home/ed/lab_10/devel/share/roseus/ros/dobot/srv/GetCPParams.l: /opt/ros/melodic/lib/geneus/gen_eus.py
-/home/ed/lab_10/devel/share/roseus/ros/dobot/srv/GetCPParams.l: /home/ed/lab_10/src/dobot/srv/GetCPParams.srv
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ed/lab_10/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Generating EusLisp code from dobot/GetCPParams.srv"
-	cd /home/ed/lab_10/build/dobot && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/geneus/cmake/../../../lib/geneus/gen_eus.py /home/ed/lab_10/src/dobot/srv/GetCPParams.srv -Idobot:/home/ed/lab_10/src/dobot/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p dobot -o /home/ed/lab_10/devel/share/roseus/ros/dobot/srv
-
-/home/ed/lab_10/devel/share/roseus/ros/dobot/srv/GetEndEffectorGripper.l: /opt/ros/melodic/lib/geneus/gen_eus.py
-/home/ed/lab_10/devel/share/roseus/ros/dobot/srv/GetEndEffectorGripper.l: /home/ed/lab_10/src/dobot/srv/GetEndEffectorGripper.srv
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ed/lab_10/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Generating EusLisp code from dobot/GetEndEffectorGripper.srv"
-	cd /home/ed/lab_10/build/dobot && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/geneus/cmake/../../../lib/geneus/gen_eus.py /home/ed/lab_10/src/dobot/srv/GetEndEffectorGripper.srv -Idobot:/home/ed/lab_10/src/dobot/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p dobot -o /home/ed/lab_10/devel/share/roseus/ros/dobot/srv
-
-/home/ed/lab_10/devel/share/roseus/ros/dobot/srv/GetEndEffectorSuctionCup.l: /opt/ros/melodic/lib/geneus/gen_eus.py
-/home/ed/lab_10/devel/share/roseus/ros/dobot/srv/GetEndEffectorSuctionCup.l: /home/ed/lab_10/src/dobot/srv/GetEndEffectorSuctionCup.srv
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ed/lab_10/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Generating EusLisp code from dobot/GetEndEffectorSuctionCup.srv"
-	cd /home/ed/lab_10/build/dobot && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/geneus/cmake/../../../lib/geneus/gen_eus.py /home/ed/lab_10/src/dobot/srv/GetEndEffectorSuctionCup.srv -Idobot:/home/ed/lab_10/src/dobot/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p dobot -o /home/ed/lab_10/devel/share/roseus/ros/dobot/srv
-
-/home/ed/lab_10/devel/share/roseus/ros/dobot/srv/SetEndEffectorGripper.l: /opt/ros/melodic/lib/geneus/gen_eus.py
-/home/ed/lab_10/devel/share/roseus/ros/dobot/srv/SetEndEffectorGripper.l: /home/ed/lab_10/src/dobot/srv/SetEndEffectorGripper.srv
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ed/lab_10/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_45) "Generating EusLisp code from dobot/SetEndEffectorGripper.srv"
-	cd /home/ed/lab_10/build/dobot && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/geneus/cmake/../../../lib/geneus/gen_eus.py /home/ed/lab_10/src/dobot/srv/SetEndEffectorGripper.srv -Idobot:/home/ed/lab_10/src/dobot/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p dobot -o /home/ed/lab_10/devel/share/roseus/ros/dobot/srv
-
-/home/ed/lab_10/devel/share/roseus/ros/dobot/srv/SetPTPJumpParams.l: /opt/ros/melodic/lib/geneus/gen_eus.py
-/home/ed/lab_10/devel/share/roseus/ros/dobot/srv/SetPTPJumpParams.l: /home/ed/lab_10/src/dobot/srv/SetPTPJumpParams.srv
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ed/lab_10/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_46) "Generating EusLisp code from dobot/SetPTPJumpParams.srv"
-	cd /home/ed/lab_10/build/dobot && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/geneus/cmake/../../../lib/geneus/gen_eus.py /home/ed/lab_10/src/dobot/srv/SetPTPJumpParams.srv -Idobot:/home/ed/lab_10/src/dobot/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p dobot -o /home/ed/lab_10/devel/share/roseus/ros/dobot/srv
-
-/home/ed/lab_10/devel/share/roseus/ros/dobot/srv/GetAlarmsState.l: /opt/ros/melodic/lib/geneus/gen_eus.py
-/home/ed/lab_10/devel/share/roseus/ros/dobot/srv/GetAlarmsState.l: /home/ed/lab_10/src/dobot/srv/GetAlarmsState.srv
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ed/lab_10/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Generating EusLisp code from dobot/GetAlarmsState.srv"
-	cd /home/ed/lab_10/build/dobot && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/geneus/cmake/../../../lib/geneus/gen_eus.py /home/ed/lab_10/src/dobot/srv/GetAlarmsState.srv -Idobot:/home/ed/lab_10/src/dobot/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p dobot -o /home/ed/lab_10/devel/share/roseus/ros/dobot/srv
-
-/home/ed/lab_10/devel/share/roseus/ros/dobot/srv/SetARCParams.l: /opt/ros/melodic/lib/geneus/gen_eus.py
-/home/ed/lab_10/devel/share/roseus/ros/dobot/srv/SetARCParams.l: /home/ed/lab_10/src/dobot/srv/SetARCParams.srv
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ed/lab_10/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_48) "Generating EusLisp code from dobot/SetARCParams.srv"
-	cd /home/ed/lab_10/build/dobot && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/geneus/cmake/../../../lib/geneus/gen_eus.py /home/ed/lab_10/src/dobot/srv/SetARCParams.srv -Idobot:/home/ed/lab_10/src/dobot/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p dobot -o /home/ed/lab_10/devel/share/roseus/ros/dobot/srv
-
-/home/ed/lab_10/devel/share/roseus/ros/dobot/srv/SetEndEffectorSuctionCup.l: /opt/ros/melodic/lib/geneus/gen_eus.py
-/home/ed/lab_10/devel/share/roseus/ros/dobot/srv/SetEndEffectorSuctionCup.l: /home/ed/lab_10/src/dobot/srv/SetEndEffectorSuctionCup.srv
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ed/lab_10/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_49) "Generating EusLisp code from dobot/SetEndEffectorSuctionCup.srv"
-	cd /home/ed/lab_10/build/dobot && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/geneus/cmake/../../../lib/geneus/gen_eus.py /home/ed/lab_10/src/dobot/srv/SetEndEffectorSuctionCup.srv -Idobot:/home/ed/lab_10/src/dobot/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p dobot -o /home/ed/lab_10/devel/share/roseus/ros/dobot/srv
-
-/home/ed/lab_10/devel/share/roseus/ros/dobot/srv/GetInfraredSensor.l: /opt/ros/melodic/lib/geneus/gen_eus.py
-/home/ed/lab_10/devel/share/roseus/ros/dobot/srv/GetInfraredSensor.l: /home/ed/lab_10/src/dobot/srv/GetInfraredSensor.srv
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ed/lab_10/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_50) "Generating EusLisp code from dobot/GetInfraredSensor.srv"
-	cd /home/ed/lab_10/build/dobot && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/geneus/cmake/../../../lib/geneus/gen_eus.py /home/ed/lab_10/src/dobot/srv/GetInfraredSensor.srv -Idobot:/home/ed/lab_10/src/dobot/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p dobot -o /home/ed/lab_10/devel/share/roseus/ros/dobot/srv
-
-/home/ed/lab_10/devel/share/roseus/ros/dobot/srv/SetIOPWM.l: /opt/ros/melodic/lib/geneus/gen_eus.py
-/home/ed/lab_10/devel/share/roseus/ros/dobot/srv/SetIOPWM.l: /home/ed/lab_10/src/dobot/srv/SetIOPWM.srv
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ed/lab_10/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_51) "Generating EusLisp code from dobot/SetIOPWM.srv"
-	cd /home/ed/lab_10/build/dobot && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/geneus/cmake/../../../lib/geneus/gen_eus.py /home/ed/lab_10/src/dobot/srv/SetIOPWM.srv -Idobot:/home/ed/lab_10/src/dobot/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p dobot -o /home/ed/lab_10/devel/share/roseus/ros/dobot/srv
-
-/home/ed/lab_10/devel/share/roseus/ros/dobot/srv/GetDeviceVersion.l: /opt/ros/melodic/lib/geneus/gen_eus.py
-/home/ed/lab_10/devel/share/roseus/ros/dobot/srv/GetDeviceVersion.l: /home/ed/lab_10/src/dobot/srv/GetDeviceVersion.srv
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ed/lab_10/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_52) "Generating EusLisp code from dobot/GetDeviceVersion.srv"
-	cd /home/ed/lab_10/build/dobot && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/geneus/cmake/../../../lib/geneus/gen_eus.py /home/ed/lab_10/src/dobot/srv/GetDeviceVersion.srv -Idobot:/home/ed/lab_10/src/dobot/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p dobot -o /home/ed/lab_10/devel/share/roseus/ros/dobot/srv
-
-/home/ed/lab_10/devel/share/roseus/ros/dobot/srv/SetQueuedCmdStopExec.l: /opt/ros/melodic/lib/geneus/gen_eus.py
-/home/ed/lab_10/devel/share/roseus/ros/dobot/srv/SetQueuedCmdStopExec.l: /home/ed/lab_10/src/dobot/srv/SetQueuedCmdStopExec.srv
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ed/lab_10/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_53) "Generating EusLisp code from dobot/SetQueuedCmdStopExec.srv"
-	cd /home/ed/lab_10/build/dobot && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/geneus/cmake/../../../lib/geneus/gen_eus.py /home/ed/lab_10/src/dobot/srv/SetQueuedCmdStopExec.srv -Idobot:/home/ed/lab_10/src/dobot/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p dobot -o /home/ed/lab_10/devel/share/roseus/ros/dobot/srv
-
-/home/ed/lab_10/devel/share/roseus/ros/dobot/srv/SetQueuedCmdStartExec.l: /opt/ros/melodic/lib/geneus/gen_eus.py
-/home/ed/lab_10/devel/share/roseus/ros/dobot/srv/SetQueuedCmdStartExec.l: /home/ed/lab_10/src/dobot/srv/SetQueuedCmdStartExec.srv
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ed/lab_10/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_54) "Generating EusLisp code from dobot/SetQueuedCmdStartExec.srv"
-	cd /home/ed/lab_10/build/dobot && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/geneus/cmake/../../../lib/geneus/gen_eus.py /home/ed/lab_10/src/dobot/srv/SetQueuedCmdStartExec.srv -Idobot:/home/ed/lab_10/src/dobot/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p dobot -o /home/ed/lab_10/devel/share/roseus/ros/dobot/srv
-
-/home/ed/lab_10/devel/share/roseus/ros/dobot/srv/SetJOGCmd.l: /opt/ros/melodic/lib/geneus/gen_eus.py
-/home/ed/lab_10/devel/share/roseus/ros/dobot/srv/SetJOGCmd.l: /home/ed/lab_10/src/dobot/srv/SetJOGCmd.srv
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ed/lab_10/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_55) "Generating EusLisp code from dobot/SetJOGCmd.srv"
-	cd /home/ed/lab_10/build/dobot && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/geneus/cmake/../../../lib/geneus/gen_eus.py /home/ed/lab_10/src/dobot/srv/SetJOGCmd.srv -Idobot:/home/ed/lab_10/src/dobot/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p dobot -o /home/ed/lab_10/devel/share/roseus/ros/dobot/srv
-
-/home/ed/lab_10/devel/share/roseus/ros/dobot/srv/SetDeviceName.l: /opt/ros/melodic/lib/geneus/gen_eus.py
-/home/ed/lab_10/devel/share/roseus/ros/dobot/srv/SetDeviceName.l: /home/ed/lab_10/src/dobot/srv/SetDeviceName.srv
-/home/ed/lab_10/devel/share/roseus/ros/dobot/srv/SetDeviceName.l: /opt/ros/melodic/share/std_msgs/msg/String.msg
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ed/lab_10/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_56) "Generating EusLisp code from dobot/SetDeviceName.srv"
-	cd /home/ed/lab_10/build/dobot && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/geneus/cmake/../../../lib/geneus/gen_eus.py /home/ed/lab_10/src/dobot/srv/SetDeviceName.srv -Idobot:/home/ed/lab_10/src/dobot/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p dobot -o /home/ed/lab_10/devel/share/roseus/ros/dobot/srv
-
-/home/ed/lab_10/devel/share/roseus/ros/dobot/srv/GetEndEffectorParams.l: /opt/ros/melodic/lib/geneus/gen_eus.py
-/home/ed/lab_10/devel/share/roseus/ros/dobot/srv/GetEndEffectorParams.l: /home/ed/lab_10/src/dobot/srv/GetEndEffectorParams.srv
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ed/lab_10/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_57) "Generating EusLisp code from dobot/GetEndEffectorParams.srv"
-	cd /home/ed/lab_10/build/dobot && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/geneus/cmake/../../../lib/geneus/gen_eus.py /home/ed/lab_10/src/dobot/srv/GetEndEffectorParams.srv -Idobot:/home/ed/lab_10/src/dobot/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p dobot -o /home/ed/lab_10/devel/share/roseus/ros/dobot/srv
-
-/home/ed/lab_10/devel/share/roseus/ros/dobot/srv/GetIOADC.l: /opt/ros/melodic/lib/geneus/gen_eus.py
-/home/ed/lab_10/devel/share/roseus/ros/dobot/srv/GetIOADC.l: /home/ed/lab_10/src/dobot/srv/GetIOADC.srv
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ed/lab_10/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_58) "Generating EusLisp code from dobot/GetIOADC.srv"
-	cd /home/ed/lab_10/build/dobot && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/geneus/cmake/../../../lib/geneus/gen_eus.py /home/ed/lab_10/src/dobot/srv/GetIOADC.srv -Idobot:/home/ed/lab_10/src/dobot/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p dobot -o /home/ed/lab_10/devel/share/roseus/ros/dobot/srv
-
-/home/ed/lab_10/devel/share/roseus/ros/dobot/srv/SetWAITCmd.l: /opt/ros/melodic/lib/geneus/gen_eus.py
-/home/ed/lab_10/devel/share/roseus/ros/dobot/srv/SetWAITCmd.l: /home/ed/lab_10/src/dobot/srv/SetWAITCmd.srv
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ed/lab_10/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_59) "Generating EusLisp code from dobot/SetWAITCmd.srv"
-	cd /home/ed/lab_10/build/dobot && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/geneus/cmake/../../../lib/geneus/gen_eus.py /home/ed/lab_10/src/dobot/srv/SetWAITCmd.srv -Idobot:/home/ed/lab_10/src/dobot/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p dobot -o /home/ed/lab_10/devel/share/roseus/ros/dobot/srv
-
-/home/ed/lab_10/devel/share/roseus/ros/dobot/srv/SetEndEffectorLaser.l: /opt/ros/melodic/lib/geneus/gen_eus.py
-/home/ed/lab_10/devel/share/roseus/ros/dobot/srv/SetEndEffectorLaser.l: /home/ed/lab_10/src/dobot/srv/SetEndEffectorLaser.srv
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ed/lab_10/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_60) "Generating EusLisp code from dobot/SetEndEffectorLaser.srv"
-	cd /home/ed/lab_10/build/dobot && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/geneus/cmake/../../../lib/geneus/gen_eus.py /home/ed/lab_10/src/dobot/srv/SetEndEffectorLaser.srv -Idobot:/home/ed/lab_10/src/dobot/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p dobot -o /home/ed/lab_10/devel/share/roseus/ros/dobot/srv
-
-/home/ed/lab_10/devel/share/roseus/ros/dobot/srv/SetTRIGCmd.l: /opt/ros/melodic/lib/geneus/gen_eus.py
-/home/ed/lab_10/devel/share/roseus/ros/dobot/srv/SetTRIGCmd.l: /home/ed/lab_10/src/dobot/srv/SetTRIGCmd.srv
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ed/lab_10/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_61) "Generating EusLisp code from dobot/SetTRIGCmd.srv"
-	cd /home/ed/lab_10/build/dobot && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/geneus/cmake/../../../lib/geneus/gen_eus.py /home/ed/lab_10/src/dobot/srv/SetTRIGCmd.srv -Idobot:/home/ed/lab_10/src/dobot/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p dobot -o /home/ed/lab_10/devel/share/roseus/ros/dobot/srv
-
-/home/ed/lab_10/devel/share/roseus/ros/dobot/srv/SetJOGJointParams.l: /opt/ros/melodic/lib/geneus/gen_eus.py
-/home/ed/lab_10/devel/share/roseus/ros/dobot/srv/SetJOGJointParams.l: /home/ed/lab_10/src/dobot/srv/SetJOGJointParams.srv
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ed/lab_10/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_62) "Generating EusLisp code from dobot/SetJOGJointParams.srv"
-	cd /home/ed/lab_10/build/dobot && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/geneus/cmake/../../../lib/geneus/gen_eus.py /home/ed/lab_10/src/dobot/srv/SetJOGJointParams.srv -Idobot:/home/ed/lab_10/src/dobot/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p dobot -o /home/ed/lab_10/devel/share/roseus/ros/dobot/srv
-
-/home/ed/lab_10/devel/share/roseus/ros/dobot/srv/SetPTPCoordinateParams.l: /opt/ros/melodic/lib/geneus/gen_eus.py
-/home/ed/lab_10/devel/share/roseus/ros/dobot/srv/SetPTPCoordinateParams.l: /home/ed/lab_10/src/dobot/srv/SetPTPCoordinateParams.srv
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ed/lab_10/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_63) "Generating EusLisp code from dobot/SetPTPCoordinateParams.srv"
-	cd /home/ed/lab_10/build/dobot && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/geneus/cmake/../../../lib/geneus/gen_eus.py /home/ed/lab_10/src/dobot/srv/SetPTPCoordinateParams.srv -Idobot:/home/ed/lab_10/src/dobot/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p dobot -o /home/ed/lab_10/devel/share/roseus/ros/dobot/srv
-
-/home/ed/lab_10/devel/share/roseus/ros/dobot/srv/SetARCCmd.l: /opt/ros/melodic/lib/geneus/gen_eus.py
-/home/ed/lab_10/devel/share/roseus/ros/dobot/srv/SetARCCmd.l: /home/ed/lab_10/src/dobot/srv/SetARCCmd.srv
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ed/lab_10/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_64) "Generating EusLisp code from dobot/SetARCCmd.srv"
-	cd /home/ed/lab_10/build/dobot && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/geneus/cmake/../../../lib/geneus/gen_eus.py /home/ed/lab_10/src/dobot/srv/SetARCCmd.srv -Idobot:/home/ed/lab_10/src/dobot/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p dobot -o /home/ed/lab_10/devel/share/roseus/ros/dobot/srv
-
-/home/ed/lab_10/devel/share/roseus/ros/dobot/manifest.l: /opt/ros/melodic/lib/geneus/gen_eus.py
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ed/lab_10/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_65) "Generating EusLisp manifest code for dobot"
-	cd /home/ed/lab_10/build/dobot && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/geneus/cmake/../../../lib/geneus/gen_eus.py -m -o /home/ed/lab_10/devel/share/roseus/ros/dobot dobot std_msgs
+dobot/CMakeFiles/dobot_generate_messages_eus: /home/edward/lab_10/devel/share/roseus/ros/dobot/msg/PTPCommand.l
+dobot/CMakeFiles/dobot_generate_messages_eus: /home/edward/lab_10/devel/share/roseus/ros/dobot/msg/CartesianSimple.l
+dobot/CMakeFiles/dobot_generate_messages_eus: /home/edward/lab_10/devel/share/roseus/ros/dobot/msg/CartesianQuat.l
+dobot/CMakeFiles/dobot_generate_messages_eus: /home/edward/lab_10/devel/share/roseus/ros/dobot/msg/Joint.l
+dobot/CMakeFiles/dobot_generate_messages_eus: /home/edward/lab_10/devel/share/roseus/ros/dobot/srv/SetJOGCmd.l
+dobot/CMakeFiles/dobot_generate_messages_eus: /home/edward/lab_10/devel/share/roseus/ros/dobot/srv/SetPTPJointParams.l
+dobot/CMakeFiles/dobot_generate_messages_eus: /home/edward/lab_10/devel/share/roseus/ros/dobot/srv/SetIOMultiplexing.l
+dobot/CMakeFiles/dobot_generate_messages_eus: /home/edward/lab_10/devel/share/roseus/ros/dobot/srv/SetIOPWM.l
+dobot/CMakeFiles/dobot_generate_messages_eus: /home/edward/lab_10/devel/share/roseus/ros/dobot/srv/GetJOGCoordinateParams.l
+dobot/CMakeFiles/dobot_generate_messages_eus: /home/edward/lab_10/devel/share/roseus/ros/dobot/srv/SetWAITCmd.l
+dobot/CMakeFiles/dobot_generate_messages_eus: /home/edward/lab_10/devel/share/roseus/ros/dobot/srv/GetIOPWM.l
+dobot/CMakeFiles/dobot_generate_messages_eus: /home/edward/lab_10/devel/share/roseus/ros/dobot/srv/SetCPParams.l
+dobot/CMakeFiles/dobot_generate_messages_eus: /home/edward/lab_10/devel/share/roseus/ros/dobot/srv/SetJOGJointParams.l
+dobot/CMakeFiles/dobot_generate_messages_eus: /home/edward/lab_10/devel/share/roseus/ros/dobot/srv/SetARCParams.l
+dobot/CMakeFiles/dobot_generate_messages_eus: /home/edward/lab_10/devel/share/roseus/ros/dobot/srv/SetARCCmd.l
+dobot/CMakeFiles/dobot_generate_messages_eus: /home/edward/lab_10/devel/share/roseus/ros/dobot/srv/SetCPCmd.l
+dobot/CMakeFiles/dobot_generate_messages_eus: /home/edward/lab_10/devel/share/roseus/ros/dobot/srv/SetEndEffectorGripper.l
+dobot/CMakeFiles/dobot_generate_messages_eus: /home/edward/lab_10/devel/share/roseus/ros/dobot/srv/GetPTPJointParams.l
+dobot/CMakeFiles/dobot_generate_messages_eus: /home/edward/lab_10/devel/share/roseus/ros/dobot/srv/GetARCParams.l
+dobot/CMakeFiles/dobot_generate_messages_eus: /home/edward/lab_10/devel/share/roseus/ros/dobot/srv/SetHOMEParams.l
+dobot/CMakeFiles/dobot_generate_messages_eus: /home/edward/lab_10/devel/share/roseus/ros/dobot/srv/SetColorSensor.l
+dobot/CMakeFiles/dobot_generate_messages_eus: /home/edward/lab_10/devel/share/roseus/ros/dobot/srv/SetInfraredSensor.l
+dobot/CMakeFiles/dobot_generate_messages_eus: /home/edward/lab_10/devel/share/roseus/ros/dobot/srv/GetPTPJumpParams.l
+dobot/CMakeFiles/dobot_generate_messages_eus: /home/edward/lab_10/devel/share/roseus/ros/dobot/srv/SetPTPJumpParams.l
+dobot/CMakeFiles/dobot_generate_messages_eus: /home/edward/lab_10/devel/share/roseus/ros/dobot/srv/SetPTPCommonParams.l
+dobot/CMakeFiles/dobot_generate_messages_eus: /home/edward/lab_10/devel/share/roseus/ros/dobot/srv/GetColorSensor.l
+dobot/CMakeFiles/dobot_generate_messages_eus: /home/edward/lab_10/devel/share/roseus/ros/dobot/srv/GetIOADC.l
+dobot/CMakeFiles/dobot_generate_messages_eus: /home/edward/lab_10/devel/share/roseus/ros/dobot/srv/SetEMotor.l
+dobot/CMakeFiles/dobot_generate_messages_eus: /home/edward/lab_10/devel/share/roseus/ros/dobot/srv/GetPTPCoordinateParams.l
+dobot/CMakeFiles/dobot_generate_messages_eus: /home/edward/lab_10/devel/share/roseus/ros/dobot/srv/GetDeviceVersion.l
+dobot/CMakeFiles/dobot_generate_messages_eus: /home/edward/lab_10/devel/share/roseus/ros/dobot/srv/GetPTPCommonParams.l
+dobot/CMakeFiles/dobot_generate_messages_eus: /home/edward/lab_10/devel/share/roseus/ros/dobot/srv/SetEndEffectorLaser.l
+dobot/CMakeFiles/dobot_generate_messages_eus: /home/edward/lab_10/devel/share/roseus/ros/dobot/srv/SetQueuedCmdStartExec.l
+dobot/CMakeFiles/dobot_generate_messages_eus: /home/edward/lab_10/devel/share/roseus/ros/dobot/srv/GetEndEffectorSuctionCup.l
+dobot/CMakeFiles/dobot_generate_messages_eus: /home/edward/lab_10/devel/share/roseus/ros/dobot/srv/GetInfraredSensor.l
+dobot/CMakeFiles/dobot_generate_messages_eus: /home/edward/lab_10/devel/share/roseus/ros/dobot/srv/GetAlarmsState.l
+dobot/CMakeFiles/dobot_generate_messages_eus: /home/edward/lab_10/devel/share/roseus/ros/dobot/srv/SetEndEffectorSuctionCup.l
+dobot/CMakeFiles/dobot_generate_messages_eus: /home/edward/lab_10/devel/share/roseus/ros/dobot/srv/SetIODO.l
+dobot/CMakeFiles/dobot_generate_messages_eus: /home/edward/lab_10/devel/share/roseus/ros/dobot/srv/GetIOMultiplexing.l
+dobot/CMakeFiles/dobot_generate_messages_eus: /home/edward/lab_10/devel/share/roseus/ros/dobot/srv/SetQueuedCmdStopExec.l
+dobot/CMakeFiles/dobot_generate_messages_eus: /home/edward/lab_10/devel/share/roseus/ros/dobot/srv/SetPTPCoordinateParams.l
+dobot/CMakeFiles/dobot_generate_messages_eus: /home/edward/lab_10/devel/share/roseus/ros/dobot/srv/SetDeviceName.l
+dobot/CMakeFiles/dobot_generate_messages_eus: /home/edward/lab_10/devel/share/roseus/ros/dobot/srv/GetEndEffectorParams.l
+dobot/CMakeFiles/dobot_generate_messages_eus: /home/edward/lab_10/devel/share/roseus/ros/dobot/srv/SetPTPCmd.l
+dobot/CMakeFiles/dobot_generate_messages_eus: /home/edward/lab_10/devel/share/roseus/ros/dobot/srv/GetDeviceSN.l
+dobot/CMakeFiles/dobot_generate_messages_eus: /home/edward/lab_10/devel/share/roseus/ros/dobot/srv/GetJOGJointParams.l
+dobot/CMakeFiles/dobot_generate_messages_eus: /home/edward/lab_10/devel/share/roseus/ros/dobot/srv/SetJOGCoordinateParams.l
+dobot/CMakeFiles/dobot_generate_messages_eus: /home/edward/lab_10/devel/share/roseus/ros/dobot/srv/GetIODO.l
+dobot/CMakeFiles/dobot_generate_messages_eus: /home/edward/lab_10/devel/share/roseus/ros/dobot/srv/ClearAllAlarmsState.l
+dobot/CMakeFiles/dobot_generate_messages_eus: /home/edward/lab_10/devel/share/roseus/ros/dobot/srv/GetPose.l
+dobot/CMakeFiles/dobot_generate_messages_eus: /home/edward/lab_10/devel/share/roseus/ros/dobot/srv/GetJOGCommonParams.l
+dobot/CMakeFiles/dobot_generate_messages_eus: /home/edward/lab_10/devel/share/roseus/ros/dobot/srv/SetHOMECmd.l
+dobot/CMakeFiles/dobot_generate_messages_eus: /home/edward/lab_10/devel/share/roseus/ros/dobot/srv/SetCmdTimeout.l
+dobot/CMakeFiles/dobot_generate_messages_eus: /home/edward/lab_10/devel/share/roseus/ros/dobot/srv/SetTRIGCmd.l
+dobot/CMakeFiles/dobot_generate_messages_eus: /home/edward/lab_10/devel/share/roseus/ros/dobot/srv/SetQueuedCmdClear.l
+dobot/CMakeFiles/dobot_generate_messages_eus: /home/edward/lab_10/devel/share/roseus/ros/dobot/srv/GetIODI.l
+dobot/CMakeFiles/dobot_generate_messages_eus: /home/edward/lab_10/devel/share/roseus/ros/dobot/srv/GetEndEffectorGripper.l
+dobot/CMakeFiles/dobot_generate_messages_eus: /home/edward/lab_10/devel/share/roseus/ros/dobot/srv/GetDeviceName.l
+dobot/CMakeFiles/dobot_generate_messages_eus: /home/edward/lab_10/devel/share/roseus/ros/dobot/srv/SetQueuedCmdForceStopExec.l
+dobot/CMakeFiles/dobot_generate_messages_eus: /home/edward/lab_10/devel/share/roseus/ros/dobot/srv/SetEndEffectorParams.l
+dobot/CMakeFiles/dobot_generate_messages_eus: /home/edward/lab_10/devel/share/roseus/ros/dobot/srv/GetCPParams.l
+dobot/CMakeFiles/dobot_generate_messages_eus: /home/edward/lab_10/devel/share/roseus/ros/dobot/srv/SetJOGCommonParams.l
+dobot/CMakeFiles/dobot_generate_messages_eus: /home/edward/lab_10/devel/share/roseus/ros/dobot/srv/GetHOMEParams.l
+dobot/CMakeFiles/dobot_generate_messages_eus: /home/edward/lab_10/devel/share/roseus/ros/dobot/srv/GetEndEffectorLaser.l
+dobot/CMakeFiles/dobot_generate_messages_eus: /home/edward/lab_10/devel/share/roseus/ros/dobot/manifest.l
+
+
+/home/edward/lab_10/devel/share/roseus/ros/dobot/msg/PTPCommand.l: /opt/ros/melodic/lib/geneus/gen_eus.py
+/home/edward/lab_10/devel/share/roseus/ros/dobot/msg/PTPCommand.l: /home/edward/lab_10/src/dobot/msg/PTPCommand.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/edward/lab_10/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating EusLisp code from dobot/PTPCommand.msg"
+	cd /home/edward/lab_10/build/dobot && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/geneus/cmake/../../../lib/geneus/gen_eus.py /home/edward/lab_10/src/dobot/msg/PTPCommand.msg -Idobot:/home/edward/lab_10/src/dobot/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p dobot -o /home/edward/lab_10/devel/share/roseus/ros/dobot/msg
+
+/home/edward/lab_10/devel/share/roseus/ros/dobot/msg/CartesianSimple.l: /opt/ros/melodic/lib/geneus/gen_eus.py
+/home/edward/lab_10/devel/share/roseus/ros/dobot/msg/CartesianSimple.l: /home/edward/lab_10/src/dobot/msg/CartesianSimple.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/edward/lab_10/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating EusLisp code from dobot/CartesianSimple.msg"
+	cd /home/edward/lab_10/build/dobot && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/geneus/cmake/../../../lib/geneus/gen_eus.py /home/edward/lab_10/src/dobot/msg/CartesianSimple.msg -Idobot:/home/edward/lab_10/src/dobot/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p dobot -o /home/edward/lab_10/devel/share/roseus/ros/dobot/msg
+
+/home/edward/lab_10/devel/share/roseus/ros/dobot/msg/CartesianQuat.l: /opt/ros/melodic/lib/geneus/gen_eus.py
+/home/edward/lab_10/devel/share/roseus/ros/dobot/msg/CartesianQuat.l: /home/edward/lab_10/src/dobot/msg/CartesianQuat.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/edward/lab_10/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Generating EusLisp code from dobot/CartesianQuat.msg"
+	cd /home/edward/lab_10/build/dobot && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/geneus/cmake/../../../lib/geneus/gen_eus.py /home/edward/lab_10/src/dobot/msg/CartesianQuat.msg -Idobot:/home/edward/lab_10/src/dobot/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p dobot -o /home/edward/lab_10/devel/share/roseus/ros/dobot/msg
+
+/home/edward/lab_10/devel/share/roseus/ros/dobot/msg/Joint.l: /opt/ros/melodic/lib/geneus/gen_eus.py
+/home/edward/lab_10/devel/share/roseus/ros/dobot/msg/Joint.l: /home/edward/lab_10/src/dobot/msg/Joint.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/edward/lab_10/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Generating EusLisp code from dobot/Joint.msg"
+	cd /home/edward/lab_10/build/dobot && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/geneus/cmake/../../../lib/geneus/gen_eus.py /home/edward/lab_10/src/dobot/msg/Joint.msg -Idobot:/home/edward/lab_10/src/dobot/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p dobot -o /home/edward/lab_10/devel/share/roseus/ros/dobot/msg
+
+/home/edward/lab_10/devel/share/roseus/ros/dobot/srv/SetJOGCmd.l: /opt/ros/melodic/lib/geneus/gen_eus.py
+/home/edward/lab_10/devel/share/roseus/ros/dobot/srv/SetJOGCmd.l: /home/edward/lab_10/src/dobot/srv/SetJOGCmd.srv
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/edward/lab_10/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Generating EusLisp code from dobot/SetJOGCmd.srv"
+	cd /home/edward/lab_10/build/dobot && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/geneus/cmake/../../../lib/geneus/gen_eus.py /home/edward/lab_10/src/dobot/srv/SetJOGCmd.srv -Idobot:/home/edward/lab_10/src/dobot/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p dobot -o /home/edward/lab_10/devel/share/roseus/ros/dobot/srv
+
+/home/edward/lab_10/devel/share/roseus/ros/dobot/srv/SetPTPJointParams.l: /opt/ros/melodic/lib/geneus/gen_eus.py
+/home/edward/lab_10/devel/share/roseus/ros/dobot/srv/SetPTPJointParams.l: /home/edward/lab_10/src/dobot/srv/SetPTPJointParams.srv
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/edward/lab_10/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Generating EusLisp code from dobot/SetPTPJointParams.srv"
+	cd /home/edward/lab_10/build/dobot && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/geneus/cmake/../../../lib/geneus/gen_eus.py /home/edward/lab_10/src/dobot/srv/SetPTPJointParams.srv -Idobot:/home/edward/lab_10/src/dobot/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p dobot -o /home/edward/lab_10/devel/share/roseus/ros/dobot/srv
+
+/home/edward/lab_10/devel/share/roseus/ros/dobot/srv/SetIOMultiplexing.l: /opt/ros/melodic/lib/geneus/gen_eus.py
+/home/edward/lab_10/devel/share/roseus/ros/dobot/srv/SetIOMultiplexing.l: /home/edward/lab_10/src/dobot/srv/SetIOMultiplexing.srv
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/edward/lab_10/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Generating EusLisp code from dobot/SetIOMultiplexing.srv"
+	cd /home/edward/lab_10/build/dobot && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/geneus/cmake/../../../lib/geneus/gen_eus.py /home/edward/lab_10/src/dobot/srv/SetIOMultiplexing.srv -Idobot:/home/edward/lab_10/src/dobot/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p dobot -o /home/edward/lab_10/devel/share/roseus/ros/dobot/srv
+
+/home/edward/lab_10/devel/share/roseus/ros/dobot/srv/SetIOPWM.l: /opt/ros/melodic/lib/geneus/gen_eus.py
+/home/edward/lab_10/devel/share/roseus/ros/dobot/srv/SetIOPWM.l: /home/edward/lab_10/src/dobot/srv/SetIOPWM.srv
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/edward/lab_10/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Generating EusLisp code from dobot/SetIOPWM.srv"
+	cd /home/edward/lab_10/build/dobot && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/geneus/cmake/../../../lib/geneus/gen_eus.py /home/edward/lab_10/src/dobot/srv/SetIOPWM.srv -Idobot:/home/edward/lab_10/src/dobot/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p dobot -o /home/edward/lab_10/devel/share/roseus/ros/dobot/srv
+
+/home/edward/lab_10/devel/share/roseus/ros/dobot/srv/GetJOGCoordinateParams.l: /opt/ros/melodic/lib/geneus/gen_eus.py
+/home/edward/lab_10/devel/share/roseus/ros/dobot/srv/GetJOGCoordinateParams.l: /home/edward/lab_10/src/dobot/srv/GetJOGCoordinateParams.srv
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/edward/lab_10/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Generating EusLisp code from dobot/GetJOGCoordinateParams.srv"
+	cd /home/edward/lab_10/build/dobot && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/geneus/cmake/../../../lib/geneus/gen_eus.py /home/edward/lab_10/src/dobot/srv/GetJOGCoordinateParams.srv -Idobot:/home/edward/lab_10/src/dobot/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p dobot -o /home/edward/lab_10/devel/share/roseus/ros/dobot/srv
+
+/home/edward/lab_10/devel/share/roseus/ros/dobot/srv/SetWAITCmd.l: /opt/ros/melodic/lib/geneus/gen_eus.py
+/home/edward/lab_10/devel/share/roseus/ros/dobot/srv/SetWAITCmd.l: /home/edward/lab_10/src/dobot/srv/SetWAITCmd.srv
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/edward/lab_10/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Generating EusLisp code from dobot/SetWAITCmd.srv"
+	cd /home/edward/lab_10/build/dobot && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/geneus/cmake/../../../lib/geneus/gen_eus.py /home/edward/lab_10/src/dobot/srv/SetWAITCmd.srv -Idobot:/home/edward/lab_10/src/dobot/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p dobot -o /home/edward/lab_10/devel/share/roseus/ros/dobot/srv
+
+/home/edward/lab_10/devel/share/roseus/ros/dobot/srv/GetIOPWM.l: /opt/ros/melodic/lib/geneus/gen_eus.py
+/home/edward/lab_10/devel/share/roseus/ros/dobot/srv/GetIOPWM.l: /home/edward/lab_10/src/dobot/srv/GetIOPWM.srv
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/edward/lab_10/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Generating EusLisp code from dobot/GetIOPWM.srv"
+	cd /home/edward/lab_10/build/dobot && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/geneus/cmake/../../../lib/geneus/gen_eus.py /home/edward/lab_10/src/dobot/srv/GetIOPWM.srv -Idobot:/home/edward/lab_10/src/dobot/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p dobot -o /home/edward/lab_10/devel/share/roseus/ros/dobot/srv
+
+/home/edward/lab_10/devel/share/roseus/ros/dobot/srv/SetCPParams.l: /opt/ros/melodic/lib/geneus/gen_eus.py
+/home/edward/lab_10/devel/share/roseus/ros/dobot/srv/SetCPParams.l: /home/edward/lab_10/src/dobot/srv/SetCPParams.srv
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/edward/lab_10/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Generating EusLisp code from dobot/SetCPParams.srv"
+	cd /home/edward/lab_10/build/dobot && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/geneus/cmake/../../../lib/geneus/gen_eus.py /home/edward/lab_10/src/dobot/srv/SetCPParams.srv -Idobot:/home/edward/lab_10/src/dobot/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p dobot -o /home/edward/lab_10/devel/share/roseus/ros/dobot/srv
+
+/home/edward/lab_10/devel/share/roseus/ros/dobot/srv/SetJOGJointParams.l: /opt/ros/melodic/lib/geneus/gen_eus.py
+/home/edward/lab_10/devel/share/roseus/ros/dobot/srv/SetJOGJointParams.l: /home/edward/lab_10/src/dobot/srv/SetJOGJointParams.srv
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/edward/lab_10/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Generating EusLisp code from dobot/SetJOGJointParams.srv"
+	cd /home/edward/lab_10/build/dobot && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/geneus/cmake/../../../lib/geneus/gen_eus.py /home/edward/lab_10/src/dobot/srv/SetJOGJointParams.srv -Idobot:/home/edward/lab_10/src/dobot/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p dobot -o /home/edward/lab_10/devel/share/roseus/ros/dobot/srv
+
+/home/edward/lab_10/devel/share/roseus/ros/dobot/srv/SetARCParams.l: /opt/ros/melodic/lib/geneus/gen_eus.py
+/home/edward/lab_10/devel/share/roseus/ros/dobot/srv/SetARCParams.l: /home/edward/lab_10/src/dobot/srv/SetARCParams.srv
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/edward/lab_10/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Generating EusLisp code from dobot/SetARCParams.srv"
+	cd /home/edward/lab_10/build/dobot && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/geneus/cmake/../../../lib/geneus/gen_eus.py /home/edward/lab_10/src/dobot/srv/SetARCParams.srv -Idobot:/home/edward/lab_10/src/dobot/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p dobot -o /home/edward/lab_10/devel/share/roseus/ros/dobot/srv
+
+/home/edward/lab_10/devel/share/roseus/ros/dobot/srv/SetARCCmd.l: /opt/ros/melodic/lib/geneus/gen_eus.py
+/home/edward/lab_10/devel/share/roseus/ros/dobot/srv/SetARCCmd.l: /home/edward/lab_10/src/dobot/srv/SetARCCmd.srv
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/edward/lab_10/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Generating EusLisp code from dobot/SetARCCmd.srv"
+	cd /home/edward/lab_10/build/dobot && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/geneus/cmake/../../../lib/geneus/gen_eus.py /home/edward/lab_10/src/dobot/srv/SetARCCmd.srv -Idobot:/home/edward/lab_10/src/dobot/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p dobot -o /home/edward/lab_10/devel/share/roseus/ros/dobot/srv
+
+/home/edward/lab_10/devel/share/roseus/ros/dobot/srv/SetCPCmd.l: /opt/ros/melodic/lib/geneus/gen_eus.py
+/home/edward/lab_10/devel/share/roseus/ros/dobot/srv/SetCPCmd.l: /home/edward/lab_10/src/dobot/srv/SetCPCmd.srv
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/edward/lab_10/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Generating EusLisp code from dobot/SetCPCmd.srv"
+	cd /home/edward/lab_10/build/dobot && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/geneus/cmake/../../../lib/geneus/gen_eus.py /home/edward/lab_10/src/dobot/srv/SetCPCmd.srv -Idobot:/home/edward/lab_10/src/dobot/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p dobot -o /home/edward/lab_10/devel/share/roseus/ros/dobot/srv
+
+/home/edward/lab_10/devel/share/roseus/ros/dobot/srv/SetEndEffectorGripper.l: /opt/ros/melodic/lib/geneus/gen_eus.py
+/home/edward/lab_10/devel/share/roseus/ros/dobot/srv/SetEndEffectorGripper.l: /home/edward/lab_10/src/dobot/srv/SetEndEffectorGripper.srv
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/edward/lab_10/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Generating EusLisp code from dobot/SetEndEffectorGripper.srv"
+	cd /home/edward/lab_10/build/dobot && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/geneus/cmake/../../../lib/geneus/gen_eus.py /home/edward/lab_10/src/dobot/srv/SetEndEffectorGripper.srv -Idobot:/home/edward/lab_10/src/dobot/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p dobot -o /home/edward/lab_10/devel/share/roseus/ros/dobot/srv
+
+/home/edward/lab_10/devel/share/roseus/ros/dobot/srv/GetPTPJointParams.l: /opt/ros/melodic/lib/geneus/gen_eus.py
+/home/edward/lab_10/devel/share/roseus/ros/dobot/srv/GetPTPJointParams.l: /home/edward/lab_10/src/dobot/srv/GetPTPJointParams.srv
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/edward/lab_10/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Generating EusLisp code from dobot/GetPTPJointParams.srv"
+	cd /home/edward/lab_10/build/dobot && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/geneus/cmake/../../../lib/geneus/gen_eus.py /home/edward/lab_10/src/dobot/srv/GetPTPJointParams.srv -Idobot:/home/edward/lab_10/src/dobot/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p dobot -o /home/edward/lab_10/devel/share/roseus/ros/dobot/srv
+
+/home/edward/lab_10/devel/share/roseus/ros/dobot/srv/GetARCParams.l: /opt/ros/melodic/lib/geneus/gen_eus.py
+/home/edward/lab_10/devel/share/roseus/ros/dobot/srv/GetARCParams.l: /home/edward/lab_10/src/dobot/srv/GetARCParams.srv
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/edward/lab_10/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Generating EusLisp code from dobot/GetARCParams.srv"
+	cd /home/edward/lab_10/build/dobot && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/geneus/cmake/../../../lib/geneus/gen_eus.py /home/edward/lab_10/src/dobot/srv/GetARCParams.srv -Idobot:/home/edward/lab_10/src/dobot/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p dobot -o /home/edward/lab_10/devel/share/roseus/ros/dobot/srv
+
+/home/edward/lab_10/devel/share/roseus/ros/dobot/srv/SetHOMEParams.l: /opt/ros/melodic/lib/geneus/gen_eus.py
+/home/edward/lab_10/devel/share/roseus/ros/dobot/srv/SetHOMEParams.l: /home/edward/lab_10/src/dobot/srv/SetHOMEParams.srv
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/edward/lab_10/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Generating EusLisp code from dobot/SetHOMEParams.srv"
+	cd /home/edward/lab_10/build/dobot && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/geneus/cmake/../../../lib/geneus/gen_eus.py /home/edward/lab_10/src/dobot/srv/SetHOMEParams.srv -Idobot:/home/edward/lab_10/src/dobot/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p dobot -o /home/edward/lab_10/devel/share/roseus/ros/dobot/srv
+
+/home/edward/lab_10/devel/share/roseus/ros/dobot/srv/SetColorSensor.l: /opt/ros/melodic/lib/geneus/gen_eus.py
+/home/edward/lab_10/devel/share/roseus/ros/dobot/srv/SetColorSensor.l: /home/edward/lab_10/src/dobot/srv/SetColorSensor.srv
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/edward/lab_10/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Generating EusLisp code from dobot/SetColorSensor.srv"
+	cd /home/edward/lab_10/build/dobot && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/geneus/cmake/../../../lib/geneus/gen_eus.py /home/edward/lab_10/src/dobot/srv/SetColorSensor.srv -Idobot:/home/edward/lab_10/src/dobot/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p dobot -o /home/edward/lab_10/devel/share/roseus/ros/dobot/srv
+
+/home/edward/lab_10/devel/share/roseus/ros/dobot/srv/SetInfraredSensor.l: /opt/ros/melodic/lib/geneus/gen_eus.py
+/home/edward/lab_10/devel/share/roseus/ros/dobot/srv/SetInfraredSensor.l: /home/edward/lab_10/src/dobot/srv/SetInfraredSensor.srv
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/edward/lab_10/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Generating EusLisp code from dobot/SetInfraredSensor.srv"
+	cd /home/edward/lab_10/build/dobot && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/geneus/cmake/../../../lib/geneus/gen_eus.py /home/edward/lab_10/src/dobot/srv/SetInfraredSensor.srv -Idobot:/home/edward/lab_10/src/dobot/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p dobot -o /home/edward/lab_10/devel/share/roseus/ros/dobot/srv
+
+/home/edward/lab_10/devel/share/roseus/ros/dobot/srv/GetPTPJumpParams.l: /opt/ros/melodic/lib/geneus/gen_eus.py
+/home/edward/lab_10/devel/share/roseus/ros/dobot/srv/GetPTPJumpParams.l: /home/edward/lab_10/src/dobot/srv/GetPTPJumpParams.srv
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/edward/lab_10/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Generating EusLisp code from dobot/GetPTPJumpParams.srv"
+	cd /home/edward/lab_10/build/dobot && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/geneus/cmake/../../../lib/geneus/gen_eus.py /home/edward/lab_10/src/dobot/srv/GetPTPJumpParams.srv -Idobot:/home/edward/lab_10/src/dobot/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p dobot -o /home/edward/lab_10/devel/share/roseus/ros/dobot/srv
+
+/home/edward/lab_10/devel/share/roseus/ros/dobot/srv/SetPTPJumpParams.l: /opt/ros/melodic/lib/geneus/gen_eus.py
+/home/edward/lab_10/devel/share/roseus/ros/dobot/srv/SetPTPJumpParams.l: /home/edward/lab_10/src/dobot/srv/SetPTPJumpParams.srv
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/edward/lab_10/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Generating EusLisp code from dobot/SetPTPJumpParams.srv"
+	cd /home/edward/lab_10/build/dobot && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/geneus/cmake/../../../lib/geneus/gen_eus.py /home/edward/lab_10/src/dobot/srv/SetPTPJumpParams.srv -Idobot:/home/edward/lab_10/src/dobot/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p dobot -o /home/edward/lab_10/devel/share/roseus/ros/dobot/srv
+
+/home/edward/lab_10/devel/share/roseus/ros/dobot/srv/SetPTPCommonParams.l: /opt/ros/melodic/lib/geneus/gen_eus.py
+/home/edward/lab_10/devel/share/roseus/ros/dobot/srv/SetPTPCommonParams.l: /home/edward/lab_10/src/dobot/srv/SetPTPCommonParams.srv
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/edward/lab_10/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Generating EusLisp code from dobot/SetPTPCommonParams.srv"
+	cd /home/edward/lab_10/build/dobot && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/geneus/cmake/../../../lib/geneus/gen_eus.py /home/edward/lab_10/src/dobot/srv/SetPTPCommonParams.srv -Idobot:/home/edward/lab_10/src/dobot/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p dobot -o /home/edward/lab_10/devel/share/roseus/ros/dobot/srv
+
+/home/edward/lab_10/devel/share/roseus/ros/dobot/srv/GetColorSensor.l: /opt/ros/melodic/lib/geneus/gen_eus.py
+/home/edward/lab_10/devel/share/roseus/ros/dobot/srv/GetColorSensor.l: /home/edward/lab_10/src/dobot/srv/GetColorSensor.srv
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/edward/lab_10/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Generating EusLisp code from dobot/GetColorSensor.srv"
+	cd /home/edward/lab_10/build/dobot && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/geneus/cmake/../../../lib/geneus/gen_eus.py /home/edward/lab_10/src/dobot/srv/GetColorSensor.srv -Idobot:/home/edward/lab_10/src/dobot/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p dobot -o /home/edward/lab_10/devel/share/roseus/ros/dobot/srv
+
+/home/edward/lab_10/devel/share/roseus/ros/dobot/srv/GetIOADC.l: /opt/ros/melodic/lib/geneus/gen_eus.py
+/home/edward/lab_10/devel/share/roseus/ros/dobot/srv/GetIOADC.l: /home/edward/lab_10/src/dobot/srv/GetIOADC.srv
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/edward/lab_10/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Generating EusLisp code from dobot/GetIOADC.srv"
+	cd /home/edward/lab_10/build/dobot && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/geneus/cmake/../../../lib/geneus/gen_eus.py /home/edward/lab_10/src/dobot/srv/GetIOADC.srv -Idobot:/home/edward/lab_10/src/dobot/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p dobot -o /home/edward/lab_10/devel/share/roseus/ros/dobot/srv
+
+/home/edward/lab_10/devel/share/roseus/ros/dobot/srv/SetEMotor.l: /opt/ros/melodic/lib/geneus/gen_eus.py
+/home/edward/lab_10/devel/share/roseus/ros/dobot/srv/SetEMotor.l: /home/edward/lab_10/src/dobot/srv/SetEMotor.srv
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/edward/lab_10/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Generating EusLisp code from dobot/SetEMotor.srv"
+	cd /home/edward/lab_10/build/dobot && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/geneus/cmake/../../../lib/geneus/gen_eus.py /home/edward/lab_10/src/dobot/srv/SetEMotor.srv -Idobot:/home/edward/lab_10/src/dobot/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p dobot -o /home/edward/lab_10/devel/share/roseus/ros/dobot/srv
+
+/home/edward/lab_10/devel/share/roseus/ros/dobot/srv/GetPTPCoordinateParams.l: /opt/ros/melodic/lib/geneus/gen_eus.py
+/home/edward/lab_10/devel/share/roseus/ros/dobot/srv/GetPTPCoordinateParams.l: /home/edward/lab_10/src/dobot/srv/GetPTPCoordinateParams.srv
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/edward/lab_10/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Generating EusLisp code from dobot/GetPTPCoordinateParams.srv"
+	cd /home/edward/lab_10/build/dobot && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/geneus/cmake/../../../lib/geneus/gen_eus.py /home/edward/lab_10/src/dobot/srv/GetPTPCoordinateParams.srv -Idobot:/home/edward/lab_10/src/dobot/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p dobot -o /home/edward/lab_10/devel/share/roseus/ros/dobot/srv
+
+/home/edward/lab_10/devel/share/roseus/ros/dobot/srv/GetDeviceVersion.l: /opt/ros/melodic/lib/geneus/gen_eus.py
+/home/edward/lab_10/devel/share/roseus/ros/dobot/srv/GetDeviceVersion.l: /home/edward/lab_10/src/dobot/srv/GetDeviceVersion.srv
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/edward/lab_10/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Generating EusLisp code from dobot/GetDeviceVersion.srv"
+	cd /home/edward/lab_10/build/dobot && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/geneus/cmake/../../../lib/geneus/gen_eus.py /home/edward/lab_10/src/dobot/srv/GetDeviceVersion.srv -Idobot:/home/edward/lab_10/src/dobot/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p dobot -o /home/edward/lab_10/devel/share/roseus/ros/dobot/srv
+
+/home/edward/lab_10/devel/share/roseus/ros/dobot/srv/GetPTPCommonParams.l: /opt/ros/melodic/lib/geneus/gen_eus.py
+/home/edward/lab_10/devel/share/roseus/ros/dobot/srv/GetPTPCommonParams.l: /home/edward/lab_10/src/dobot/srv/GetPTPCommonParams.srv
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/edward/lab_10/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Generating EusLisp code from dobot/GetPTPCommonParams.srv"
+	cd /home/edward/lab_10/build/dobot && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/geneus/cmake/../../../lib/geneus/gen_eus.py /home/edward/lab_10/src/dobot/srv/GetPTPCommonParams.srv -Idobot:/home/edward/lab_10/src/dobot/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p dobot -o /home/edward/lab_10/devel/share/roseus/ros/dobot/srv
+
+/home/edward/lab_10/devel/share/roseus/ros/dobot/srv/SetEndEffectorLaser.l: /opt/ros/melodic/lib/geneus/gen_eus.py
+/home/edward/lab_10/devel/share/roseus/ros/dobot/srv/SetEndEffectorLaser.l: /home/edward/lab_10/src/dobot/srv/SetEndEffectorLaser.srv
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/edward/lab_10/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Generating EusLisp code from dobot/SetEndEffectorLaser.srv"
+	cd /home/edward/lab_10/build/dobot && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/geneus/cmake/../../../lib/geneus/gen_eus.py /home/edward/lab_10/src/dobot/srv/SetEndEffectorLaser.srv -Idobot:/home/edward/lab_10/src/dobot/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p dobot -o /home/edward/lab_10/devel/share/roseus/ros/dobot/srv
+
+/home/edward/lab_10/devel/share/roseus/ros/dobot/srv/SetQueuedCmdStartExec.l: /opt/ros/melodic/lib/geneus/gen_eus.py
+/home/edward/lab_10/devel/share/roseus/ros/dobot/srv/SetQueuedCmdStartExec.l: /home/edward/lab_10/src/dobot/srv/SetQueuedCmdStartExec.srv
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/edward/lab_10/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Generating EusLisp code from dobot/SetQueuedCmdStartExec.srv"
+	cd /home/edward/lab_10/build/dobot && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/geneus/cmake/../../../lib/geneus/gen_eus.py /home/edward/lab_10/src/dobot/srv/SetQueuedCmdStartExec.srv -Idobot:/home/edward/lab_10/src/dobot/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p dobot -o /home/edward/lab_10/devel/share/roseus/ros/dobot/srv
+
+/home/edward/lab_10/devel/share/roseus/ros/dobot/srv/GetEndEffectorSuctionCup.l: /opt/ros/melodic/lib/geneus/gen_eus.py
+/home/edward/lab_10/devel/share/roseus/ros/dobot/srv/GetEndEffectorSuctionCup.l: /home/edward/lab_10/src/dobot/srv/GetEndEffectorSuctionCup.srv
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/edward/lab_10/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Generating EusLisp code from dobot/GetEndEffectorSuctionCup.srv"
+	cd /home/edward/lab_10/build/dobot && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/geneus/cmake/../../../lib/geneus/gen_eus.py /home/edward/lab_10/src/dobot/srv/GetEndEffectorSuctionCup.srv -Idobot:/home/edward/lab_10/src/dobot/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p dobot -o /home/edward/lab_10/devel/share/roseus/ros/dobot/srv
+
+/home/edward/lab_10/devel/share/roseus/ros/dobot/srv/GetInfraredSensor.l: /opt/ros/melodic/lib/geneus/gen_eus.py
+/home/edward/lab_10/devel/share/roseus/ros/dobot/srv/GetInfraredSensor.l: /home/edward/lab_10/src/dobot/srv/GetInfraredSensor.srv
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/edward/lab_10/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Generating EusLisp code from dobot/GetInfraredSensor.srv"
+	cd /home/edward/lab_10/build/dobot && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/geneus/cmake/../../../lib/geneus/gen_eus.py /home/edward/lab_10/src/dobot/srv/GetInfraredSensor.srv -Idobot:/home/edward/lab_10/src/dobot/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p dobot -o /home/edward/lab_10/devel/share/roseus/ros/dobot/srv
+
+/home/edward/lab_10/devel/share/roseus/ros/dobot/srv/GetAlarmsState.l: /opt/ros/melodic/lib/geneus/gen_eus.py
+/home/edward/lab_10/devel/share/roseus/ros/dobot/srv/GetAlarmsState.l: /home/edward/lab_10/src/dobot/srv/GetAlarmsState.srv
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/edward/lab_10/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Generating EusLisp code from dobot/GetAlarmsState.srv"
+	cd /home/edward/lab_10/build/dobot && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/geneus/cmake/../../../lib/geneus/gen_eus.py /home/edward/lab_10/src/dobot/srv/GetAlarmsState.srv -Idobot:/home/edward/lab_10/src/dobot/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p dobot -o /home/edward/lab_10/devel/share/roseus/ros/dobot/srv
+
+/home/edward/lab_10/devel/share/roseus/ros/dobot/srv/SetEndEffectorSuctionCup.l: /opt/ros/melodic/lib/geneus/gen_eus.py
+/home/edward/lab_10/devel/share/roseus/ros/dobot/srv/SetEndEffectorSuctionCup.l: /home/edward/lab_10/src/dobot/srv/SetEndEffectorSuctionCup.srv
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/edward/lab_10/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Generating EusLisp code from dobot/SetEndEffectorSuctionCup.srv"
+	cd /home/edward/lab_10/build/dobot && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/geneus/cmake/../../../lib/geneus/gen_eus.py /home/edward/lab_10/src/dobot/srv/SetEndEffectorSuctionCup.srv -Idobot:/home/edward/lab_10/src/dobot/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p dobot -o /home/edward/lab_10/devel/share/roseus/ros/dobot/srv
+
+/home/edward/lab_10/devel/share/roseus/ros/dobot/srv/SetIODO.l: /opt/ros/melodic/lib/geneus/gen_eus.py
+/home/edward/lab_10/devel/share/roseus/ros/dobot/srv/SetIODO.l: /home/edward/lab_10/src/dobot/srv/SetIODO.srv
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/edward/lab_10/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Generating EusLisp code from dobot/SetIODO.srv"
+	cd /home/edward/lab_10/build/dobot && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/geneus/cmake/../../../lib/geneus/gen_eus.py /home/edward/lab_10/src/dobot/srv/SetIODO.srv -Idobot:/home/edward/lab_10/src/dobot/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p dobot -o /home/edward/lab_10/devel/share/roseus/ros/dobot/srv
+
+/home/edward/lab_10/devel/share/roseus/ros/dobot/srv/GetIOMultiplexing.l: /opt/ros/melodic/lib/geneus/gen_eus.py
+/home/edward/lab_10/devel/share/roseus/ros/dobot/srv/GetIOMultiplexing.l: /home/edward/lab_10/src/dobot/srv/GetIOMultiplexing.srv
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/edward/lab_10/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Generating EusLisp code from dobot/GetIOMultiplexing.srv"
+	cd /home/edward/lab_10/build/dobot && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/geneus/cmake/../../../lib/geneus/gen_eus.py /home/edward/lab_10/src/dobot/srv/GetIOMultiplexing.srv -Idobot:/home/edward/lab_10/src/dobot/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p dobot -o /home/edward/lab_10/devel/share/roseus/ros/dobot/srv
+
+/home/edward/lab_10/devel/share/roseus/ros/dobot/srv/SetQueuedCmdStopExec.l: /opt/ros/melodic/lib/geneus/gen_eus.py
+/home/edward/lab_10/devel/share/roseus/ros/dobot/srv/SetQueuedCmdStopExec.l: /home/edward/lab_10/src/dobot/srv/SetQueuedCmdStopExec.srv
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/edward/lab_10/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Generating EusLisp code from dobot/SetQueuedCmdStopExec.srv"
+	cd /home/edward/lab_10/build/dobot && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/geneus/cmake/../../../lib/geneus/gen_eus.py /home/edward/lab_10/src/dobot/srv/SetQueuedCmdStopExec.srv -Idobot:/home/edward/lab_10/src/dobot/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p dobot -o /home/edward/lab_10/devel/share/roseus/ros/dobot/srv
+
+/home/edward/lab_10/devel/share/roseus/ros/dobot/srv/SetPTPCoordinateParams.l: /opt/ros/melodic/lib/geneus/gen_eus.py
+/home/edward/lab_10/devel/share/roseus/ros/dobot/srv/SetPTPCoordinateParams.l: /home/edward/lab_10/src/dobot/srv/SetPTPCoordinateParams.srv
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/edward/lab_10/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Generating EusLisp code from dobot/SetPTPCoordinateParams.srv"
+	cd /home/edward/lab_10/build/dobot && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/geneus/cmake/../../../lib/geneus/gen_eus.py /home/edward/lab_10/src/dobot/srv/SetPTPCoordinateParams.srv -Idobot:/home/edward/lab_10/src/dobot/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p dobot -o /home/edward/lab_10/devel/share/roseus/ros/dobot/srv
+
+/home/edward/lab_10/devel/share/roseus/ros/dobot/srv/SetDeviceName.l: /opt/ros/melodic/lib/geneus/gen_eus.py
+/home/edward/lab_10/devel/share/roseus/ros/dobot/srv/SetDeviceName.l: /home/edward/lab_10/src/dobot/srv/SetDeviceName.srv
+/home/edward/lab_10/devel/share/roseus/ros/dobot/srv/SetDeviceName.l: /opt/ros/melodic/share/std_msgs/msg/String.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/edward/lab_10/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Generating EusLisp code from dobot/SetDeviceName.srv"
+	cd /home/edward/lab_10/build/dobot && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/geneus/cmake/../../../lib/geneus/gen_eus.py /home/edward/lab_10/src/dobot/srv/SetDeviceName.srv -Idobot:/home/edward/lab_10/src/dobot/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p dobot -o /home/edward/lab_10/devel/share/roseus/ros/dobot/srv
+
+/home/edward/lab_10/devel/share/roseus/ros/dobot/srv/GetEndEffectorParams.l: /opt/ros/melodic/lib/geneus/gen_eus.py
+/home/edward/lab_10/devel/share/roseus/ros/dobot/srv/GetEndEffectorParams.l: /home/edward/lab_10/src/dobot/srv/GetEndEffectorParams.srv
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/edward/lab_10/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Generating EusLisp code from dobot/GetEndEffectorParams.srv"
+	cd /home/edward/lab_10/build/dobot && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/geneus/cmake/../../../lib/geneus/gen_eus.py /home/edward/lab_10/src/dobot/srv/GetEndEffectorParams.srv -Idobot:/home/edward/lab_10/src/dobot/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p dobot -o /home/edward/lab_10/devel/share/roseus/ros/dobot/srv
+
+/home/edward/lab_10/devel/share/roseus/ros/dobot/srv/SetPTPCmd.l: /opt/ros/melodic/lib/geneus/gen_eus.py
+/home/edward/lab_10/devel/share/roseus/ros/dobot/srv/SetPTPCmd.l: /home/edward/lab_10/src/dobot/srv/SetPTPCmd.srv
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/edward/lab_10/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Generating EusLisp code from dobot/SetPTPCmd.srv"
+	cd /home/edward/lab_10/build/dobot && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/geneus/cmake/../../../lib/geneus/gen_eus.py /home/edward/lab_10/src/dobot/srv/SetPTPCmd.srv -Idobot:/home/edward/lab_10/src/dobot/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p dobot -o /home/edward/lab_10/devel/share/roseus/ros/dobot/srv
+
+/home/edward/lab_10/devel/share/roseus/ros/dobot/srv/GetDeviceSN.l: /opt/ros/melodic/lib/geneus/gen_eus.py
+/home/edward/lab_10/devel/share/roseus/ros/dobot/srv/GetDeviceSN.l: /home/edward/lab_10/src/dobot/srv/GetDeviceSN.srv
+/home/edward/lab_10/devel/share/roseus/ros/dobot/srv/GetDeviceSN.l: /opt/ros/melodic/share/std_msgs/msg/String.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/edward/lab_10/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_45) "Generating EusLisp code from dobot/GetDeviceSN.srv"
+	cd /home/edward/lab_10/build/dobot && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/geneus/cmake/../../../lib/geneus/gen_eus.py /home/edward/lab_10/src/dobot/srv/GetDeviceSN.srv -Idobot:/home/edward/lab_10/src/dobot/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p dobot -o /home/edward/lab_10/devel/share/roseus/ros/dobot/srv
+
+/home/edward/lab_10/devel/share/roseus/ros/dobot/srv/GetJOGJointParams.l: /opt/ros/melodic/lib/geneus/gen_eus.py
+/home/edward/lab_10/devel/share/roseus/ros/dobot/srv/GetJOGJointParams.l: /home/edward/lab_10/src/dobot/srv/GetJOGJointParams.srv
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/edward/lab_10/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_46) "Generating EusLisp code from dobot/GetJOGJointParams.srv"
+	cd /home/edward/lab_10/build/dobot && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/geneus/cmake/../../../lib/geneus/gen_eus.py /home/edward/lab_10/src/dobot/srv/GetJOGJointParams.srv -Idobot:/home/edward/lab_10/src/dobot/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p dobot -o /home/edward/lab_10/devel/share/roseus/ros/dobot/srv
+
+/home/edward/lab_10/devel/share/roseus/ros/dobot/srv/SetJOGCoordinateParams.l: /opt/ros/melodic/lib/geneus/gen_eus.py
+/home/edward/lab_10/devel/share/roseus/ros/dobot/srv/SetJOGCoordinateParams.l: /home/edward/lab_10/src/dobot/srv/SetJOGCoordinateParams.srv
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/edward/lab_10/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Generating EusLisp code from dobot/SetJOGCoordinateParams.srv"
+	cd /home/edward/lab_10/build/dobot && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/geneus/cmake/../../../lib/geneus/gen_eus.py /home/edward/lab_10/src/dobot/srv/SetJOGCoordinateParams.srv -Idobot:/home/edward/lab_10/src/dobot/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p dobot -o /home/edward/lab_10/devel/share/roseus/ros/dobot/srv
+
+/home/edward/lab_10/devel/share/roseus/ros/dobot/srv/GetIODO.l: /opt/ros/melodic/lib/geneus/gen_eus.py
+/home/edward/lab_10/devel/share/roseus/ros/dobot/srv/GetIODO.l: /home/edward/lab_10/src/dobot/srv/GetIODO.srv
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/edward/lab_10/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_48) "Generating EusLisp code from dobot/GetIODO.srv"
+	cd /home/edward/lab_10/build/dobot && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/geneus/cmake/../../../lib/geneus/gen_eus.py /home/edward/lab_10/src/dobot/srv/GetIODO.srv -Idobot:/home/edward/lab_10/src/dobot/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p dobot -o /home/edward/lab_10/devel/share/roseus/ros/dobot/srv
+
+/home/edward/lab_10/devel/share/roseus/ros/dobot/srv/ClearAllAlarmsState.l: /opt/ros/melodic/lib/geneus/gen_eus.py
+/home/edward/lab_10/devel/share/roseus/ros/dobot/srv/ClearAllAlarmsState.l: /home/edward/lab_10/src/dobot/srv/ClearAllAlarmsState.srv
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/edward/lab_10/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_49) "Generating EusLisp code from dobot/ClearAllAlarmsState.srv"
+	cd /home/edward/lab_10/build/dobot && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/geneus/cmake/../../../lib/geneus/gen_eus.py /home/edward/lab_10/src/dobot/srv/ClearAllAlarmsState.srv -Idobot:/home/edward/lab_10/src/dobot/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p dobot -o /home/edward/lab_10/devel/share/roseus/ros/dobot/srv
+
+/home/edward/lab_10/devel/share/roseus/ros/dobot/srv/GetPose.l: /opt/ros/melodic/lib/geneus/gen_eus.py
+/home/edward/lab_10/devel/share/roseus/ros/dobot/srv/GetPose.l: /home/edward/lab_10/src/dobot/srv/GetPose.srv
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/edward/lab_10/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_50) "Generating EusLisp code from dobot/GetPose.srv"
+	cd /home/edward/lab_10/build/dobot && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/geneus/cmake/../../../lib/geneus/gen_eus.py /home/edward/lab_10/src/dobot/srv/GetPose.srv -Idobot:/home/edward/lab_10/src/dobot/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p dobot -o /home/edward/lab_10/devel/share/roseus/ros/dobot/srv
+
+/home/edward/lab_10/devel/share/roseus/ros/dobot/srv/GetJOGCommonParams.l: /opt/ros/melodic/lib/geneus/gen_eus.py
+/home/edward/lab_10/devel/share/roseus/ros/dobot/srv/GetJOGCommonParams.l: /home/edward/lab_10/src/dobot/srv/GetJOGCommonParams.srv
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/edward/lab_10/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_51) "Generating EusLisp code from dobot/GetJOGCommonParams.srv"
+	cd /home/edward/lab_10/build/dobot && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/geneus/cmake/../../../lib/geneus/gen_eus.py /home/edward/lab_10/src/dobot/srv/GetJOGCommonParams.srv -Idobot:/home/edward/lab_10/src/dobot/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p dobot -o /home/edward/lab_10/devel/share/roseus/ros/dobot/srv
+
+/home/edward/lab_10/devel/share/roseus/ros/dobot/srv/SetHOMECmd.l: /opt/ros/melodic/lib/geneus/gen_eus.py
+/home/edward/lab_10/devel/share/roseus/ros/dobot/srv/SetHOMECmd.l: /home/edward/lab_10/src/dobot/srv/SetHOMECmd.srv
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/edward/lab_10/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_52) "Generating EusLisp code from dobot/SetHOMECmd.srv"
+	cd /home/edward/lab_10/build/dobot && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/geneus/cmake/../../../lib/geneus/gen_eus.py /home/edward/lab_10/src/dobot/srv/SetHOMECmd.srv -Idobot:/home/edward/lab_10/src/dobot/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p dobot -o /home/edward/lab_10/devel/share/roseus/ros/dobot/srv
+
+/home/edward/lab_10/devel/share/roseus/ros/dobot/srv/SetCmdTimeout.l: /opt/ros/melodic/lib/geneus/gen_eus.py
+/home/edward/lab_10/devel/share/roseus/ros/dobot/srv/SetCmdTimeout.l: /home/edward/lab_10/src/dobot/srv/SetCmdTimeout.srv
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/edward/lab_10/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_53) "Generating EusLisp code from dobot/SetCmdTimeout.srv"
+	cd /home/edward/lab_10/build/dobot && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/geneus/cmake/../../../lib/geneus/gen_eus.py /home/edward/lab_10/src/dobot/srv/SetCmdTimeout.srv -Idobot:/home/edward/lab_10/src/dobot/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p dobot -o /home/edward/lab_10/devel/share/roseus/ros/dobot/srv
+
+/home/edward/lab_10/devel/share/roseus/ros/dobot/srv/SetTRIGCmd.l: /opt/ros/melodic/lib/geneus/gen_eus.py
+/home/edward/lab_10/devel/share/roseus/ros/dobot/srv/SetTRIGCmd.l: /home/edward/lab_10/src/dobot/srv/SetTRIGCmd.srv
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/edward/lab_10/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_54) "Generating EusLisp code from dobot/SetTRIGCmd.srv"
+	cd /home/edward/lab_10/build/dobot && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/geneus/cmake/../../../lib/geneus/gen_eus.py /home/edward/lab_10/src/dobot/srv/SetTRIGCmd.srv -Idobot:/home/edward/lab_10/src/dobot/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p dobot -o /home/edward/lab_10/devel/share/roseus/ros/dobot/srv
+
+/home/edward/lab_10/devel/share/roseus/ros/dobot/srv/SetQueuedCmdClear.l: /opt/ros/melodic/lib/geneus/gen_eus.py
+/home/edward/lab_10/devel/share/roseus/ros/dobot/srv/SetQueuedCmdClear.l: /home/edward/lab_10/src/dobot/srv/SetQueuedCmdClear.srv
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/edward/lab_10/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_55) "Generating EusLisp code from dobot/SetQueuedCmdClear.srv"
+	cd /home/edward/lab_10/build/dobot && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/geneus/cmake/../../../lib/geneus/gen_eus.py /home/edward/lab_10/src/dobot/srv/SetQueuedCmdClear.srv -Idobot:/home/edward/lab_10/src/dobot/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p dobot -o /home/edward/lab_10/devel/share/roseus/ros/dobot/srv
+
+/home/edward/lab_10/devel/share/roseus/ros/dobot/srv/GetIODI.l: /opt/ros/melodic/lib/geneus/gen_eus.py
+/home/edward/lab_10/devel/share/roseus/ros/dobot/srv/GetIODI.l: /home/edward/lab_10/src/dobot/srv/GetIODI.srv
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/edward/lab_10/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_56) "Generating EusLisp code from dobot/GetIODI.srv"
+	cd /home/edward/lab_10/build/dobot && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/geneus/cmake/../../../lib/geneus/gen_eus.py /home/edward/lab_10/src/dobot/srv/GetIODI.srv -Idobot:/home/edward/lab_10/src/dobot/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p dobot -o /home/edward/lab_10/devel/share/roseus/ros/dobot/srv
+
+/home/edward/lab_10/devel/share/roseus/ros/dobot/srv/GetEndEffectorGripper.l: /opt/ros/melodic/lib/geneus/gen_eus.py
+/home/edward/lab_10/devel/share/roseus/ros/dobot/srv/GetEndEffectorGripper.l: /home/edward/lab_10/src/dobot/srv/GetEndEffectorGripper.srv
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/edward/lab_10/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_57) "Generating EusLisp code from dobot/GetEndEffectorGripper.srv"
+	cd /home/edward/lab_10/build/dobot && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/geneus/cmake/../../../lib/geneus/gen_eus.py /home/edward/lab_10/src/dobot/srv/GetEndEffectorGripper.srv -Idobot:/home/edward/lab_10/src/dobot/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p dobot -o /home/edward/lab_10/devel/share/roseus/ros/dobot/srv
+
+/home/edward/lab_10/devel/share/roseus/ros/dobot/srv/GetDeviceName.l: /opt/ros/melodic/lib/geneus/gen_eus.py
+/home/edward/lab_10/devel/share/roseus/ros/dobot/srv/GetDeviceName.l: /home/edward/lab_10/src/dobot/srv/GetDeviceName.srv
+/home/edward/lab_10/devel/share/roseus/ros/dobot/srv/GetDeviceName.l: /opt/ros/melodic/share/std_msgs/msg/String.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/edward/lab_10/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_58) "Generating EusLisp code from dobot/GetDeviceName.srv"
+	cd /home/edward/lab_10/build/dobot && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/geneus/cmake/../../../lib/geneus/gen_eus.py /home/edward/lab_10/src/dobot/srv/GetDeviceName.srv -Idobot:/home/edward/lab_10/src/dobot/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p dobot -o /home/edward/lab_10/devel/share/roseus/ros/dobot/srv
+
+/home/edward/lab_10/devel/share/roseus/ros/dobot/srv/SetQueuedCmdForceStopExec.l: /opt/ros/melodic/lib/geneus/gen_eus.py
+/home/edward/lab_10/devel/share/roseus/ros/dobot/srv/SetQueuedCmdForceStopExec.l: /home/edward/lab_10/src/dobot/srv/SetQueuedCmdForceStopExec.srv
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/edward/lab_10/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_59) "Generating EusLisp code from dobot/SetQueuedCmdForceStopExec.srv"
+	cd /home/edward/lab_10/build/dobot && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/geneus/cmake/../../../lib/geneus/gen_eus.py /home/edward/lab_10/src/dobot/srv/SetQueuedCmdForceStopExec.srv -Idobot:/home/edward/lab_10/src/dobot/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p dobot -o /home/edward/lab_10/devel/share/roseus/ros/dobot/srv
+
+/home/edward/lab_10/devel/share/roseus/ros/dobot/srv/SetEndEffectorParams.l: /opt/ros/melodic/lib/geneus/gen_eus.py
+/home/edward/lab_10/devel/share/roseus/ros/dobot/srv/SetEndEffectorParams.l: /home/edward/lab_10/src/dobot/srv/SetEndEffectorParams.srv
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/edward/lab_10/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_60) "Generating EusLisp code from dobot/SetEndEffectorParams.srv"
+	cd /home/edward/lab_10/build/dobot && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/geneus/cmake/../../../lib/geneus/gen_eus.py /home/edward/lab_10/src/dobot/srv/SetEndEffectorParams.srv -Idobot:/home/edward/lab_10/src/dobot/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p dobot -o /home/edward/lab_10/devel/share/roseus/ros/dobot/srv
+
+/home/edward/lab_10/devel/share/roseus/ros/dobot/srv/GetCPParams.l: /opt/ros/melodic/lib/geneus/gen_eus.py
+/home/edward/lab_10/devel/share/roseus/ros/dobot/srv/GetCPParams.l: /home/edward/lab_10/src/dobot/srv/GetCPParams.srv
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/edward/lab_10/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_61) "Generating EusLisp code from dobot/GetCPParams.srv"
+	cd /home/edward/lab_10/build/dobot && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/geneus/cmake/../../../lib/geneus/gen_eus.py /home/edward/lab_10/src/dobot/srv/GetCPParams.srv -Idobot:/home/edward/lab_10/src/dobot/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p dobot -o /home/edward/lab_10/devel/share/roseus/ros/dobot/srv
+
+/home/edward/lab_10/devel/share/roseus/ros/dobot/srv/SetJOGCommonParams.l: /opt/ros/melodic/lib/geneus/gen_eus.py
+/home/edward/lab_10/devel/share/roseus/ros/dobot/srv/SetJOGCommonParams.l: /home/edward/lab_10/src/dobot/srv/SetJOGCommonParams.srv
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/edward/lab_10/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_62) "Generating EusLisp code from dobot/SetJOGCommonParams.srv"
+	cd /home/edward/lab_10/build/dobot && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/geneus/cmake/../../../lib/geneus/gen_eus.py /home/edward/lab_10/src/dobot/srv/SetJOGCommonParams.srv -Idobot:/home/edward/lab_10/src/dobot/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p dobot -o /home/edward/lab_10/devel/share/roseus/ros/dobot/srv
+
+/home/edward/lab_10/devel/share/roseus/ros/dobot/srv/GetHOMEParams.l: /opt/ros/melodic/lib/geneus/gen_eus.py
+/home/edward/lab_10/devel/share/roseus/ros/dobot/srv/GetHOMEParams.l: /home/edward/lab_10/src/dobot/srv/GetHOMEParams.srv
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/edward/lab_10/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_63) "Generating EusLisp code from dobot/GetHOMEParams.srv"
+	cd /home/edward/lab_10/build/dobot && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/geneus/cmake/../../../lib/geneus/gen_eus.py /home/edward/lab_10/src/dobot/srv/GetHOMEParams.srv -Idobot:/home/edward/lab_10/src/dobot/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p dobot -o /home/edward/lab_10/devel/share/roseus/ros/dobot/srv
+
+/home/edward/lab_10/devel/share/roseus/ros/dobot/srv/GetEndEffectorLaser.l: /opt/ros/melodic/lib/geneus/gen_eus.py
+/home/edward/lab_10/devel/share/roseus/ros/dobot/srv/GetEndEffectorLaser.l: /home/edward/lab_10/src/dobot/srv/GetEndEffectorLaser.srv
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/edward/lab_10/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_64) "Generating EusLisp code from dobot/GetEndEffectorLaser.srv"
+	cd /home/edward/lab_10/build/dobot && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/geneus/cmake/../../../lib/geneus/gen_eus.py /home/edward/lab_10/src/dobot/srv/GetEndEffectorLaser.srv -Idobot:/home/edward/lab_10/src/dobot/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p dobot -o /home/edward/lab_10/devel/share/roseus/ros/dobot/srv
+
+/home/edward/lab_10/devel/share/roseus/ros/dobot/manifest.l: /opt/ros/melodic/lib/geneus/gen_eus.py
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/edward/lab_10/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_65) "Generating EusLisp manifest code for dobot"
+	cd /home/edward/lab_10/build/dobot && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/geneus/cmake/../../../lib/geneus/gen_eus.py -m -o /home/edward/lab_10/devel/share/roseus/ros/dobot dobot std_msgs
 
 dobot_generate_messages_eus: dobot/CMakeFiles/dobot_generate_messages_eus
-dobot_generate_messages_eus: /home/ed/lab_10/devel/share/roseus/ros/dobot/msg/CartesianQuat.l
-dobot_generate_messages_eus: /home/ed/lab_10/devel/share/roseus/ros/dobot/msg/CartesianSimple.l
-dobot_generate_messages_eus: /home/ed/lab_10/devel/share/roseus/ros/dobot/msg/PTPCommand.l
-dobot_generate_messages_eus: /home/ed/lab_10/devel/share/roseus/ros/dobot/msg/Joint.l
-dobot_generate_messages_eus: /home/ed/lab_10/devel/share/roseus/ros/dobot/srv/ClearAllAlarmsState.l
-dobot_generate_messages_eus: /home/ed/lab_10/devel/share/roseus/ros/dobot/srv/SetPTPJointParams.l
-dobot_generate_messages_eus: /home/ed/lab_10/devel/share/roseus/ros/dobot/srv/GetPTPCommonParams.l
-dobot_generate_messages_eus: /home/ed/lab_10/devel/share/roseus/ros/dobot/srv/GetColorSensor.l
-dobot_generate_messages_eus: /home/ed/lab_10/devel/share/roseus/ros/dobot/srv/SetQueuedCmdClear.l
-dobot_generate_messages_eus: /home/ed/lab_10/devel/share/roseus/ros/dobot/srv/SetJOGCoordinateParams.l
-dobot_generate_messages_eus: /home/ed/lab_10/devel/share/roseus/ros/dobot/srv/SetPTPCmd.l
-dobot_generate_messages_eus: /home/ed/lab_10/devel/share/roseus/ros/dobot/srv/SetCmdTimeout.l
-dobot_generate_messages_eus: /home/ed/lab_10/devel/share/roseus/ros/dobot/srv/SetHOMEParams.l
-dobot_generate_messages_eus: /home/ed/lab_10/devel/share/roseus/ros/dobot/srv/GetPTPCoordinateParams.l
-dobot_generate_messages_eus: /home/ed/lab_10/devel/share/roseus/ros/dobot/srv/GetIOPWM.l
-dobot_generate_messages_eus: /home/ed/lab_10/devel/share/roseus/ros/dobot/srv/SetIODO.l
-dobot_generate_messages_eus: /home/ed/lab_10/devel/share/roseus/ros/dobot/srv/SetJOGCommonParams.l
-dobot_generate_messages_eus: /home/ed/lab_10/devel/share/roseus/ros/dobot/srv/GetHOMEParams.l
-dobot_generate_messages_eus: /home/ed/lab_10/devel/share/roseus/ros/dobot/srv/GetPose.l
-dobot_generate_messages_eus: /home/ed/lab_10/devel/share/roseus/ros/dobot/srv/GetJOGCoordinateParams.l
-dobot_generate_messages_eus: /home/ed/lab_10/devel/share/roseus/ros/dobot/srv/SetEMotor.l
-dobot_generate_messages_eus: /home/ed/lab_10/devel/share/roseus/ros/dobot/srv/SetCPCmd.l
-dobot_generate_messages_eus: /home/ed/lab_10/devel/share/roseus/ros/dobot/srv/GetJOGCommonParams.l
-dobot_generate_messages_eus: /home/ed/lab_10/devel/share/roseus/ros/dobot/srv/SetQueuedCmdForceStopExec.l
-dobot_generate_messages_eus: /home/ed/lab_10/devel/share/roseus/ros/dobot/srv/GetIOMultiplexing.l
-dobot_generate_messages_eus: /home/ed/lab_10/devel/share/roseus/ros/dobot/srv/GetIODI.l
-dobot_generate_messages_eus: /home/ed/lab_10/devel/share/roseus/ros/dobot/srv/GetARCParams.l
-dobot_generate_messages_eus: /home/ed/lab_10/devel/share/roseus/ros/dobot/srv/SetPTPCommonParams.l
-dobot_generate_messages_eus: /home/ed/lab_10/devel/share/roseus/ros/dobot/srv/GetIODO.l
-dobot_generate_messages_eus: /home/ed/lab_10/devel/share/roseus/ros/dobot/srv/SetIOMultiplexing.l
-dobot_generate_messages_eus: /home/ed/lab_10/devel/share/roseus/ros/dobot/srv/GetDeviceName.l
-dobot_generate_messages_eus: /home/ed/lab_10/devel/share/roseus/ros/dobot/srv/SetColorSensor.l
-dobot_generate_messages_eus: /home/ed/lab_10/devel/share/roseus/ros/dobot/srv/GetPTPJumpParams.l
-dobot_generate_messages_eus: /home/ed/lab_10/devel/share/roseus/ros/dobot/srv/GetDeviceSN.l
-dobot_generate_messages_eus: /home/ed/lab_10/devel/share/roseus/ros/dobot/srv/GetPTPJointParams.l
-dobot_generate_messages_eus: /home/ed/lab_10/devel/share/roseus/ros/dobot/srv/SetEndEffectorParams.l
-dobot_generate_messages_eus: /home/ed/lab_10/devel/share/roseus/ros/dobot/srv/GetJOGJointParams.l
-dobot_generate_messages_eus: /home/ed/lab_10/devel/share/roseus/ros/dobot/srv/SetCPParams.l
-dobot_generate_messages_eus: /home/ed/lab_10/devel/share/roseus/ros/dobot/srv/SetInfraredSensor.l
-dobot_generate_messages_eus: /home/ed/lab_10/devel/share/roseus/ros/dobot/srv/SetHOMECmd.l
-dobot_generate_messages_eus: /home/ed/lab_10/devel/share/roseus/ros/dobot/srv/GetEndEffectorLaser.l
-dobot_generate_messages_eus: /home/ed/lab_10/devel/share/roseus/ros/dobot/srv/GetCPParams.l
-dobot_generate_messages_eus: /home/ed/lab_10/devel/share/roseus/ros/dobot/srv/GetEndEffectorGripper.l
-dobot_generate_messages_eus: /home/ed/lab_10/devel/share/roseus/ros/dobot/srv/GetEndEffectorSuctionCup.l
-dobot_generate_messages_eus: /home/ed/lab_10/devel/share/roseus/ros/dobot/srv/SetEndEffectorGripper.l
-dobot_generate_messages_eus: /home/ed/lab_10/devel/share/roseus/ros/dobot/srv/SetPTPJumpParams.l
-dobot_generate_messages_eus: /home/ed/lab_10/devel/share/roseus/ros/dobot/srv/GetAlarmsState.l
-dobot_generate_messages_eus: /home/ed/lab_10/devel/share/roseus/ros/dobot/srv/SetARCParams.l
-dobot_generate_messages_eus: /home/ed/lab_10/devel/share/roseus/ros/dobot/srv/SetEndEffectorSuctionCup.l
-dobot_generate_messages_eus: /home/ed/lab_10/devel/share/roseus/ros/dobot/srv/GetInfraredSensor.l
-dobot_generate_messages_eus: /home/ed/lab_10/devel/share/roseus/ros/dobot/srv/SetIOPWM.l
-dobot_generate_messages_eus: /home/ed/lab_10/devel/share/roseus/ros/dobot/srv/GetDeviceVersion.l
-dobot_generate_messages_eus: /home/ed/lab_10/devel/share/roseus/ros/dobot/srv/SetQueuedCmdStopExec.l
-dobot_generate_messages_eus: /home/ed/lab_10/devel/share/roseus/ros/dobot/srv/SetQueuedCmdStartExec.l
-dobot_generate_messages_eus: /home/ed/lab_10/devel/share/roseus/ros/dobot/srv/SetJOGCmd.l
-dobot_generate_messages_eus: /home/ed/lab_10/devel/share/roseus/ros/dobot/srv/SetDeviceName.l
-dobot_generate_messages_eus: /home/ed/lab_10/devel/share/roseus/ros/dobot/srv/GetEndEffectorParams.l
-dobot_generate_messages_eus: /home/ed/lab_10/devel/share/roseus/ros/dobot/srv/GetIOADC.l
-dobot_generate_messages_eus: /home/ed/lab_10/devel/share/roseus/ros/dobot/srv/SetWAITCmd.l
-dobot_generate_messages_eus: /home/ed/lab_10/devel/share/roseus/ros/dobot/srv/SetEndEffectorLaser.l
-dobot_generate_messages_eus: /home/ed/lab_10/devel/share/roseus/ros/dobot/srv/SetTRIGCmd.l
-dobot_generate_messages_eus: /home/ed/lab_10/devel/share/roseus/ros/dobot/srv/SetJOGJointParams.l
-dobot_generate_messages_eus: /home/ed/lab_10/devel/share/roseus/ros/dobot/srv/SetPTPCoordinateParams.l
-dobot_generate_messages_eus: /home/ed/lab_10/devel/share/roseus/ros/dobot/srv/SetARCCmd.l
-dobot_generate_messages_eus: /home/ed/lab_10/devel/share/roseus/ros/dobot/manifest.l
+dobot_generate_messages_eus: /home/edward/lab_10/devel/share/roseus/ros/dobot/msg/PTPCommand.l
+dobot_generate_messages_eus: /home/edward/lab_10/devel/share/roseus/ros/dobot/msg/CartesianSimple.l
+dobot_generate_messages_eus: /home/edward/lab_10/devel/share/roseus/ros/dobot/msg/CartesianQuat.l
+dobot_generate_messages_eus: /home/edward/lab_10/devel/share/roseus/ros/dobot/msg/Joint.l
+dobot_generate_messages_eus: /home/edward/lab_10/devel/share/roseus/ros/dobot/srv/SetJOGCmd.l
+dobot_generate_messages_eus: /home/edward/lab_10/devel/share/roseus/ros/dobot/srv/SetPTPJointParams.l
+dobot_generate_messages_eus: /home/edward/lab_10/devel/share/roseus/ros/dobot/srv/SetIOMultiplexing.l
+dobot_generate_messages_eus: /home/edward/lab_10/devel/share/roseus/ros/dobot/srv/SetIOPWM.l
+dobot_generate_messages_eus: /home/edward/lab_10/devel/share/roseus/ros/dobot/srv/GetJOGCoordinateParams.l
+dobot_generate_messages_eus: /home/edward/lab_10/devel/share/roseus/ros/dobot/srv/SetWAITCmd.l
+dobot_generate_messages_eus: /home/edward/lab_10/devel/share/roseus/ros/dobot/srv/GetIOPWM.l
+dobot_generate_messages_eus: /home/edward/lab_10/devel/share/roseus/ros/dobot/srv/SetCPParams.l
+dobot_generate_messages_eus: /home/edward/lab_10/devel/share/roseus/ros/dobot/srv/SetJOGJointParams.l
+dobot_generate_messages_eus: /home/edward/lab_10/devel/share/roseus/ros/dobot/srv/SetARCParams.l
+dobot_generate_messages_eus: /home/edward/lab_10/devel/share/roseus/ros/dobot/srv/SetARCCmd.l
+dobot_generate_messages_eus: /home/edward/lab_10/devel/share/roseus/ros/dobot/srv/SetCPCmd.l
+dobot_generate_messages_eus: /home/edward/lab_10/devel/share/roseus/ros/dobot/srv/SetEndEffectorGripper.l
+dobot_generate_messages_eus: /home/edward/lab_10/devel/share/roseus/ros/dobot/srv/GetPTPJointParams.l
+dobot_generate_messages_eus: /home/edward/lab_10/devel/share/roseus/ros/dobot/srv/GetARCParams.l
+dobot_generate_messages_eus: /home/edward/lab_10/devel/share/roseus/ros/dobot/srv/SetHOMEParams.l
+dobot_generate_messages_eus: /home/edward/lab_10/devel/share/roseus/ros/dobot/srv/SetColorSensor.l
+dobot_generate_messages_eus: /home/edward/lab_10/devel/share/roseus/ros/dobot/srv/SetInfraredSensor.l
+dobot_generate_messages_eus: /home/edward/lab_10/devel/share/roseus/ros/dobot/srv/GetPTPJumpParams.l
+dobot_generate_messages_eus: /home/edward/lab_10/devel/share/roseus/ros/dobot/srv/SetPTPJumpParams.l
+dobot_generate_messages_eus: /home/edward/lab_10/devel/share/roseus/ros/dobot/srv/SetPTPCommonParams.l
+dobot_generate_messages_eus: /home/edward/lab_10/devel/share/roseus/ros/dobot/srv/GetColorSensor.l
+dobot_generate_messages_eus: /home/edward/lab_10/devel/share/roseus/ros/dobot/srv/GetIOADC.l
+dobot_generate_messages_eus: /home/edward/lab_10/devel/share/roseus/ros/dobot/srv/SetEMotor.l
+dobot_generate_messages_eus: /home/edward/lab_10/devel/share/roseus/ros/dobot/srv/GetPTPCoordinateParams.l
+dobot_generate_messages_eus: /home/edward/lab_10/devel/share/roseus/ros/dobot/srv/GetDeviceVersion.l
+dobot_generate_messages_eus: /home/edward/lab_10/devel/share/roseus/ros/dobot/srv/GetPTPCommonParams.l
+dobot_generate_messages_eus: /home/edward/lab_10/devel/share/roseus/ros/dobot/srv/SetEndEffectorLaser.l
+dobot_generate_messages_eus: /home/edward/lab_10/devel/share/roseus/ros/dobot/srv/SetQueuedCmdStartExec.l
+dobot_generate_messages_eus: /home/edward/lab_10/devel/share/roseus/ros/dobot/srv/GetEndEffectorSuctionCup.l
+dobot_generate_messages_eus: /home/edward/lab_10/devel/share/roseus/ros/dobot/srv/GetInfraredSensor.l
+dobot_generate_messages_eus: /home/edward/lab_10/devel/share/roseus/ros/dobot/srv/GetAlarmsState.l
+dobot_generate_messages_eus: /home/edward/lab_10/devel/share/roseus/ros/dobot/srv/SetEndEffectorSuctionCup.l
+dobot_generate_messages_eus: /home/edward/lab_10/devel/share/roseus/ros/dobot/srv/SetIODO.l
+dobot_generate_messages_eus: /home/edward/lab_10/devel/share/roseus/ros/dobot/srv/GetIOMultiplexing.l
+dobot_generate_messages_eus: /home/edward/lab_10/devel/share/roseus/ros/dobot/srv/SetQueuedCmdStopExec.l
+dobot_generate_messages_eus: /home/edward/lab_10/devel/share/roseus/ros/dobot/srv/SetPTPCoordinateParams.l
+dobot_generate_messages_eus: /home/edward/lab_10/devel/share/roseus/ros/dobot/srv/SetDeviceName.l
+dobot_generate_messages_eus: /home/edward/lab_10/devel/share/roseus/ros/dobot/srv/GetEndEffectorParams.l
+dobot_generate_messages_eus: /home/edward/lab_10/devel/share/roseus/ros/dobot/srv/SetPTPCmd.l
+dobot_generate_messages_eus: /home/edward/lab_10/devel/share/roseus/ros/dobot/srv/GetDeviceSN.l
+dobot_generate_messages_eus: /home/edward/lab_10/devel/share/roseus/ros/dobot/srv/GetJOGJointParams.l
+dobot_generate_messages_eus: /home/edward/lab_10/devel/share/roseus/ros/dobot/srv/SetJOGCoordinateParams.l
+dobot_generate_messages_eus: /home/edward/lab_10/devel/share/roseus/ros/dobot/srv/GetIODO.l
+dobot_generate_messages_eus: /home/edward/lab_10/devel/share/roseus/ros/dobot/srv/ClearAllAlarmsState.l
+dobot_generate_messages_eus: /home/edward/lab_10/devel/share/roseus/ros/dobot/srv/GetPose.l
+dobot_generate_messages_eus: /home/edward/lab_10/devel/share/roseus/ros/dobot/srv/GetJOGCommonParams.l
+dobot_generate_messages_eus: /home/edward/lab_10/devel/share/roseus/ros/dobot/srv/SetHOMECmd.l
+dobot_generate_messages_eus: /home/edward/lab_10/devel/share/roseus/ros/dobot/srv/SetCmdTimeout.l
+dobot_generate_messages_eus: /home/edward/lab_10/devel/share/roseus/ros/dobot/srv/SetTRIGCmd.l
+dobot_generate_messages_eus: /home/edward/lab_10/devel/share/roseus/ros/dobot/srv/SetQueuedCmdClear.l
+dobot_generate_messages_eus: /home/edward/lab_10/devel/share/roseus/ros/dobot/srv/GetIODI.l
+dobot_generate_messages_eus: /home/edward/lab_10/devel/share/roseus/ros/dobot/srv/GetEndEffectorGripper.l
+dobot_generate_messages_eus: /home/edward/lab_10/devel/share/roseus/ros/dobot/srv/GetDeviceName.l
+dobot_generate_messages_eus: /home/edward/lab_10/devel/share/roseus/ros/dobot/srv/SetQueuedCmdForceStopExec.l
+dobot_generate_messages_eus: /home/edward/lab_10/devel/share/roseus/ros/dobot/srv/SetEndEffectorParams.l
+dobot_generate_messages_eus: /home/edward/lab_10/devel/share/roseus/ros/dobot/srv/GetCPParams.l
+dobot_generate_messages_eus: /home/edward/lab_10/devel/share/roseus/ros/dobot/srv/SetJOGCommonParams.l
+dobot_generate_messages_eus: /home/edward/lab_10/devel/share/roseus/ros/dobot/srv/GetHOMEParams.l
+dobot_generate_messages_eus: /home/edward/lab_10/devel/share/roseus/ros/dobot/srv/GetEndEffectorLaser.l
+dobot_generate_messages_eus: /home/edward/lab_10/devel/share/roseus/ros/dobot/manifest.l
 dobot_generate_messages_eus: dobot/CMakeFiles/dobot_generate_messages_eus.dir/build.make
 
 .PHONY : dobot_generate_messages_eus
@@ -523,10 +523,10 @@ dobot/CMakeFiles/dobot_generate_messages_eus.dir/build: dobot_generate_messages_
 .PHONY : dobot/CMakeFiles/dobot_generate_messages_eus.dir/build
 
 dobot/CMakeFiles/dobot_generate_messages_eus.dir/clean:
-	cd /home/ed/lab_10/build/dobot && $(CMAKE_COMMAND) -P CMakeFiles/dobot_generate_messages_eus.dir/cmake_clean.cmake
+	cd /home/edward/lab_10/build/dobot && $(CMAKE_COMMAND) -P CMakeFiles/dobot_generate_messages_eus.dir/cmake_clean.cmake
 .PHONY : dobot/CMakeFiles/dobot_generate_messages_eus.dir/clean
 
 dobot/CMakeFiles/dobot_generate_messages_eus.dir/depend:
-	cd /home/ed/lab_10/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ed/lab_10/src /home/ed/lab_10/src/dobot /home/ed/lab_10/build /home/ed/lab_10/build/dobot /home/ed/lab_10/build/dobot/CMakeFiles/dobot_generate_messages_eus.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/edward/lab_10/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/edward/lab_10/src /home/edward/lab_10/src/dobot /home/edward/lab_10/build /home/edward/lab_10/build/dobot /home/edward/lab_10/build/dobot/CMakeFiles/dobot_generate_messages_eus.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : dobot/CMakeFiles/dobot_generate_messages_eus.dir/depend
 

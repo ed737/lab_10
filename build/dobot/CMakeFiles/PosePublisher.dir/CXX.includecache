@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/ed/lab_10/devel/include/dobot/CartesianQuat.h
+/home/edward/lab_10/devel/include/dobot/CartesianQuat.h
 string
 -
 vector
@@ -22,7 +22,7 @@ ros/builtin_message_traits.h
 ros/message_operations.h
 -
 
-/home/ed/lab_10/devel/include/dobot/CartesianSimple.h
+/home/edward/lab_10/devel/include/dobot/CartesianSimple.h
 string
 -
 vector
@@ -38,7 +38,7 @@ ros/builtin_message_traits.h
 ros/message_operations.h
 -
 
-/home/ed/lab_10/devel/include/dobot/GetPose.h
+/home/edward/lab_10/devel/include/dobot/GetPose.h
 ros/service_traits.h
 -
 dobot/GetPoseRequest.h
@@ -46,7 +46,7 @@ dobot/GetPoseRequest.h
 dobot/GetPoseResponse.h
 -
 
-/home/ed/lab_10/devel/include/dobot/GetPoseRequest.h
+/home/edward/lab_10/devel/include/dobot/GetPoseRequest.h
 string
 -
 vector
@@ -62,7 +62,7 @@ ros/builtin_message_traits.h
 ros/message_operations.h
 -
 
-/home/ed/lab_10/devel/include/dobot/GetPoseResponse.h
+/home/edward/lab_10/devel/include/dobot/GetPoseResponse.h
 string
 -
 vector
@@ -78,7 +78,7 @@ ros/builtin_message_traits.h
 ros/message_operations.h
 -
 
-/home/ed/lab_10/devel/include/dobot/Joint.h
+/home/edward/lab_10/devel/include/dobot/Joint.h
 string
 -
 vector
@@ -94,21 +94,21 @@ ros/builtin_message_traits.h
 ros/message_operations.h
 -
 
-/home/ed/lab_10/src/dobot/src/pose_publisher.cpp
+/home/edward/lab_10/src/dobot/src/pose_publisher.cpp
 ros/ros.h
-/home/ed/lab_10/src/dobot/src/ros/ros.h
+/home/edward/lab_10/src/dobot/src/ros/ros.h
 dobot/GetPose.h
-/home/ed/lab_10/src/dobot/src/dobot/GetPose.h
+/home/edward/lab_10/src/dobot/src/dobot/GetPose.h
 dobot/CartesianSimple.h
-/home/ed/lab_10/src/dobot/src/dobot/CartesianSimple.h
+/home/edward/lab_10/src/dobot/src/dobot/CartesianSimple.h
 dobot/CartesianQuat.h
-/home/ed/lab_10/src/dobot/src/dobot/CartesianQuat.h
+/home/edward/lab_10/src/dobot/src/dobot/CartesianQuat.h
 dobot/Joint.h
-/home/ed/lab_10/src/dobot/src/dobot/Joint.h
+/home/edward/lab_10/src/dobot/src/dobot/Joint.h
 geometry_msgs/Pose.h
-/home/ed/lab_10/src/dobot/src/geometry_msgs/Pose.h
+/home/edward/lab_10/src/dobot/src/geometry_msgs/Pose.h
 sensor_msgs/JointState.h
-/home/ed/lab_10/src/dobot/src/sensor_msgs/JointState.h
+/home/edward/lab_10/src/dobot/src/sensor_msgs/JointState.h
 cmath
 -
 iostream

@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ed/lab_10/src
+CMAKE_SOURCE_DIR = /home/edward/lab_10/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ed/lab_10/build
+CMAKE_BINARY_DIR = /home/edward/lab_10/build
 
 # Utility rule file for _dobot_generate_messages_check_deps_GetPTPCommonParams.
 
@@ -54,7 +54,7 @@ CMAKE_BINARY_DIR = /home/ed/lab_10/build
 include dobot/CMakeFiles/_dobot_generate_messages_check_deps_GetPTPCommonParams.dir/progress.make
 
 dobot/CMakeFiles/_dobot_generate_messages_check_deps_GetPTPCommonParams:
-	cd /home/ed/lab_10/build/dobot && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py dobot /home/ed/lab_10/src/dobot/srv/GetPTPCommonParams.srv 
+	cd /home/edward/lab_10/build/dobot && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py dobot /home/edward/lab_10/src/dobot/srv/GetPTPCommonParams.srv 
 
 _dobot_generate_messages_check_deps_GetPTPCommonParams: dobot/CMakeFiles/_dobot_generate_messages_check_deps_GetPTPCommonParams
 _dobot_generate_messages_check_deps_GetPTPCommonParams: dobot/CMakeFiles/_dobot_generate_messages_check_deps_GetPTPCommonParams.dir/build.make
@@ -67,10 +67,10 @@ dobot/CMakeFiles/_dobot_generate_messages_check_deps_GetPTPCommonParams.dir/buil
 .PHONY : dobot/CMakeFiles/_dobot_generate_messages_check_deps_GetPTPCommonParams.dir/build
 
 dobot/CMakeFiles/_dobot_generate_messages_check_deps_GetPTPCommonParams.dir/clean:
-	cd /home/ed/lab_10/build/dobot && $(CMAKE_COMMAND) -P CMakeFiles/_dobot_generate_messages_check_deps_GetPTPCommonParams.dir/cmake_clean.cmake
+	cd /home/edward/lab_10/build/dobot && $(CMAKE_COMMAND) -P CMakeFiles/_dobot_generate_messages_check_deps_GetPTPCommonParams.dir/cmake_clean.cmake
 .PHONY : dobot/CMakeFiles/_dobot_generate_messages_check_deps_GetPTPCommonParams.dir/clean
 
 dobot/CMakeFiles/_dobot_generate_messages_check_deps_GetPTPCommonParams.dir/depend:
-	cd /home/ed/lab_10/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ed/lab_10/src /home/ed/lab_10/src/dobot /home/ed/lab_10/build /home/ed/lab_10/build/dobot /home/ed/lab_10/build/dobot/CMakeFiles/_dobot_generate_messages_check_deps_GetPTPCommonParams.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/edward/lab_10/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/edward/lab_10/src /home/edward/lab_10/src/dobot /home/edward/lab_10/build /home/edward/lab_10/build/dobot /home/edward/lab_10/build/dobot/CMakeFiles/_dobot_generate_messages_check_deps_GetPTPCommonParams.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : dobot/CMakeFiles/_dobot_generate_messages_check_deps_GetPTPCommonParams.dir/depend
 

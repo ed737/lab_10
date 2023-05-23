@@ -33,7 +33,7 @@
     name="rviz"
     pkg="rviz"
     type="rviz"
-    args="-d $(find display)/config/dobot.rviz" >
+    args="-d $(find display)/config/dobot_sim_config.rviz" >
     <remap from="robot_description" to="robot_visuals_description" />
   </node>
 

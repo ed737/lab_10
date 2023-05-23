@@ -6,11 +6,11 @@
 
 #IncludeRegexTransform: 
 
-/home/ed/lab_10/src/display/src/joint_visuals_converter.cpp
+/home/edward/lab_10/src/display/src/joint_visuals_converter.cpp
 ros/ros.h
-/home/ed/lab_10/src/display/src/ros/ros.h
+/home/edward/lab_10/src/display/src/ros/ros.h
 sensor_msgs/JointState.h
-/home/ed/lab_10/src/display/src/sensor_msgs/JointState.h
+/home/edward/lab_10/src/display/src/sensor_msgs/JointState.h
 cmath
 -
 

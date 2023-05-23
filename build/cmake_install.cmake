@@ -1,8 +1,8 @@
-# Install script for directory: /home/ed/lab_10/src
+# Install script for directory: /home/edward/lab_10/src
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/ed/lab_10/install")
+  set(CMAKE_INSTALL_PREFIX "/home/edward/lab_10/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -49,90 +49,90 @@ endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/ed/lab_10/install/_setup_util.py")
+   "/home/edward/lab_10/install/_setup_util.py")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/home/ed/lab_10/install" TYPE PROGRAM FILES "/home/ed/lab_10/build/catkin_generated/installspace/_setup_util.py")
+file(INSTALL DESTINATION "/home/edward/lab_10/install" TYPE PROGRAM FILES "/home/edward/lab_10/build/catkin_generated/installspace/_setup_util.py")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/ed/lab_10/install/env.sh")
+   "/home/edward/lab_10/install/env.sh")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/home/ed/lab_10/install" TYPE PROGRAM FILES "/home/ed/lab_10/build/catkin_generated/installspace/env.sh")
+file(INSTALL DESTINATION "/home/edward/lab_10/install" TYPE PROGRAM FILES "/home/edward/lab_10/build/catkin_generated/installspace/env.sh")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/ed/lab_10/install/setup.bash;/home/ed/lab_10/install/local_setup.bash")
+   "/home/edward/lab_10/install/setup.bash;/home/edward/lab_10/install/local_setup.bash")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/home/ed/lab_10/install" TYPE FILE FILES
-    "/home/ed/lab_10/build/catkin_generated/installspace/setup.bash"
-    "/home/ed/lab_10/build/catkin_generated/installspace/local_setup.bash"
+file(INSTALL DESTINATION "/home/edward/lab_10/install" TYPE FILE FILES
+    "/home/edward/lab_10/build/catkin_generated/installspace/setup.bash"
+    "/home/edward/lab_10/build/catkin_generated/installspace/local_setup.bash"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/ed/lab_10/install/setup.sh;/home/ed/lab_10/install/local_setup.sh")
+   "/home/edward/lab_10/install/setup.sh;/home/edward/lab_10/install/local_setup.sh")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/home/ed/lab_10/install" TYPE FILE FILES
-    "/home/ed/lab_10/build/catkin_generated/installspace/setup.sh"
-    "/home/ed/lab_10/build/catkin_generated/installspace/local_setup.sh"
+file(INSTALL DESTINATION "/home/edward/lab_10/install" TYPE FILE FILES
+    "/home/edward/lab_10/build/catkin_generated/installspace/setup.sh"
+    "/home/edward/lab_10/build/catkin_generated/installspace/local_setup.sh"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/ed/lab_10/install/setup.zsh;/home/ed/lab_10/install/local_setup.zsh")
+   "/home/edward/lab_10/install/setup.zsh;/home/edward/lab_10/install/local_setup.zsh")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/home/ed/lab_10/install" TYPE FILE FILES
-    "/home/ed/lab_10/build/catkin_generated/installspace/setup.zsh"
-    "/home/ed/lab_10/build/catkin_generated/installspace/local_setup.zsh"
+file(INSTALL DESTINATION "/home/edward/lab_10/install" TYPE FILE FILES
+    "/home/edward/lab_10/build/catkin_generated/installspace/setup.zsh"
+    "/home/edward/lab_10/build/catkin_generated/installspace/local_setup.zsh"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/ed/lab_10/install/.rosinstall")
+   "/home/edward/lab_10/install/.rosinstall")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/home/ed/lab_10/install" TYPE FILE FILES "/home/ed/lab_10/build/catkin_generated/installspace/.rosinstall")
+file(INSTALL DESTINATION "/home/edward/lab_10/install" TYPE FILE FILES "/home/edward/lab_10/build/catkin_generated/installspace/.rosinstall")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/ed/lab_10/build/gtest/cmake_install.cmake")
-  include("/home/ed/lab_10/build/dobot/cmake_install.cmake")
-  include("/home/ed/lab_10/build/display/cmake_install.cmake")
+  include("/home/edward/lab_10/build/gtest/cmake_install.cmake")
+  include("/home/edward/lab_10/build/dobot/cmake_install.cmake")
+  include("/home/edward/lab_10/build/display/cmake_install.cmake")
 
 endif()
 
@@ -144,5 +144,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/ed/lab_10/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/edward/lab_10/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
