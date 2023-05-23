@@ -627,7 +627,7 @@ clean: dobot/CMakeFiles/dobot_generate_messages_py.dir/clean
 dobot/CMakeFiles/PosePublisher.dir/all: dobot/CMakeFiles/dobot_gencpp.dir/all
 	$(MAKE) -f dobot/CMakeFiles/PosePublisher.dir/build.make dobot/CMakeFiles/PosePublisher.dir/depend
 	$(MAKE) -f dobot/CMakeFiles/PosePublisher.dir/build.make dobot/CMakeFiles/PosePublisher.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/edward/lab_10/build/CMakeFiles --progress-num= "Built target PosePublisher"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/edward/lab_10/build/CMakeFiles --progress-num=3 "Built target PosePublisher"
 .PHONY : dobot/CMakeFiles/PosePublisher.dir/all
 
 # Include target in all.
@@ -957,7 +957,7 @@ dobot/CMakeFiles/dobot_gencpp.dir/all: dobot/CMakeFiles/dobot_generate_messages_
 
 # Build rule for subdir invocation for target.
 dobot/CMakeFiles/dobot_gencpp.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/edward/lab_10/build/CMakeFiles 19
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/edward/lab_10/build/CMakeFiles 18
 	$(MAKE) -f CMakeFiles/Makefile2 dobot/CMakeFiles/dobot_gencpp.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/edward/lab_10/build/CMakeFiles 0
 .PHONY : dobot/CMakeFiles/dobot_gencpp.dir/rule
@@ -1112,12 +1112,12 @@ dobot/CMakeFiles/dobot_generate_messages_cpp.dir/all: dobot/CMakeFiles/_dobot_ge
 dobot/CMakeFiles/dobot_generate_messages_cpp.dir/all: dobot/CMakeFiles/_dobot_generate_messages_check_deps_CartesianQuat.dir/all
 	$(MAKE) -f dobot/CMakeFiles/dobot_generate_messages_cpp.dir/build.make dobot/CMakeFiles/dobot_generate_messages_cpp.dir/depend
 	$(MAKE) -f dobot/CMakeFiles/dobot_generate_messages_cpp.dir/build.make dobot/CMakeFiles/dobot_generate_messages_cpp.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/edward/lab_10/build/CMakeFiles --progress-num=3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21 "Built target dobot_generate_messages_cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/edward/lab_10/build/CMakeFiles --progress-num=4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21 "Built target dobot_generate_messages_cpp"
 .PHONY : dobot/CMakeFiles/dobot_generate_messages_cpp.dir/all
 
 # Build rule for subdir invocation for target.
 dobot/CMakeFiles/dobot_generate_messages_cpp.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/edward/lab_10/build/CMakeFiles 19
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/edward/lab_10/build/CMakeFiles 18
 	$(MAKE) -f CMakeFiles/Makefile2 dobot/CMakeFiles/dobot_generate_messages_cpp.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/edward/lab_10/build/CMakeFiles 0
 .PHONY : dobot/CMakeFiles/dobot_generate_messages_cpp.dir/rule
@@ -1688,7 +1688,7 @@ clean: dobot/CMakeFiles/_dobot_generate_messages_check_deps_GetIOPWM.dir/clean
 dobot/CMakeFiles/PTPCommandClient.dir/all: dobot/CMakeFiles/dobot_gencpp.dir/all
 	$(MAKE) -f dobot/CMakeFiles/PTPCommandClient.dir/build.make dobot/CMakeFiles/PTPCommandClient.dir/depend
 	$(MAKE) -f dobot/CMakeFiles/PTPCommandClient.dir/build.make dobot/CMakeFiles/PTPCommandClient.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/edward/lab_10/build/CMakeFiles --progress-num= "Built target PTPCommandClient"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/edward/lab_10/build/CMakeFiles --progress-num=2 "Built target PTPCommandClient"
 .PHONY : dobot/CMakeFiles/PTPCommandClient.dir/all
 
 # Include target in all.
@@ -1803,7 +1803,7 @@ all: dobot/CMakeFiles/dobot_generate_messages.dir/all
 
 # Build rule for subdir invocation for target.
 dobot/CMakeFiles/dobot_generate_messages.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/edward/lab_10/build/CMakeFiles 94
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/edward/lab_10/build/CMakeFiles 93
 	$(MAKE) -f CMakeFiles/Makefile2 dobot/CMakeFiles/dobot_generate_messages.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/edward/lab_10/build/CMakeFiles 0
 .PHONY : dobot/CMakeFiles/dobot_generate_messages.dir/rule
@@ -3622,7 +3622,7 @@ clean: dobot/CMakeFiles/_dobot_generate_messages_check_deps_GetDeviceSN.dir/clea
 dobot/CMakeFiles/PTPGoalListener.dir/all: dobot/CMakeFiles/dobot_gencpp.dir/all
 	$(MAKE) -f dobot/CMakeFiles/PTPGoalListener.dir/build.make dobot/CMakeFiles/PTPGoalListener.dir/depend
 	$(MAKE) -f dobot/CMakeFiles/PTPGoalListener.dir/build.make dobot/CMakeFiles/PTPGoalListener.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/edward/lab_10/build/CMakeFiles --progress-num=2 "Built target PTPGoalListener"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/edward/lab_10/build/CMakeFiles --progress-num= "Built target PTPGoalListener"
 .PHONY : dobot/CMakeFiles/PTPGoalListener.dir/all
 
 # Include target in all.
@@ -3632,7 +3632,7 @@ all: dobot/CMakeFiles/PTPGoalListener.dir/all
 
 # Build rule for subdir invocation for target.
 dobot/CMakeFiles/PTPGoalListener.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/edward/lab_10/build/CMakeFiles 20
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/edward/lab_10/build/CMakeFiles 18
 	$(MAKE) -f CMakeFiles/Makefile2 dobot/CMakeFiles/PTPGoalListener.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/edward/lab_10/build/CMakeFiles 0
 .PHONY : dobot/CMakeFiles/PTPGoalListener.dir/rule
@@ -3861,7 +3861,7 @@ all: dobot/CMakeFiles/DobotServer.dir/all
 
 # Build rule for subdir invocation for target.
 dobot/CMakeFiles/DobotServer.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/edward/lab_10/build/CMakeFiles 19
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/edward/lab_10/build/CMakeFiles 18
 	$(MAKE) -f CMakeFiles/Makefile2 dobot/CMakeFiles/DobotServer.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/edward/lab_10/build/CMakeFiles 0
 .PHONY : dobot/CMakeFiles/DobotServer.dir/rule
@@ -4045,11 +4045,13 @@ clean: dobot/CMakeFiles/_dobot_generate_messages_check_deps_CartesianQuat.dir/cl
 # Directory level rules for directory display
 
 # Convenience name for "all" pass in the directory.
+display/all: display/CMakeFiles/JointGoalPublisher.dir/all
 display/all: display/CMakeFiles/JointVisualsConverter.dir/all
 
 .PHONY : display/all
 
 # Convenience name for "clean" pass in the directory.
+display/clean: display/CMakeFiles/JointGoalPublisher.dir/clean
 display/clean: display/CMakeFiles/sensor_msgs_generate_messages_nodejs.dir/clean
 display/clean: display/CMakeFiles/actionlib_msgs_generate_messages_py.dir/clean
 display/clean: display/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/clean
@@ -4074,6 +4076,43 @@ display/clean: display/CMakeFiles/actionlib_msgs_generate_messages_nodejs.dir/cl
 display/preinstall:
 
 .PHONY : display/preinstall
+
+#=============================================================================
+# Target rules for target display/CMakeFiles/JointGoalPublisher.dir
+
+# All Build rule for target.
+display/CMakeFiles/JointGoalPublisher.dir/all:
+	$(MAKE) -f display/CMakeFiles/JointGoalPublisher.dir/build.make display/CMakeFiles/JointGoalPublisher.dir/depend
+	$(MAKE) -f display/CMakeFiles/JointGoalPublisher.dir/build.make display/CMakeFiles/JointGoalPublisher.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/edward/lab_10/build/CMakeFiles --progress-num=1 "Built target JointGoalPublisher"
+.PHONY : display/CMakeFiles/JointGoalPublisher.dir/all
+
+# Include target in all.
+all: display/CMakeFiles/JointGoalPublisher.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+display/CMakeFiles/JointGoalPublisher.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/edward/lab_10/build/CMakeFiles 1
+	$(MAKE) -f CMakeFiles/Makefile2 display/CMakeFiles/JointGoalPublisher.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/edward/lab_10/build/CMakeFiles 0
+.PHONY : display/CMakeFiles/JointGoalPublisher.dir/rule
+
+# Convenience name for target.
+JointGoalPublisher: display/CMakeFiles/JointGoalPublisher.dir/rule
+
+.PHONY : JointGoalPublisher
+
+# clean rule for target.
+display/CMakeFiles/JointGoalPublisher.dir/clean:
+	$(MAKE) -f display/CMakeFiles/JointGoalPublisher.dir/build.make display/CMakeFiles/JointGoalPublisher.dir/clean
+.PHONY : display/CMakeFiles/JointGoalPublisher.dir/clean
+
+# clean rule for target.
+clean: display/CMakeFiles/JointGoalPublisher.dir/clean
+
+.PHONY : clean
 
 #=============================================================================
 # Target rules for target display/CMakeFiles/sensor_msgs_generate_messages_nodejs.dir
@@ -4562,7 +4601,7 @@ clean: display/CMakeFiles/actionlib_msgs_generate_messages_lisp.dir/clean
 display/CMakeFiles/JointVisualsConverter.dir/all:
 	$(MAKE) -f display/CMakeFiles/JointVisualsConverter.dir/build.make display/CMakeFiles/JointVisualsConverter.dir/depend
 	$(MAKE) -f display/CMakeFiles/JointVisualsConverter.dir/build.make display/CMakeFiles/JointVisualsConverter.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/edward/lab_10/build/CMakeFiles --progress-num=1 "Built target JointVisualsConverter"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/edward/lab_10/build/CMakeFiles --progress-num= "Built target JointVisualsConverter"
 .PHONY : display/CMakeFiles/JointVisualsConverter.dir/all
 
 # Include target in all.
@@ -4572,7 +4611,7 @@ all: display/CMakeFiles/JointVisualsConverter.dir/all
 
 # Build rule for subdir invocation for target.
 display/CMakeFiles/JointVisualsConverter.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/edward/lab_10/build/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/edward/lab_10/build/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 display/CMakeFiles/JointVisualsConverter.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/edward/lab_10/build/CMakeFiles 0
 .PHONY : display/CMakeFiles/JointVisualsConverter.dir/rule

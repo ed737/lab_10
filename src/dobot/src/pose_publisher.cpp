@@ -35,28 +35,6 @@ class PoseClientPublisher {
 
         void updatePose() {
 
-/*
-            pose_client.call(getPose_srv);
-            dobot::CartesianSimple cartesian_pose_simple_msg;
-            cartesian_pose_simple_msg.x = getPose_srv.response.x;
-            cartesian_pose_simple_msg.y = getPose_srv.response.y;
-            cartesian_pose_simple_msg.z = getPose_srv.response.z;
-            cartesian_pose_simple_msg.r = getPose_srv.response.r;
-            std::cout << std::endl << "Publishing cartesian pose: x: " << cartesian_pose_simple_msg.x
-                    << " y: " << cartesian_pose_simple_msg.y
-                    << " z: " << cartesian_pose_simple_msg.z
-                    << " r: " << cartesian_pose_simple_msg.r << std::endl;
-            cartesian_pose_simple_pub.publish(cartesian_pose_simple_msg);
-
-            dobot::CartesianQuat cartesian_pose_quat_msg;
-
-            double abs = sqrt(pow(getPose_srv.response.x,2) + pow(getPose_srv.response.y,2) + pow(getPose_srv.response.z, 2));
-            double theta = 2.0*asin(abs);
-            cartesian_pose_quat_msg.x = getPose_srv.response.x * abs * sin(theta/2.0);
-            cartesian_pose_quat_msg.y = getPose_srv.response.y * abs * sin(theta/2.0);
-            cartesian_pose_quat_msg.z = getPose_srv.response.z * abs * sin(theta/2.0);
-            cartesian_pose_quat_msg.w = cos(theta/2.0);
-*/
             // test values
             dobot::CartesianQuat cartesian_pose_quat_msg;
             double x = 260.0;

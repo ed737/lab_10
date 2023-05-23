@@ -305,6 +305,9 @@ display_SOURCE_DIR:STATIC=/home/edward/lab_10/src/display
 //Value Computed by CMake
 dobot_BINARY_DIR:STATIC=/home/edward/lab_10/build/dobot
 
+//The directory containing a CMake configuration file for dobot.
+dobot_DIR:PATH=/home/edward/lab_10/devel/share/dobot/cmake
+
 //Value Computed by CMake
 dobot_SOURCE_DIR:STATIC=/home/edward/lab_10/src/dobot
 

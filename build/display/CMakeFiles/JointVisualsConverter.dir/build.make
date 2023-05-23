@@ -113,8 +113,8 @@ JointVisualsConverter_EXTERNAL_OBJECTS =
 /home/edward/lab_10/devel/lib/display/JointVisualsConverter: /opt/ros/melodic/lib/librosconsole_backend_interface.so
 /home/edward/lab_10/devel/lib/display/JointVisualsConverter: /usr/lib/x86_64-linux-gnu/liblog4cxx.so
 /home/edward/lab_10/devel/lib/display/JointVisualsConverter: /usr/lib/x86_64-linux-gnu/libboost_regex.so
-/home/edward/lab_10/devel/lib/display/JointVisualsConverter: /opt/ros/melodic/lib/libroscpp_serialization.so
 /home/edward/lab_10/devel/lib/display/JointVisualsConverter: /opt/ros/melodic/lib/libxmlrpcpp.so
+/home/edward/lab_10/devel/lib/display/JointVisualsConverter: /opt/ros/melodic/lib/libroscpp_serialization.so
 /home/edward/lab_10/devel/lib/display/JointVisualsConverter: /opt/ros/melodic/lib/librostime.so
 /home/edward/lab_10/devel/lib/display/JointVisualsConverter: /opt/ros/melodic/lib/libcpp_common.so
 /home/edward/lab_10/devel/lib/display/JointVisualsConverter: /usr/lib/x86_64-linux-gnu/libboost_system.so

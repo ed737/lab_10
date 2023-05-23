@@ -1572,6 +1572,19 @@ _dobot_generate_messages_check_deps_CartesianQuat/fast:
 .PHONY : _dobot_generate_messages_check_deps_CartesianQuat/fast
 
 #=============================================================================
+# Target rules for targets named JointGoalPublisher
+
+# Build rule for target.
+JointGoalPublisher: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 JointGoalPublisher
+.PHONY : JointGoalPublisher
+
+# fast build rule for target.
+JointGoalPublisher/fast:
+	$(MAKE) -f display/CMakeFiles/JointGoalPublisher.dir/build.make display/CMakeFiles/JointGoalPublisher.dir/build
+.PHONY : JointGoalPublisher/fast
+
+#=============================================================================
 # Target rules for targets named sensor_msgs_generate_messages_nodejs
 
 # Build rule for target.
@@ -1913,6 +1926,7 @@ help:
 	@echo "... _dobot_generate_messages_check_deps_SetIODO"
 	@echo "... _dobot_generate_messages_check_deps_SetQueuedCmdStartExec"
 	@echo "... _dobot_generate_messages_check_deps_CartesianQuat"
+	@echo "... JointGoalPublisher"
 	@echo "... sensor_msgs_generate_messages_nodejs"
 	@echo "... actionlib_msgs_generate_messages_py"
 	@echo "... sensor_msgs_generate_messages_cpp"

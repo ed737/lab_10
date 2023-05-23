@@ -12,19 +12,10 @@
     required="true"
     output="screen" />
 
-  <node
-    name="PosePublisher"
-    pkg="dobot"
-    type="PosePublisher"
-    output="screen"
-    launch-prefix=" gnome-terminal --title='PosePublisher' -e "/>
-
    <node
     name="PTPCommandClient"
     pkg="dobot"
-    type="PTPCommandClient"
-    output="screen"
-    launch-prefix=" gnome-terminal --title='PTPCommandClient' -e "/>
+    type="PTPCommandClient"/>
 
     <node
     name="PTPGoalListener"

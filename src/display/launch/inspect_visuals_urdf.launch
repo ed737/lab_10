@@ -10,7 +10,13 @@
     type="joint_state_publisher_gui" >
     <remap from="robot_description" to="robot_visuals_description"/>
   </node>
-
+  <node 
+    pkg="display"
+    type="JointGoalPublisher" 
+    name="joint_goal_publisher"
+    output="screen"
+    launch-prefix=" gnome-terminal --title='JointGoalPublisher' -e ">
+  </node>
   <node
     name="robot_state_publisher"
     pkg="robot_state_publisher"

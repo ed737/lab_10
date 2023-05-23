@@ -143,6 +143,7 @@
 /home/edward/lab_10/build/dobot/CMakeFiles/_dobot_generate_messages_check_deps_CartesianQuat.dir
 /home/edward/lab_10/build/display/CMakeFiles/list_install_components.dir
 /home/edward/lab_10/build/display/CMakeFiles/test.dir
+/home/edward/lab_10/build/display/CMakeFiles/JointGoalPublisher.dir
 /home/edward/lab_10/build/display/CMakeFiles/sensor_msgs_generate_messages_nodejs.dir
 /home/edward/lab_10/build/display/CMakeFiles/actionlib_msgs_generate_messages_py.dir
 /home/edward/lab_10/build/display/CMakeFiles/sensor_msgs_generate_messages_cpp.dir

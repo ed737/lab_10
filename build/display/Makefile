@@ -168,6 +168,21 @@ depend:
 .PHONY : depend
 
 # Convenience name for target.
+display/CMakeFiles/JointGoalPublisher.dir/rule:
+	cd /home/edward/lab_10/build && $(MAKE) -f CMakeFiles/Makefile2 display/CMakeFiles/JointGoalPublisher.dir/rule
+.PHONY : display/CMakeFiles/JointGoalPublisher.dir/rule
+
+# Convenience name for target.
+JointGoalPublisher: display/CMakeFiles/JointGoalPublisher.dir/rule
+
+.PHONY : JointGoalPublisher
+
+# fast build rule for target.
+JointGoalPublisher/fast:
+	cd /home/edward/lab_10/build && $(MAKE) -f display/CMakeFiles/JointGoalPublisher.dir/build.make display/CMakeFiles/JointGoalPublisher.dir/build
+.PHONY : JointGoalPublisher/fast
+
+# Convenience name for target.
 display/CMakeFiles/sensor_msgs_generate_messages_nodejs.dir/rule:
 	cd /home/edward/lab_10/build && $(MAKE) -f CMakeFiles/Makefile2 display/CMakeFiles/sensor_msgs_generate_messages_nodejs.dir/rule
 .PHONY : display/CMakeFiles/sensor_msgs_generate_messages_nodejs.dir/rule
@@ -422,6 +437,33 @@ actionlib_msgs_generate_messages_nodejs/fast:
 	cd /home/edward/lab_10/build && $(MAKE) -f display/CMakeFiles/actionlib_msgs_generate_messages_nodejs.dir/build.make display/CMakeFiles/actionlib_msgs_generate_messages_nodejs.dir/build
 .PHONY : actionlib_msgs_generate_messages_nodejs/fast
 
+src/joint_goal_publisher.o: src/joint_goal_publisher.cpp.o
+
+.PHONY : src/joint_goal_publisher.o
+
+# target to build an object file
+src/joint_goal_publisher.cpp.o:
+	cd /home/edward/lab_10/build && $(MAKE) -f display/CMakeFiles/JointGoalPublisher.dir/build.make display/CMakeFiles/JointGoalPublisher.dir/src/joint_goal_publisher.cpp.o
+.PHONY : src/joint_goal_publisher.cpp.o
+
+src/joint_goal_publisher.i: src/joint_goal_publisher.cpp.i
+
+.PHONY : src/joint_goal_publisher.i
+
+# target to preprocess a source file
+src/joint_goal_publisher.cpp.i:
+	cd /home/edward/lab_10/build && $(MAKE) -f display/CMakeFiles/JointGoalPublisher.dir/build.make display/CMakeFiles/JointGoalPublisher.dir/src/joint_goal_publisher.cpp.i
+.PHONY : src/joint_goal_publisher.cpp.i
+
+src/joint_goal_publisher.s: src/joint_goal_publisher.cpp.s
+
+.PHONY : src/joint_goal_publisher.s
+
+# target to generate assembly for a file
+src/joint_goal_publisher.cpp.s:
+	cd /home/edward/lab_10/build && $(MAKE) -f display/CMakeFiles/JointGoalPublisher.dir/build.make display/CMakeFiles/JointGoalPublisher.dir/src/joint_goal_publisher.cpp.s
+.PHONY : src/joint_goal_publisher.cpp.s
+
 src/joint_visuals_converter.o: src/joint_visuals_converter.cpp.o
 
 .PHONY : src/joint_visuals_converter.o
@@ -457,6 +499,7 @@ help:
 	@echo "... depend"
 	@echo "... list_install_components"
 	@echo "... test"
+	@echo "... JointGoalPublisher"
 	@echo "... sensor_msgs_generate_messages_nodejs"
 	@echo "... actionlib_msgs_generate_messages_py"
 	@echo "... sensor_msgs_generate_messages_cpp"
@@ -479,6 +522,9 @@ help:
 	@echo "... actionlib_msgs_generate_messages_lisp"
 	@echo "... JointVisualsConverter"
 	@echo "... actionlib_msgs_generate_messages_nodejs"
+	@echo "... src/joint_goal_publisher.o"
+	@echo "... src/joint_goal_publisher.i"
+	@echo "... src/joint_goal_publisher.s"
 	@echo "... src/joint_visuals_converter.o"
 	@echo "... src/joint_visuals_converter.i"
 	@echo "... src/joint_visuals_converter.s"

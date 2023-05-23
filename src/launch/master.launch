@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<launch>
+<include file="$(find display)/launch/gui_visualise.launch">
+</include>
+
+<include file="$(find dobot)/launch/dobot_server.launch">
+</include>
+
+
+</launch>
